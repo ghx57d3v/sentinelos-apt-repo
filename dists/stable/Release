@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: ambroso
 Components: main
-Date: Fri, 10 Jul 2026 10:15:35 +0000
+Date: Fri, 10 Jul 2026 22:02:22 +0000
 Description: SentinelOS public package repository
 Label: SentinelOS
 Origin: SentinelOS
 Suite: stable
 MD5Sum:
- f8ac0659daecc58c6c8245d249823349              195 Release
- 43f9f8ade72387b6b11229685009f9e3            60588 main/binary-amd64/Packages
- 1861a2fba45505d41cc3c3f56cbca790            18229 main/binary-amd64/Packages.gz
+ e0407dcf2b14b3cf9552eada3aeb200d              195 Release
+ cc95cdee5188a89b351feb5235c0a90b            61054 main/binary-amd64/Packages
+ e6e38bf70746d006587db876e763a306            18368 main/binary-amd64/Packages.gz
 SHA1:
- b7f5b6b13b4484ffbb6290904c5acd6586b70b89              195 Release
- 41f417af71149af915dc17c834e5bd3c37e6f60d            60588 main/binary-amd64/Packages
- b493c488f8985291bcd8d7d4655e2a1f00c5e5e9            18229 main/binary-amd64/Packages.gz
+ ec87f5e95524d1252bba9acc668ffe26c1ab1c0b              195 Release
+ 1bd741a2280574ccc117830e22797aab922f5a17            61054 main/binary-amd64/Packages
+ 7e16089da886f770dbf8ffb7f95177674c4b2aed            18368 main/binary-amd64/Packages.gz
 SHA256:
- 4d5731f2954131928915d8908a5d72b39af38d2dd95aa359fcc7d6fe0c44c76d              195 Release
- 046c105d635d0ec83097aaf05d64027dff9c8844ddb71664fbb0b39fcdcbf0b5            60588 main/binary-amd64/Packages
- 83209bf5c744fd51f145d4372c5e41c17efbb6f60dae91451b2f944832503ab6            18229 main/binary-amd64/Packages.gz
+ 568916517aa5445f51f1b40b93c0764bb09a313277012fe4b452ece4857da7e9              195 Release
+ 5b5685f350a24f5167473e80aa0d035a6a1ce51dc1c7b703f73416f83fdbc0fc            61054 main/binary-amd64/Packages
+ 5ec6482884210ad4ddf389f16359c1e650072aceb036c3405301d6a6c5c7432e            18368 main/binary-amd64/Packages.gz
 SHA512:
- b986e1814820f61514b2c2c96afe2fb7cec07ecef47ef2b9b15d2963dba08528de5588967fc8f8781e08418478f1dcf716ae781016308ba80bbb6b1fa5d63b06              195 Release
- 00226ee0b294096aeb27e5a4e1957ab6b14e53c7569474131a4cc21712f0ede3f2f2161e4eef1e8be19088ca05ee8a032fd2846d316234e27a0b4fef70ca37cf            60588 main/binary-amd64/Packages
- c4c45629cd230c5d1978c916a72ddf4adaa1c37de035abf5686e168f8f97befa6b53253f0770c8d3acf2d9f8d90f8f470c2ed4fa9299f4fdc242fc2a0bab9d25            18229 main/binary-amd64/Packages.gz
+ 40e2aea6d4d26be7ee02be64e952553b6a86bcf6e2c8f567ba1f41a9074056c214dcabe60c8871107164fefa1583825f37528c0061ab2e70b97f75ab8bc7c3ad              195 Release
+ dea33f6e7b52bf49ec5251c75a043a81ac776bad0d58716cd2facbade25d2bdd37ac38c889bdcc099d2960c258fecb03b5be821fffb11401668f06da6b36b5b5            61054 main/binary-amd64/Packages
+ 374f34e99541202bc6c224a98e4a1e61e299254ff8d31fe5125099b2644bd347343e005517f0df7e142454e8bd62d953e2f22382b0143db8c9258c04f362069e            18368 main/binary-amd64/Packages.gz
