@@ -2,11 +2,11 @@
 6a1b450cd55e8def370ddde782d0c2202e64437f96a5f44a886d653769b18d9c  ./_backups/rejected-packages/20260711-081705/aegis-prime-v1.0_0.1-1_all.deb
 6a1b450cd55e8def370ddde782d0c2202e64437f96a5f44a886d653769b18d9c  ./_backups/replaced-packages/20260711-080201/aegis-prime-v1.0_0.1-1_all.deb
 3f384be68d025d9c411591f6458de76ce12fc4d86c86b4c8c2c8f78b99392844  ./CNAME
-a59d4ad8ff02cd53243cd028de3460341f3c76c56ea2f5699b7d2a1388670ded  ./dists/stable/InRelease
+e16ea6236f3fa89e297e6b6de7cbd98aebbd927f3dd1bd2b9fad4d7c7a5c6bfc  ./dists/stable/InRelease
 046c105d635d0ec83097aaf05d64027dff9c8844ddb71664fbb0b39fcdcbf0b5  ./dists/stable/main/binary-amd64/Packages
-77ebcc8cf0b361b847e573cb0c05090271b8d7b954c7c62083037509a829c596  ./dists/stable/main/binary-amd64/Packages.gz
-c2fc84321151bf8484718add6cd3c1a7281e58a9dab3706ffd2333b8081d2692  ./dists/stable/Release
-87cd9f96d61183dac90467e2e8d261ee6825b662d4953342fda3e12b55e821f3  ./dists/stable/Release.gpg
+3f5f083c2f8e50c9961b18145d9b5a7a4698b291254a089561f4bbee6b11ff2a  ./dists/stable/main/binary-amd64/Packages.gz
+3eb154feb4636e23e55b5eab7e723ed9f1f5ca7cc6be292ee9a0d1d14d3e4ea7  ./dists/stable/Release
+220c2a7f55e4aefcb305baeca2b9f1272d07efc4d43546f48b50f32b9eb7abc2  ./dists/stable/Release.gpg
 e2490e8a0e9c7d00f9c468b83240b4f2ac1ea461db62780222cc6d0383b80c58  ./keys/sentinelos-archive-key.asc
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./.nojekyll
 5c7a7b0e22e42fdecb598b1ed19aa70a0f46e6f03eec8979e76c0fc32bdb2717  ./pool/main/aegis-prime-suite_1.0.0-1_all.deb
@@ -15,6 +15,7 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./.nojekyll
 43eaaa0c68000c2c9e66b4178489d43fcdfdefe13bd6a8f016e271397cee15f4  ./pool/main/sentinel-browser_1.1.19-1_all.deb
 c986cfff8f15633a7cc7979b0d372a38812b6b28b930f797134b712a9da8b590  ./pool/main/sentinel-calculator_1.1.0-1_all.deb
 65e217ddfc09b028499b68f433309d13c968ee9337ac262fc8a97d76ee8b7d5e  ./pool/main/sentinel-calendar_1.0.1-1_all.deb
+7f67c0ec31b67c6970ea5031886e5115a3c5530147732e19aaae316512335360  ./pool/main/sentinel_desktop_suite_v1.0.1.deb
 f737b7bb1406057472311444914d5d2f90ad4a9acd306dd8c92512fe94aaadea  ./pool/main/sentinel-diary_1.0.1-1_all.deb
 3f9729593b4d998f6991a98d75dca877dda1963e2aa33418f362864c8af644a4  ./pool/main/sentinel-download-guard_1.0.1-1_all.deb
 ac4094d59811b60a14e0e8361d221c983060bea8d795e75a1610333c4fd293b0  ./pool/main/sentinel-forge_1.1.0-1_all.deb
