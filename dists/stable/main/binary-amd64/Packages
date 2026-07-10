@@ -16,21 +16,6 @@ Description: AEGIS PRIME Suite v1.0 optional installer and launcher
  This package installs the installer/launcher only; it does not enable AI
  runtime permissions, web access, models, or destructive actions.
 
-Package: aegis-prime-v1.0
-Version: 0.1-1
-Architecture: all
-Maintainer: SentinelOS <root@localhost>
-Depends: python3
-Filename: pool/main/aegis-prime-v1.0_0.1-1_all.deb
-Size: 11406024
-MD5sum: 419f17b234597083044794daf152aa24
-SHA1: c4a5ecfa059948974895358bfcf625ed3790ec7e
-SHA256: 6a1b450cd55e8def370ddde782d0c2202e64437f96a5f44a886d653769b18d9c
-Section: utils
-Priority: optional
-Description: SentinelOS application built by F.O.R.G.E
- Built by F.O.R.G.E Program 120.
-
 Package: aegis-sentinel-suite
 Version: 1.0.0-1
 Architecture: all
