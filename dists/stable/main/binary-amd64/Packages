@@ -33,6 +33,21 @@ Description: AEGIS Sentinel v1.0 stable locked baseline archive and launcher
  and menu entry. This package does not enable an AI runtime or install components
  automatically; component installation remains user initiated.
 
+Package: aegis-suite-v1.1.1
+Version: 1.1.1-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: python3
+Filename: pool/main/aegis-suite-v1.1.1_1.1.1-1_all.deb
+Size: 76175328
+MD5sum: 7ce5b668308346035c2e18b87d6a4996
+SHA1: 88c9fea127840aaf6c226f9b7d5c41c862e0385a
+SHA256: 13e401a7f060f7fdd7103e6fc284dbc4ae9e7e1dbf262322a8774cdde97748a8
+Section: utils
+Priority: optional
+Description: SentinelOS application built by F.O.R.G.E
+ Built by F.O.R.G.E Program 120.
+
 Package: sentinel-browser
 Version: 1.1.19-1
 Architecture: all
