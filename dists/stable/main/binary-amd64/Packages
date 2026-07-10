@@ -1,0 +1,1348 @@
+Package: aegis-prime-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: python3, python3-tk
+Filename: pool/main/aegis-prime-suite_1.0.0-1_all.deb
+Size: 22762176
+MD5sum: d094e8e0b35ceac384191dc23135a0b1
+SHA1: 881cec228cb4b396995b52aa996ba9853f9419e7
+SHA256: 5c7a7b0e22e42fdecb598b1ed19aa70a0f46e6f03eec8979e76c0fc32bdb2717
+Section: utils
+Priority: optional
+Description: AEGIS PRIME Suite v1.0 optional installer and launcher
+ Provides the AEGIS PRIME v1.0 GUI master installer, bundled AEGIS core
+ component archives, verification, repair, reports, and menu integration.
+ This package installs the installer/launcher only; it does not enable AI
+ runtime permissions, web access, models, or destructive actions.
+
+Package: aegis-sentinel-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/aegis-sentinel-suite_1.0.0-1_all.deb
+Size: 31380240
+MD5sum: ce8baeb8b0e9d2136d0de26985a34684
+SHA1: 50452f3af2d771d9c52324d3657dec1a6818c7c4
+SHA256: 54c10e8ec14e32816812033a9886c38ddc9eba7440b262adfa148a23f309e099
+Section: admin
+Priority: optional
+Description: AEGIS Sentinel v1.0 stable locked baseline archive and launcher
+ Installs the static-validated AEGIS Sentinel v1.0 baseline archive, docs, launcher,
+ and menu entry. This package does not enable an AI runtime or install components
+ automatically; component installation remains user initiated.
+
+Package: sentinel-browser
+Version: 1.1.19-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-3.0, gir1.2-webkit2-4.1, sentinel-download-guard (>= 1.0.0)
+Recommends: sentinel-password-vault (>= 1.0.0), sentinel-wallet (>= 1.1.0), tor
+Filename: pool/main/sentinel-browser_1.1.19-1_all.deb
+Size: 1023868
+MD5sum: 52122d6b22ccfb8f856569c09461f00d
+SHA1: 305925dc73974764b3d504a9287c642f8dc48662
+SHA256: 43eaaa0c68000c2c9e66b4178489d43fcdfdefe13bd6a8f016e271397cee15f4
+Section: web
+Priority: optional
+Description: Official SentinelOS browser v1.1.19 bookmark toolbar regression and Banking icon hotfix
+ Sentinel Browser preserves the confirmed browser-first Download Guard flow and integrates
+ a visible crypto-only Sentinel Wallet bridge with BTC, ETH/EVM, BNB, XRP, Solana, USDT,
+ USDC, NFT foundation support, and Wallet v1.0.0 professional dashboard compatibility.
+ Browser never stores wallet secrets or signs/broadcasts; Wallet provides explicit approval-gated blockchain login and transaction signing.
+ v1.0.9 keeps the scalable SentinelOS Browser Home page, widens the default Browser window, removes automatic weather defaults, and uses a neutral Choose city state until the user selects a city.
+ v1.1.0 adds a Browser-owned Tor toolbar switch, HTTPS indicator inside the address bar, and a Sentinel Wallet-backed blockchain provider bridge so clearnet pages and dApps can be opened without changing settings.
+ v1.1.1 adds installer-option awareness so Basic Browser installs can hide Wallet/Tor controls and disable blockchain injection by user config.
+ v1.1.2 adds Tor top-menu/right-click Change Identity controls plus WalletConnect/multi-chain provider compatibility foundation for EVM, Solana, and BTC/PSBT flows.
+ v1.1.4 square-corners the homepage search-engine selector and hardens WalletConnect approval handoff by passing the exact browser request id into Sentinel Wallet so Wallet owns the visible approve/reject prompt.
+ v1.1.5 sanitizes TOR country labels, square-locks the search selector, and hardens Phantom-style Wallet approval handoff.
+ v1.1.6 fixes GUI installer option handoff, enables Wallet+dApp provider defaults for Wallet installs, adds Phantom/MetaMask detection compatibility, EIP-6963 announcement, wc: click/window.open capture, and Browser polling for Wallet approve/reject responses.
+ v1.1.7 adds Phase 1 Sentinel Native Provider Core: shared local request/response schema, request envelope, wallet approval queue foundation, and no-QR injected-provider bridge readiness.
+ v1.1.8 adds Phase 2 EVM native provider methods: real account return after Wallet approval, EIP-1193 request compatibility, EIP-6963 discovery, chain switching/add-chain handling, and message-sign request forwarding while preserving no browser secrets and no broadcast.
+ v1.1.9 adds Phase 3 Solana native provider methods: public-key return after Wallet approval, Phantom-compatible window.solana/window.phantom.solana behaviour, Wallet Standard registration foundation, signMessage forwarding, and official Sentinel Wallet logo provider branding.
+ v1.1.10 repairs the Phase 3 homepage search regex/navigation regression and uses the native-provider response-polling config key for dApp approvals.
+ v1.1.11 gates ETH/SOL native-provider approval popups behind recent user action, deduplicates pending dApp requests to stop popup loops, and improves Solana provider return compatibility.
+ v1.1.12 repairs the ETH/SOL provider discovery regression from v1.1.11 by restoring valid Wallet Standard JavaScript syntax and keeping dApp detection separate from manual approval/signing gates.
+ v1.1.14 repairs the Uniswap ETH popup regression by caching approved EVM accounts per origin in the injected provider, returning repeated eth_requestAccounts/wallet_requestPermissions silently after approval, rejecting unsupported provider methods without opening Wallet, and removing long-lived hasBeenActive auto-popup permission.
+ v1.1.15 restores the visible TOR toolbar/menu controls after the v1.1.20 installer could hide them when Tor was not selected; local Tor remains optional and routing stays off until user-enabled and ready.
+ v1.1.16 adds user-created bookmark folders to the Bookmarks menu and favourites toolbar while preserving legacy flat bookmarks.
+ Redteam hardening update: symlink-safe private paths, atomic writes, bounded bridge/import payloads, Tor button restore regression repair, and packaged bytecode cleanup.
+ v1.1.19 preserves Banking Mode and restores bookmark toolbar drag/drop/right-click behavior with a compact icon Banking button.
+
+Package: sentinel-calculator
+Version: 1.1.0-1
+Architecture: all
+Maintainer: SentinelOS Project <root@sentinel.local>
+Depends: python3, python3-tk
+Filename: pool/main/sentinel-calculator_1.1.0-1_all.deb
+Size: 417568
+MD5sum: 61981610ae13725862655d764d79c8ca
+SHA1: 1ad5cc46bbaaea5fe6a83b1b4ff6c62fea4207da
+SHA256: c986cfff8f15633a7cc7979b0d372a38812b6b28b930f797134b712a9da8b590
+Section: utils
+Priority: optional
+Description: SentinelOS Desktop Suite multi-mode calculator
+ Sentinel Calculator is Program 103 in the SentinelOS Desktop Suite.
+ This v1.1.0 Market Exchange upgrade provides standard, scientific, programmer,
+ network, defensive security, electronics, offline unit conversion, currency
+ conversion with local cache, and optional manual-refresh crypto/stock lookup.
+
+Package: sentinel-calendar
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS / AEGIS <local@sentinel.invalid>
+Depends: python3, python3-tk
+Recommends: libnotify-bin
+Filename: pool/main/sentinel-calendar_1.0.1-1_all.deb
+Size: 148480
+MD5sum: a0bb045ec6717636ee3619f901b3fd43
+SHA1: 39f49b3d8edb3542beed3758c9a7f1580b17f4fa
+SHA256: 65e217ddfc09b028499b68f433309d13c968ee9337ac262fc8a97d76ee8b7d5e
+Section: utils
+Priority: optional
+Description: SentinelOS local calendar and schedule layer
+ Program 104 in the SentinelOS Desktop Suite. Provides a local-only calendar GUI, JSON event store, configurable date formatting, public holiday markers, reminders, recurrence controls, themed dropdowns, iCalendar import/export hardening, AEGIS/Sentinel Suite status output, reminder daemon support, and launcher integration.
+
+Package: sentinel-diary
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3 (>= 3.10), python3-tk, python3-cryptography
+Filename: pool/main/sentinel-diary_1.0.1-1_all.deb
+Size: 427136
+MD5sum: dc7ac4935eb6e2b0cee3afa38c0f3010
+SHA1: 3f887f5c28e6eeddbeac32f995bdf708c2cdcef5
+SHA256: f737b7bb1406057472311444914d5d2f90ad4a9acd306dd8c92512fe94aaadea
+Section: utils
+Priority: optional
+Description: Sentinel Diary encrypted local diary for SentinelOS
+ Program 105 of the Sentinel Desktop Suite. Sentinel Diary provides a
+ local-first encrypted personal diary with optional password lock,
+ encrypted import/export and backup/restore, read-only local AEGIS access
+ commands, doctor/repair tooling, a network-disabled design, the Sentinel/AEGIS
+ dark interface theme, a past-entry overview sidebar, hardened opaque encrypted
+ object storage, and DD/MM/YYYY default display dates with configurable formats.
+
+Package: sentinel-download-guard
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3, python3-tk
+Recommends: xdg-utils
+Filename: pool/main/sentinel-download-guard_1.0.1-1_all.deb
+Size: 41920
+MD5sum: fb1db183a74c95457938b42b507166d2
+SHA1: 69586616cba5805c6a2ea0c801b5781eec2f4026
+SHA256: 3f9729593b4d998f6991a98d75dca877dda1963e2aa33418f362864c8af644a4
+Section: utils
+Priority: optional
+Description: Sentinel Download Guard v1.0.1 stable compatible backend
+ Sentinel Download Guard provides local-first completed-download quarantine, review, release,
+ delete, and released-file open/folder actions for Sentinel Browser. This v1.0.1 package is
+ matched to Sentinel Browser v1.0.1 and preserves no active-transfer polling.
+ Redteam hardening update: symlink-safe private paths, atomic writes, bounded bridge/import payloads, and packaged bytecode cleanup.
+
+Package: sentinel-forge
+Version: 1.1.0-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: python3, python3-tk, dpkg, tar, unzip, zip, coreutils, util-linux
+Recommends: sentinel-forge-crypto (>= 0.1.0), xorriso | genisoimage | mkisofs, policykit-1, cryptsetup, age, fscrypt
+Filename: pool/main/sentinel-forge_1.1.0-1_all.deb
+Size: 745012
+MD5sum: 5cf784ebf312420f2227808d8f6840ee
+SHA1: 4d0d86e94d4732e6ebccd871347eb55cd7e9ba39
+SHA256: ac4094d59811b60a14e0e8361d221c983060bea8d795e75a1610333c4fd293b0
+Section: utils
+Priority: optional
+Description: F.O.R.G.E builder and secure media generation engine for SentinelOS
+ F.O.R.G.E is SentinelOS Desktop Suite Program 120. It provides a local-first
+ Sentinel/AEGIS themed GUI and AEGIS-compatible CLI for extraction, package
+ building, ISO creation, USB ISO writing, release manifests, checksums, and
+ Encryption & Secure Media stable lock through the sentinel-forge-crypto backend.
+
+Package: sentinel-forge-crypto
+Version: 0.1.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: python3, cryptsetup, age, util-linux, tar, sudo
+Recommends: fscrypt, python3-tk
+Filename: pool/main/sentinel-forge-crypto_0.1.0-1_all.deb
+Size: 11276
+MD5sum: 0e7db25231eb6dc3bbed2d51fef9ddcb
+SHA1: 8cd29abfb8b4d89b3e0e722f194a85fe25148cc4
+SHA256: 10bad2f80a555eb1cf18221592aa20dddf5498e2d32b06adf1396689149fa102
+Section: utils
+Priority: optional
+Description: Sentinel F.O.R.G.E Encryption and Secure Media backend
+ Safe local-only encryption wrapper module for F.O.R.G.E. Provides guarded
+ wrappers for cryptsetup/LUKS, age file encryption, optional fscrypt directory
+ encryption helpers, AEGIS-readable status, and a lightweight GUI launcher.
+ This package implements no custom cryptography.
+
+Package: sentinel-inventory
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3, python3-tk
+Recommends: python3-qrcode, python3-pil
+Filename: pool/main/sentinel-inventory_1.0.0-1_all.deb
+Size: 183144
+MD5sum: cba25d5178ccc741c8ad30f52f95ea35
+SHA1: fab0d47c14f971e4072a288b676a281dd71565cc
+SHA256: 71153717d65947ce3b7ad37f44f33bd643cb2003b88073aa3393b6dba698a259
+Section: utils
+Priority: optional
+Description: Program 115 v1 stable local-first inventory manager
+ Sentinel Inventory is a local SQLite stock, asset, expiry, warranty, service,
+ reorder, USB barcode scanner, label, QR print-prep, audit, backup/restore,
+ and Ledger/Pantry bridge handoff manager for SentinelOS. It uses local storage
+ only and requires no network or telemetry.
+
+Package: sentinel-ledger
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3, python3-tk
+Filename: pool/main/sentinel-ledger_1.0.0-1_all.deb
+Size: 65600
+MD5sum: a3e70bd6eb3d1b198abe5a9133936b17
+SHA1: f53fcd9d593ce95f316c8e8c9935ec628943d8b9
+SHA256: a3e0d7a21191246e6c981ff8666203282b765477fc8a84fe94fbbf3e14345f18
+Section: utils
+Priority: optional
+Description: Program 107 v1.0.0 stable local-first double-entry ledger
+
+Package: sentinel-notes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: python3, python3-tk, python3-cryptography
+Filename: pool/main/sentinel-notes_1.0.0-1_all.deb
+Size: 161312
+MD5sum: 91592217566df32a80b9130eb81541bd
+SHA1: 6130f7d2202d818f77514ce101a8e2f580804569
+SHA256: c634d519e8d70ee0fca3112cd07c1b6415326c53cc9d1318b6614ee0f9cf009f
+Section: utils
+Priority: optional
+Description: Program 102 Sentinel Notes
+ Lightweight local-first notes, tasks, finance tables, optional encryption,
+ and AEGIS-ready CLI/JSON control for SentinelOS.
+ Root execution is blocked for note actions to keep user data out of /root.
+
+Package: sentinel-pantry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3, python3-tk
+Filename: pool/main/sentinel-pantry_1.0.0-1_all.deb
+Size: 325276
+MD5sum: 0baad3c769b7e41a1bba4f86e02007db
+SHA1: c10509cd8f65dff10c3d271306bcc54ff5cafba5
+SHA256: 1cba85275642288a286e3f62511913b4c63ca8efac2859aa9c3b25dc7905d212
+Section: utils
+Priority: optional
+Homepage: https://local.sentinelos.invalid
+Description: Sentinel Pantry local household stock manager v1 stable lock
+ Program 117 in the SentinelOS Desktop Suite. Sentinel Pantry is a local-only
+ household pantry, shopping, expiry, waste, emergency-readiness, recipe,
+ meal-planning, barcode, AEGIS-handoff, and recovery-hardened inventory tool.
+ This v1.0.0 stable lock preserves the Phase 1-8 feature set and adds a
+ user-ready baseline: Manual & Status tab, first-run setup settings, print-ready
+ shopping output, USB keyboard-wedge scanner readiness reporting, package
+ self-test, stable-lock report, and desktop launcher repair helper. It performs
+ no network access and no telemetry.
+
+Package: sentinel-password-vault
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS <local@sentinel.os>
+Depends: python3, python3-tk, python3-cryptography, python3-qrcode, python3-pil
+Filename: pool/main/sentinel-password-vault_1.0.0-1_all.deb
+Size: 664056
+MD5sum: cd622f293e5e3638584f6d1da185eda7
+SHA1: 33add24502853c83cddb351498051ad6c771361a
+SHA256: 546e7e581658098be3d43b7be786cc18464eae6d661e41946c9249de72214a9f
+Section: utils
+Priority: optional
+Description: Local encrypted password vault for SentinelOS
+ Program 113 Sentinel Password Vault provides a local-first encrypted
+ password vault with local TOTP/2FA authenticator support, Sentinel-themed GUI, security dashboard, CLI, AEGIS manifest/action mode, backup restore, metadata export, and no cloud dependency plus a cleaned browser 2FA popup receiver contract and v1.0 stable-lock baseline.
+
+Package: sentinel-system-monitor
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3 (>= 3.10), python3-tk, python3-psutil
+Filename: pool/main/sentinel-system-monitor_1.0.1-1_all.deb
+Size: 576844
+MD5sum: baf167d7009c311231914f3d302f831d
+SHA1: 81c500164e866a84dd993dfb3027a98bb3911a1e
+SHA256: 669d6375110567f917439e4eac3af24bba48da636c8d7f67c5b2741eb9af2a9e
+Section: utils
+Priority: optional
+Description: Sentinel System Monitor for SentinelOS
+ Program 108 of the Sentinel Desktop Suite. Displays local CPU, memory,
+ disk, network counter, process, temperature, battery, and host information
+ with a compact 50% translucent non-topmost widget opened from the main
+ application or menu entry, conservative preview-first user-level cleanup,
+ local alert thresholds, local-only read-only AEGIS JSON integration,
+ supplied launcher icon, doctor/repair tools, stable-lock reporting, and
+ v1.0.1 widget launch stability hotfix.
+
+Package: sentinel-terminal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91
+Filename: pool/main/sentinel-terminal_1.0.0-1_all.deb
+Size: 172624
+MD5sum: 822667a6de9fec153b501c0169c6f3dd
+SHA1: c54e259902b5f2978627d3a6ca6708764b92c661
+SHA256: a0eb05c51556ae60c43c7a9818f624380c86613a5fd205f8212f3e8c8a26f343
+Section: utils
+Priority: optional
+Description: Official lightweight SentinelOS terminal emulator
+ Sentinel Terminal is the official lightweight terminal emulator for
+ SentinelOS. It provides a GTK3/VTE shell with tabs, copy/paste safety,
+ zoom controls, find, expanded preferences, stable SentinelOS terminal, MATE-like desktop integration, MATE/Caja helpers, launcher repair, desktop quick actions, dangerous paste warning, productivity tools, find bar, clear scrollback, output saving, open-folder action, session handling, tab rename/duplicate, window-size restore, tab shortcuts, auto-focus, shell-exit tab closing, Ctrl+C interrupt forwarding, local config, crash logging,
+ AEGIS/Sentinel theming, supplied icon integration, and desktop launcher support.
+
+Package: sentinel-wallet
+Version: 1.1.14-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: python3 (>= 3.9), python3-tk, python3-cryptography
+Recommends: python3-argon2
+Filename: pool/main/sentinel-wallet_1.1.14-1_all.deb
+Size: 330864
+MD5sum: 1fbefd183c6f9b6bb61d6bd41139dfe4
+SHA1: 0631645d6b1b7ba7b7ff74347fce3cd36bbde76a
+SHA256: d5d6df2bd55c3d993f1c469667f31b2a20205b2a17ec71dbd2cea3585b049913
+Section: utils
+Priority: optional
+Description: Sentinel Wallet v1.1.14 Scrollable GUI content hotfix
+ Sentinel Wallet is a local-first encrypted crypto-only wallet foundation.
+ It provides a professional crypto-wallet style GUI with Dashboard first, encrypted wallet records for BTC, ETH/EVM, BNB Smart Chain, XRP Ledger, and Solana, plus USDT/USDC stablecoin and NFT local inventory foundations. It enables explicit user-approved local blockchain app-login signing and transaction signing for supported ETH/BNB/SOL paths, adds WalletConnect/multi-chain approval foundation for EVM, Solana and BTC/PSBT request flows, keeps the Wallets-tab Delete Wallet action, and keeps browser secret storage, card features, wallet-owned broadcast, and live network lookup disabled.
+ v1.1.2 accepts an exact browser approval request id from Sentinel Browser so WalletConnect/dApp requests open the correct visible Approve/Sign vs Reject prompt instead of remaining in the bridge queue.
+ v1.1.3 adds Phantom-style wallet approval UX: password prompt first, then Connect/Sign vs Decline for the exact dApp request.
+ v1.1.4 keeps the Phantom-style password-first approval popup and aligns the Wallet gate with Browser v1.1.6 provider response polling and exact request focus.
+ v1.1.5 adds Phase 1 Sentinel Native Provider Core: schema-versioned dApp request envelopes, native-provider response envelopes, pending approval queue readback, and no browser secret exposure.
+ v1.1.6 adds Phase 2 EVM native provider approval results: approved eth_requestAccounts returns a selected local ETH/BNB public address, personal_sign/typed-data requests can return approved signed payloads, and Wallet still exports no secrets and performs no wallet-owned broadcast.
+ v1.1.7 adds Phase 3 Solana native provider approval results, Solana public-key return, signMessage payload signing, Wallet Standard/Phantom-compatible status gates, and replaces Wallet icon assets with the official uploaded Sentinel logo.
+ v1.1.8 repairs live Solana approval payload creation in the GUI prompt so approved solana_connect returns the selected SOL public key.
+ v1.1.9 fixes browser-bridge --open launcher parsing so the Browser wallet toolbar button can open the Wallet GUI instead of the helper process exiting before Tk starts.
+ v1.1.10 restores the secret-free Wallet GUI record/dashboard helper functions required by the Browser wallet button and browser-bridge --open path, fixing the wallet_gui_records NameError before the password/approval GUI can appear.
+ v1.1.11 closes the Wallet GUI after approve/reject so the user returns to Browser, returns Solana publicKey fields at top level, skips completed bridge requests to prevent popup loops, and only shows approval prompts for exact Browser request ids.
+ .
+ v1.1.12 adds the Sentinel Banking foundation: a contained encrypted local-only section for user-created crypto Bank/Savings/Vault account containers, reward/interest eligibility metadata with no active yield claims, crypto receipt records, and CLI/GUI status gates. ETH/SOL native dApp baseline remains unchanged.
+ .
+ v1.1.14 makes the major Wallet GUI tabs vertically scrollable and adds visible scrollbars to large information panes to prevent bloated tab content from being clipped on smaller MATE/X11 displays.
+ Redteam hardening update: symlink-safe private paths, atomic writes, bounded bridge/import payloads, and packaged bytecode cleanup.
+
+Package: sentinelos-aegis-prime-default-baseline
+Version: 0.1.7c-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: sentinelos-release (= 0.1.7c-1), sentinelos-conformance (= 0.1.7c-1), sentinelos-suite-integration (= 0.1.7c-1), sentinelos-suite-completion (= 0.1.7c-1), sentinelos-aegis-prime-option (= 0.1.7c-1), aegis-prime-suite (>= 1.0.0-1)
+Filename: pool/main/sentinelos-aegis-prime-default-baseline_0.1.7c-1_all.deb
+Size: 1052
+MD5sum: 7c9ecb2f4d0ee6bb26504044d91a600c
+SHA1: 3d8a01542de181aafefca8a02577909c74e18bd9
+SHA256: ede1821c28832bbc92e72df4fe8191ce536337f0247ce817f50089c9e3cb4c10
+Section: metapackages
+Priority: optional
+Description: SentinelOS v0.1.7c AEGIS PRIME default option baseline
+
+Package: sentinelos-aegis-prime-option
+Version: 0.1.7c-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: python3, aegis-prime-suite (>= 1.0.0-1)
+Filename: pool/main/sentinelos-aegis-prime-option_0.1.7c-1_all.deb
+Size: 4796
+MD5sum: a6ffd97c022e82555435eaa785bbc781
+SHA1: 3636b974d45a317c7478be75f36336089180e7dc
+SHA256: 1a8ef5e7d34795d1d58dc7cb70ae79b2cc951978d5862934bb02ad67eb3fc3c8
+Section: admin
+Priority: optional
+Description: SentinelOS default install option metadata for AEGIS PRIME Suite
+ Registers AEGIS PRIME Suite as a default-available optional install choice
+ for SentinelOS conversion/install flows and adds AEGIS PRIME menu category
+ metadata without enabling the AEGIS runtime automatically.
+
+Package: sentinelos-aegis-public-branding
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-aegis-public-branding_1.0.2-1_all.deb
+Size: 1164
+MD5sum: c2c3d5b497fc79b9e7e19c0b070e1f21
+SHA1: be7e412b83df6b1dc650fb667fd3c190bffa4bcc
+SHA256: 407d2bb441e4654f647159caaaa1e859bc8d32304314b6b19cac303f8a0beeb5
+Section: admin
+Priority: optional
+Description: AEGIS public branding hooks without personal artifacts
+
+Package: sentinelos-aegis-public-branding-baseline
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, sentinelos-aegis-public-branding
+Filename: pool/main/sentinelos-aegis-public-branding-baseline_1.0.2-1_all.deb
+Size: 1056
+MD5sum: 39ec54edc2c0e3a19bc80bdd75c62b1b
+SHA1: ee11c5debafca92cf5e68a12023a6cf00c5f56a4
+SHA256: a439a9abaa1f5a5374d2d9c2e6deb86f296d405edd9a180df1770dc41928cd0e
+Section: admin
+Priority: optional
+Description: AEGIS public branding baseline marker
+
+Package: sentinelos-aegis-readiness
+Version: 0.1.5d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: sentinelos-aegis-tools-audit (>= 0.1.5d-1), sentinelos-conformance (>= 0.1.5d-1)
+Filename: pool/main/sentinelos-aegis-readiness_0.1.5d-1_all.deb
+Size: 756
+MD5sum: fc036870e1515d9e95f702554d96ee55
+SHA1: ea767f9439e9e5dff4da7679b3595040283b37b5
+SHA256: baf0ce41caf0fa814f0c0a37d90c2212570afdafe5e4c2b697958c0474e4a819
+Section: admin
+Priority: optional
+Description: SentinelOS AEGIS Core Tools readiness meta-package
+
+Package: sentinelos-aegis-sentinel-baseline
+Version: 0.1.7d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: aegis-sentinel-suite (>= 1.0.0-1), sentinelos-aegis-sentinel-option (= 0.1.7d-1)
+Filename: pool/main/sentinelos-aegis-sentinel-baseline_0.1.7d-1_all.deb
+Size: 952
+MD5sum: fd00837ac3a8d7b99fb213127b7fe50e
+SHA1: 6b60bffd807c3100f26d5b02edaf751d073bab79
+SHA256: 6b12f34c28dc99b7d62c641a82e849b76c34c8ef97ef57bb061cbef0df163ea7
+Section: admin
+Priority: optional
+Description: SentinelOS AEGIS Sentinel v1.0 stable baseline meta-package
+ Marks the AEGIS Sentinel v1.0 stable locked baseline as installed and option-gated.
+
+Package: sentinelos-aegis-sentinel-option
+Version: 0.1.7d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3, aegis-sentinel-suite (>= 1.0.0-1)
+Filename: pool/main/sentinelos-aegis-sentinel-option_0.1.7d-1_all.deb
+Size: 2044
+MD5sum: 1074b24909485d362b109eb29089e0ec
+SHA1: 7c1028df554a47b0f9774179573f8529c495cd77
+SHA256: 96d4ee28b13bfbf294d848430a163b87db5e2bfa9a623ae1452133bab2144d82
+Section: admin
+Priority: optional
+Description: SentinelOS installer/conversion option metadata for AEGIS Sentinel Suite
+ Registers AEGIS Sentinel Suite as a default-available/default-selected optional layer
+ for SentinelOS conversion and installation flows. Runtime remains disabled by default.
+
+Package: sentinelos-aegis-tools-audit
+Version: 0.1.5d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-aegis-tools-audit_0.1.5d-1_all.deb
+Size: 2088
+MD5sum: 306e3d263b971fb463c748e87d37c185
+SHA1: bef8b225cb01fcdc1173464647a8bbd8170a8a59
+SHA256: 302e14b758b4ec849edfd4425c44f81bb5d3dffb0f238fafc34b766e97821a03
+Section: admin
+Priority: optional
+Description: SentinelOS AEGIS Core Tools readiness catalog and audit command
+
+Package: sentinelos-app-replacement-baseline
+Version: 0.1.6d-1
+Architecture: all
+Maintainer: SentinelOS Project <root@localhost>
+Depends: sentinelos-release (>= 0.1.6d-1), sentinelos-conformance (>= 0.1.6d-1), sentinelos-app-replacement-policy (>= 0.1.6d-1)
+Filename: pool/main/sentinelos-app-replacement-baseline_0.1.6d-1_all.deb
+Size: 772
+MD5sum: 04100690f2e16997f4b9c01cb8de1a73
+SHA1: 869859b3405ec9a575a8b5570f70f1507657ea4d
+SHA256: 8f9624b914180fcf095cc027ac9c9abfe595e21f60c644aa802f3cabc84186cc
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6d app replacement cleanup baseline meta-package
+
+Package: sentinelos-app-replacement-policy
+Version: 0.1.6d-1
+Architecture: all
+Maintainer: SentinelOS Project <root@localhost>
+Depends: python3
+Filename: pool/main/sentinelos-app-replacement-policy_0.1.6d-1_all.deb
+Size: 3488
+MD5sum: d111c345316cdc1c7f4f6dd469838103
+SHA1: 781928dbd114d3b1c36d361040b70e87c2e46934
+SHA256: d97eaba9a5cb4bcb89c00caffbae1922e2f16ee9803a207a0586a094ecbc62a7
+Section: admin
+Priority: optional
+Description: SentinelOS safe replacement policy for default MATE app equivalents
+
+Package: sentinelos-background-preservation-guard
+Version: 0.2.5c-1
+Architecture: all
+Maintainer: SentinelOS Theme Baseline <root@sentinelos.local>
+Installed-Size: 64
+Filename: pool/main/sentinelos-background-preservation-guard_0.2.5c-1_all.deb
+Size: 1968
+MD5sum: a00a4d9dba93a8c1584c2e5b491b32ec
+SHA1: 38f050edb2a962af91bd7d0bb637f49d9a7b7545
+SHA256: a60262ba574f66454df6405f466ebc7dd2dca7e20c59c1f6bde051ab48df7ceb
+Section: x11
+Priority: optional
+Description: SentinelOS MATE desktop background preservation and restore guard
+
+Package: sentinelos-bluetooth-aegis-icon
+Version: 0.1.8e-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Breaks: sentinelos-bluetooth-aegis-icon (<< 0.1.8e-1)
+Replaces: sentinelos-icon-theme (<= 1.0.3-1), sentinelos-icon-theme-cyan (<= 1.0.3-1), sentinelos-bluetooth-aegis-icon (<< 0.1.8e-1)
+Filename: pool/main/sentinelos-bluetooth-aegis-icon_0.1.8e-1_all.deb
+Size: 2660
+MD5sum: acc35afd9dea327f1f5759c535c0a124
+SHA1: 7e679b1a6ce14c289de5561adf9b873e00eb8214
+SHA256: b498d3cd29ec19940458a72a83137f5657ccec4a1a4c311a3983ffbca19d7089
+Section: x11
+Priority: optional
+Description: SentinelOS AEGIS-themed Bluetooth status icon aliases
+ Installs package-owned SentinelOS-Dark Bluetooth status/action icon aliases so the
+ MATE/Blueman Bluetooth panel status can use Sentinel/AEGIS themed artwork.
+
+Package: sentinelos-browser-wallet-baseline
+Version: 0.1.8g-1
+Architecture: all
+Maintainer: SentinelOS Build <root@localhost>
+Filename: pool/main/sentinelos-browser-wallet-baseline_0.1.8g-1_all.deb
+Size: 1656
+MD5sum: 6cbee3b7d14e46386121185575f21364
+SHA1: 657c03346a3957147fb3a11899c8fd6f0ebf871e
+SHA256: 153ae38b51cbe7bad4c2a7d2fc125727c3e459e7448b99d473150fca8a0d8c58
+Section: admin
+Priority: optional
+Description: SentinelOS Browser/DLG/Wallet baseline status repair
+
+Package: sentinelos-complete-desktop-suite-v1-lock-candidate
+Version: 0.1.8d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-complete-desktop-suite-v1-lock-candidate_0.1.8d-1_all.deb
+Size: 944
+MD5sum: 0f970e6a852d2aad46be6035c5654890
+SHA1: 864213399ca4780125e7d910f611ec83d0212d20
+SHA256: b3e3c6bbf89fd857bf64deeca614c807b4abe1b8cb82090731c31458c5d80681
+Section: misc
+Priority: optional
+Description: SentinelOS complete Desktop Suite v1 lock candidate marker
+
+Package: sentinelos-complete-suite-closure-finalisation
+Version: 0.1.8e-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: sentinelos-release (>= 0.1.8e-1), sentinelos-conformance (>= 0.1.8e-1), sentinelos-suite-completion (>= 0.1.8e-1), sentinelos-bluetooth-aegis-icon (>= 0.1.8e-1)
+Filename: pool/main/sentinelos-complete-suite-closure-finalisation_0.1.8e-1_all.deb
+Size: 1112
+MD5sum: 7fb8ba34c571a039e6d17b40909b3267
+SHA1: 46c0f3cf512b903cf4633765bdb9cd8e0f71fe8e
+SHA256: 70720bda116a000d8e9308e0507eaeab9f66ca05508f9db0adca148560a9a7ef
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.8e complete suite closure finalisation marker
+
+Package: sentinelos-complete-suite-closure-state-repair
+Version: 0.1.8d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-complete-suite-closure-state-repair_0.1.8d-1_all.deb
+Size: 912
+MD5sum: 2b863dd792c55e3367ab0cfdb6b396df
+SHA1: 4669204811e995a5a067a06b47098a4360330fc1
+SHA256: 3406bb8b2da4da8731fba009ecc4abee15cde985b0bd52cced9c586fe021ec9a
+Section: misc
+Priority: optional
+Description: SentinelOS complete suite closure state repair marker
+
+Package: sentinelos-conformance
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-conformance_0.1.9b2-1_all.deb
+Size: 3668
+MD5sum: de44b3c999f6367189d5a8a76fa3dc30
+SHA1: 5e25a53e79aef3e1077a4e336f3f9214cea34329
+SHA256: cd596740e7a9b47f0a5a5c3e2cc19e08b3e1ae2d9300b367b7903ff09126e427
+Section: misc
+Priority: optional
+Description: SentinelOS conformance/report control interface
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-conformance-baseline
+Version: 0.1.4d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: sentinelos-release (>= 0.1.4d-1), sentinelos-conformance (>= 0.1.4d-1), sentinelos-repo-tools (>= 0.1.4d-1)
+Filename: pool/main/sentinelos-conformance-baseline_0.1.4d-1_all.deb
+Size: 752
+MD5sum: b8e1ce6c77a77e126367e531a2e8e3ae
+SHA1: 16f5dae485860011b6be02772ae4ba80f47ff593
+SHA256: d0638ab76c97f10000e16be0c5d1346bc5c988e5e263fd75f92c20b3d63751b1
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.4d conformance baseline meta-package
+
+Package: sentinelos-conversion-baseline
+Version: 0.2.6b-1
+Architecture: all
+Maintainer: SentinelOS Installer Baseline <root@sentinelos.local>
+Installed-Size: 192
+Depends: bash, coreutils, python3
+Filename: pool/main/sentinelos-conversion-baseline_0.2.6b-1_all.deb
+Size: 1160
+MD5sum: eeb150f7de0074260a07b898627eefc4
+SHA1: fa3145ac645e937f7801fa4661303b054f255622
+SHA256: d2ae629e733d5ad25181769301368cfa0250e419ea5f2ae879a7a50d063150a6
+Section: admin
+Priority: optional
+Description: SentinelOS v0.2.6b conversion baseline marker
+
+Package: sentinelos-debian-converter
+Version: 0.2.6b-1
+Architecture: all
+Maintainer: SentinelOS Installer Baseline <root@sentinelos.local>
+Installed-Size: 192
+Depends: bash, coreutils, python3, dpkg, sentinelos-hardening-base
+Filename: pool/main/sentinelos-debian-converter_0.2.6b-1_all.deb
+Size: 3924
+MD5sum: 42c7b678336c26783bb2f128321140fe
+SHA1: 2e40c568c35f0e565b1b90b2f70bafa5223167ea
+SHA256: 5a248a38ac4e4990f8d75692f51d4e82e314daa94f37cb245bcb76f00f890dec
+Section: admin
+Priority: optional
+Description: SentinelOS Debian conversion orchestrator with installer options
+
+Package: sentinelos-desktop-assets
+Version: 0.1.9-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: sentinelos-wallpapers (= 0.1.9-1)
+Filename: pool/main/sentinelos-desktop-assets_0.1.9-1_all.deb
+Size: 3424
+MD5sum: c31e6e6d74f8700b2dbfb61509b3edb1
+SHA1: 6a33446357b149c93f77d141744dff1f99804293
+SHA256: 695535b672275eb59c4dc7223cba36ad4879c98491be56e3b34b7e8010712513
+Section: admin
+Priority: optional
+Description: SentinelOS desktop experience asset baseline metadata
+
+Package: sentinelos-desktop-baseline
+Version: 0.1.2a-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: sentinelos-release (>= 0.1.1), sentinelos-conformance (>= 0.1.1), sentinelos-wallpapers (>= 0.1.2-1), sentinelos-desktop-identity (>= 0.1.2a-1), sentinelos-mate-defaults (>= 0.1.2-1), sentinelos-menu-layout (>= 0.1.2-1)
+Filename: pool/main/sentinelos-desktop-baseline_0.1.2a-1_all.deb
+Size: 1240
+MD5sum: 9b6e93a301b965ff78e575747d454348
+SHA1: 1321985130e5c2db3dd9dd0c96f2e70b48937583
+SHA256: 3bb01c59b8df79274ef9cb63ae5786ba08aa8c10388c1e316470255ec68fb248
+Section: misc
+Priority: optional
+Description: SentinelOS v0.1.2a desktop identity baseline meta-package
+ SentinelOS desktop identity baseline with explicit MATE backup safety patch.
+
+Package: sentinelos-desktop-branding-baseline
+Version: 0.1.9a-1
+Architecture: all
+Maintainer: SentinelOS Build <root@localhost>
+Depends: sentinelos-mate-branding (= 0.1.9a-1), sentinelos-desktop-assets (>= 0.1.9-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.1.9a-1_all.deb
+Size: 976
+MD5sum: 98e044e7b60f55e0973542a643f8cbf4
+SHA1: a35073cf05cbec0d031f5b4f0dabc043bc380cfd
+SHA256: 686d1cd35c5be81805ae5427492e66387554ac8b2886d9e1a584161534d0d374
+Section: utils
+Priority: optional
+Description: SentinelOS v0.1.9a desktop branding baseline marker
+
+Package: sentinelos-desktop-conformance
+Version: 0.1.4-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: sentinelos-conformance (>= 0.1.4-1)
+Filename: pool/main/sentinelos-desktop-conformance_0.1.4-1_all.deb
+Size: 1096
+MD5sum: c0fcc8bd32e3512cb968e9e857582b6c
+SHA1: a48af92046717ff3f3e9702332704338c5b6bf8f
+SHA256: 849f66ebfc1301bd30c9225578129a44e86bec36d2929f8168321068993b549f
+Section: admin
+Priority: optional
+Description: SentinelOS desktop conformance metadata for v0.1.4
+
+Package: sentinelos-desktop-experience-asset-baseline
+Version: 0.1.9-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Depends: sentinelos-wallpapers (= 0.1.9-1), sentinelos-desktop-assets (= 0.1.9-1)
+Filename: pool/main/sentinelos-desktop-experience-asset-baseline_0.1.9-1_all.deb
+Size: 752
+MD5sum: 4056a5284a5c1cbab18708c200fcc9df
+SHA1: 5ed484ed7ccc97c9231f1f251c8f2baa52ccfb68
+SHA256: 6e9f7d0453d519e7bebd80d9b2350ddbd4fdb4ecf48f62a11aa68169a9aa7b36
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.9 desktop experience asset baseline marker
+
+Package: sentinelos-desktop-identity
+Version: 0.1.2a-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: bash, coreutils, dpkg, dconf-cli | dconf-gsettings-backend, libglib2.0-bin
+Breaks: sentinelos-desktop-identity (<< 0.1.2a-1)
+Replaces: sentinelos-desktop-identity (<< 0.1.2a-1)
+Filename: pool/main/sentinelos-desktop-identity_0.1.2a-1_all.deb
+Size: 5928
+MD5sum: 8bdaf87aa6a1ccb4ffa2acf13365f73e
+SHA1: 04afef843072ed675e5d3346d8ab7ad90644725f
+SHA256: fbec931529f9acf97ae054c269aaa4beffa79d290d11f970e64342fb8493f0d5
+Section: misc
+Priority: optional
+Description: SentinelOS desktop identity commands and backup safety patch
+ SentinelOS v0.1.2a desktop backup safety patch. Adds explicit
+ MATE/dconf backup tooling and patches desktop apply/restore helpers
+ so desktop changes are guarded by a restorable user snapshot.
+
+Package: sentinelos-forge-baseline-amendment
+Version: 0.1.6g-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Installed-Size: 3
+Depends: sentinel-forge (>= 1.1.0-1), sentinel-forge-crypto (>= 0.1.0-1), sentinelos-release (>= 0.1.6g-1)
+Filename: pool/main/sentinelos-forge-baseline-amendment_0.1.6g-1_all.deb
+Size: 1260
+MD5sum: fb5ed3dc3876d79a3aadb5fb44ab5d99
+SHA1: 220dec4492b7bd157754c44eef6cd98b789a9050
+SHA256: 2ca7acc0cf68a1c309ebb111a8c8bcd76d70ca29af2ee31b83231bcc651624e5
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6g F.O.R.G.E v1.1 baseline amendment
+
+Package: sentinelos-foundation
+Version: 0.1.4-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: sentinelos-release (>= 0.1.4-1), sentinelos-policy-core (>= 0.1.1-1), sentinelos-conformance (>= 0.1.4-1)
+Filename: pool/main/sentinelos-foundation_0.1.4-1_all.deb
+Size: 884
+MD5sum: 5cafe98af972dbc67659d65a75dddba5
+SHA1: 5bca9cbceced45d1d3eb12a6cee676c829c82709
+SHA256: f6a50d333f953936065b254c8e9101620b3e8ad85e9f7c526197275f25240e4d
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.4 foundation meta package
+
+Package: sentinelos-hardening-base
+Version: 0.2.6a-1
+Architecture: all
+Maintainer: SentinelOS Conversion Baseline <root@sentinelos.local>
+Installed-Size: 96
+Depends: bash, coreutils, python3, procps, dpkg
+Filename: pool/main/sentinelos-hardening-base_0.2.6a-1_all.deb
+Size: 4308
+MD5sum: a8d64be65660e8adfb596063d10fcb3e
+SHA1: 10d76c3d74c5c6972fb3971ed4fba21f17e180af
+SHA256: 765446610945c24824a31ee96c1d5b8d223b8dccb0a05c12ce09ea6129d42268
+Section: admin
+Priority: optional
+Description: SentinelOS safe foundational hardening and audit base
+
+Package: sentinelos-hardening-baseline
+Version: 0.2.6a-1
+Architecture: all
+Maintainer: SentinelOS Conversion Baseline <root@sentinelos.local>
+Installed-Size: 96
+Depends: bash, coreutils
+Filename: pool/main/sentinelos-hardening-baseline_0.2.6a-1_all.deb
+Size: 1456
+MD5sum: 50211376efe5355386bb45759011f8fa
+SHA1: 527759ff5a80700b183710fa077b1983e6b8b2ff
+SHA256: 3703503612c788a772c5a595693549b9ea4ea54f717fe47e40d3f4355c2d24a5
+Section: admin
+Priority: optional
+Description: SentinelOS v0.2.6a hardening baseline marker
+
+Package: sentinelos-icon-theme
+Version: 1.0.3-1
+Architecture: all
+Maintainer: SentinelOS <local>
+Filename: pool/main/sentinelos-icon-theme_1.0.3-1_all.deb
+Size: 14142984
+MD5sum: 3cd1cb5257474c5c2900e724140b492d
+SHA1: 406c931bb7b54abee807fce76e8e74c3e425580e
+SHA256: 4cdb661c096317f640f6c13e0e63b7abedf44f94a5b9e9d86a3780ba433c85a5
+Section: x11
+Priority: optional
+Description: SentinelOS dark icon theme for MATE
+ SentinelOS-Dark icon theme v1.0.3 official menu applet and Sentinel Tools coverage patch.
+
+Package: sentinelos-installer-gui
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-installer-gui_1.0.2-1_all.deb
+Size: 4824
+MD5sum: deeadc049e9dc061b2bd2d91923c9b4f
+SHA1: 7a3f8d561a1e18ddbc6482837898916d7b7ae141
+SHA256: 5beb5aa646af96406c5683bb9e69e784e5026fd044ac5cc2dace2bb8b9fd1909
+Section: admin
+Priority: optional
+Description: SentinelOS public AMBROSO dark/cyan installer GUI
+
+Package: sentinelos-installer-gui-baseline
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-installer-gui-baseline_1.0.2-1_all.deb
+Size: 1120
+MD5sum: 899da8629e1e553f3df27c9ddf3d17f1
+SHA1: ac6cdccf683653d86ca61cbb6afea674eeb80bff
+SHA256: 15e27e3d30cd344186e7b3f466b5c0d22a1b69c0284f47be5f741f4e98ff91a5
+Section: admin
+Priority: optional
+Description: SentinelOS public AMBROSO installer GUI baseline marker
+
+Package: sentinelos-integration-baseline
+Version: 0.1.6-1
+Architecture: all
+Maintainer: SentinelOS Project <root@localhost>
+Installed-Size: 1
+Depends: sentinelos-release (>= 0.1.6-1), sentinelos-conformance (>= 0.1.6-1), sentinelos-suite-integration (>= 0.1.6-1), sentinelos-suite-readiness (>= 0.1.5b-1), sentinelos-aegis-readiness (>= 0.1.5d-1)
+Filename: pool/main/sentinelos-integration-baseline_0.1.6-1_all.deb
+Size: 940
+MD5sum: 91adabfb190fed6b6e7e55fa69341d05
+SHA1: f58729eb7cb2ebd83093a5582fe7e05bdd1947af
+SHA256: 24c30d6d4384163e9b76be4fc5ad9600d9a3e4bfc73a6081a4aeb47390611dad
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6 controlled suite integration baseline meta-package
+
+Package: sentinelos-login-screen
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS V1 Conversion <root@sentinelos.local>
+Installed-Size: 192
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-login-screen_1.0.1-1_all.deb
+Size: 4424
+MD5sum: df4ced9b80d312c8d1f624fbc4ba4e17
+SHA1: 149b0c04a2687cdb76a8e3157c0d9945de4b656d
+SHA256: c45a6760d81e246bb1e9e1457a31af9e5cba3b90e5ca7c1779934baf52891671
+Section: admin
+Priority: optional
+Description: SentinelOS dark/cyan custom login screen integration
+
+Package: sentinelos-login-screen-baseline
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS V1 Conversion <root@sentinelos.local>
+Installed-Size: 192
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-login-screen-baseline_1.0.1-1_all.deb
+Size: 1288
+MD5sum: ab2bc270484069fbdf0213c82cf1cdf6
+SHA1: c857a1af178e7466ed90946ee0012a064a2e8908
+SHA256: 49e5a3e54b81b47f422ac54defce6a8032a72c6417b104e82433a6682d5bc9b0
+Section: admin
+Priority: optional
+Description: SentinelOS custom login screen baseline marker
+
+Package: sentinelos-mate-branding
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-mate-branding_0.1.9b2-1_all.deb
+Size: 2112
+MD5sum: dc5b17c7717ae1067efecea76eab3df7
+SHA1: b28c975fbea6abe46ddc61823a466354be529096
+SHA256: b930aa453d8f357ee2414c7890ba1b40764e498e845db9e00dc18db97559cda8
+Section: misc
+Priority: optional
+Description: SentinelOS MATE branding safe baseline
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-mate-defaults
+Version: 0.1.2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: bash, coreutils
+Filename: pool/main/sentinelos-mate-defaults_0.1.2-1_all.deb
+Size: 1368
+MD5sum: cc5a8ab225fe7198501e062875a36831
+SHA1: 6b52f11cd80ffa53fba90ef57e03eca26a7c57ed
+SHA256: af766589c32ce6ee2c8b62dcf103897245ffab79ffdb4fb51c3d32cd3ec7f7b9
+Section: misc
+Priority: optional
+Description: SentinelOS safe MATE desktop defaults templates
+ SentinelOS v0.1.2 desktop identity baseline component.
+
+Package: sentinelos-menu-layout
+Version: 0.1.2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: bash, coreutils
+Filename: pool/main/sentinelos-menu-layout_0.1.2-1_all.deb
+Size: 1272
+MD5sum: 5bad2ef0d87fe2c1d512a3398752615d
+SHA1: 598ebcf6c25fab070be624f98d987d86187f3ff6
+SHA256: 423066b15efa1d1fd8d1dcdaac9305c3d676e57c5d5fa6e6c81d8deb0cbf28a7
+Section: misc
+Priority: optional
+Description: SentinelOS desktop menu identity files
+ SentinelOS v0.1.2 desktop identity baseline component.
+
+Package: sentinelos-official-icon-baseline
+Version: 0.2.5a-1
+Architecture: all
+Maintainer: SentinelOS Packaging <root@localhost>
+Filename: pool/main/sentinelos-official-icon-baseline_0.2.5a-1_all.deb
+Size: 1920
+MD5sum: 72e4a0d3324abfd85c673a45cadb727f
+SHA1: 0176da4892d620dcf369fb0071307e27aac3c9d8
+SHA256: 5756312e036700995239140976f130261aeae65553499dd5f613060893cfb720
+Section: x11
+Priority: optional
+Description: SentinelOS v0.2.5a official baseline iconset marker and verifier
+ Records the official uploaded baseline iconset policy for SentinelOS theme-base work.
+
+Package: sentinelos-policy-core
+Version: 0.1.1-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.invalid>
+Depends: bash, procps
+Filename: pool/main/sentinelos-policy-core_0.1.1-1_all.deb
+Size: 1844
+MD5sum: e8e902e065af4c2f47d5cb53bf833942
+SHA1: a001772339cd5bdd1af816c4bb8949b1f7292353
+SHA256: d7b54ccd8cf098535d0486176a765dc8b4fec4ee6648f440adba9498164658ac
+Section: admin
+Priority: optional
+Description: SentinelOS core policy-as-packages baseline
+ SentinelOS v0.1.1 Foundation package baseline component.
+ This package is part of the integrity-first Debian policy-as-packages foundation.
+
+Package: sentinelos-professional-theme-baseline
+Version: 0.1.9b-1
+Architecture: all
+Maintainer: SentinelOS Build <root@localhost>
+Depends: sentinelos-theme-professional (= 0.1.9b-1), sentinelos-mate-branding (= 0.1.9b-1)
+Filename: pool/main/sentinelos-professional-theme-baseline_0.1.9b-1_all.deb
+Size: 972
+MD5sum: f0825ffc97ac73ff5bc85a190e742aa8
+SHA1: 58924e3c4413f9dae857471dc70fba67670eaf45
+SHA256: ecbc02abfe17befbc3c908e2c03cdb7f6b10fca744fc13a2091e41b87805acee
+Section: utils
+Priority: optional
+Description: SentinelOS v0.1.9b professional desktop theme baseline marker
+
+Package: sentinelos-public-converter
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-public-converter_1.0.2-1_all.deb
+Size: 2620
+MD5sum: c69ec6fc95d31e79bf32559ff3edefa0
+SHA1: c3654326ff875289023e3775b1e9550d31399af3
+SHA256: c7471b30d83d3cca1beafd6c1fa2e0848ce99458d183a977f2be333ed5cb0598
+Section: admin
+Priority: optional
+Description: SentinelOS public v1 AMBROSO conversion wrapper and sanitizer
+
+Package: sentinelos-public-converter-baseline
+Version: 1.0.2-1
+Architecture: all
+Maintainer: SentinelOS Public Build <root@sentinelos.local>
+Installed-Size: 128
+Depends: bash, coreutils, sentinelos-public-converter
+Filename: pool/main/sentinelos-public-converter-baseline_1.0.2-1_all.deb
+Size: 1112
+MD5sum: a22aeff1f913becb17a72a3c91a2587e
+SHA1: 12809622244c758ee68b5b68cc467c9a0a21e69a
+SHA256: 3f249e15c6f22dd353715755e2ea5324495590f419e5a87bb9fc50ae635f62b7
+Section: admin
+Priority: optional
+Description: SentinelOS public v1 AMBROSO converter baseline marker
+
+Package: sentinelos-release
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-release_0.1.9b2-1_all.deb
+Size: 2044
+MD5sum: 2cf9a623b960573669be456cfbb66a23
+SHA1: db623ac1c2cc0019ec1de4be15b41153332a0a93
+SHA256: 572034e9a286f34f4ef7389e50acbd56a0d3c2086d2074a18ee5ae41b0b97b07
+Section: misc
+Priority: optional
+Description: SentinelOS v0.1.9b2 release identity
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-repo-baseline
+Version: 0.1.4d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: sentinelos-repo-tools (>= 0.1.4d-1)
+Filename: pool/main/sentinelos-repo-baseline_0.1.4d-1_all.deb
+Size: 736
+MD5sum: d79e8345bf94f54d7d994db4af399226
+SHA1: 7f505a2c58a6f4734411af4b7df27f6cb30f1d9c
+SHA256: a7463d7827e231961a48d23cc8f524e088a4b1787a06fea67e1e19661cb0e2a2
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.4d repository baseline meta-package
+
+Package: sentinelos-repo-tools
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-repo-tools_0.1.9b2-1_all.deb
+Size: 3332
+MD5sum: 2936f56a97fa592f156c1ce9ef156ade
+SHA1: 55e570f4494875b1a273d43e7322539f4f076682
+SHA256: 561c3e8fb3ebc0ba36632200c0fb3f6fb5845f135ea4460726fc269dd5667c68
+Section: misc
+Priority: optional
+Description: SentinelOS local repository repair/check tools
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-repo-verify-cleanup
+Version: 0.1.6e-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Installed-Size: 1
+Depends: sentinelos-release (>= 0.1.6e-1), sentinelos-conformance (>= 0.1.6e-1), sentinelos-repo-tools (>= 0.1.6e-1)
+Filename: pool/main/sentinelos-repo-verify-cleanup_0.1.6e-1_all.deb
+Size: 944
+MD5sum: 5dabe2aa154fbf00b0b71ba49fe2da92
+SHA1: bd656d22488df92079979215a15a10332e3b26f0
+SHA256: 189dfddcb528dab641319d129e3a0b84f58f3d22b81ec09176b676320425f63d
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6e repo metadata and verify cleanup baseline
+
+Package: sentinelos-report-logging-closure
+Version: 0.1.6f-1
+Architecture: all
+Maintainer: SentinelOS Build <root@sentinelos.local>
+Depends: sentinelos-release (>= 0.1.6f-1), sentinelos-conformance (>= 0.1.6f-1)
+Filename: pool/main/sentinelos-report-logging-closure_0.1.6f-1_all.deb
+Size: 920
+MD5sum: e5666b61423d7cdfca6c5ffcf282addb
+SHA1: 8d5839210204e90e869fe1c8705355f22be70a21
+SHA256: c911e4fcddef2006eb15c3199fcc9c25d6f3c8f7b7979b86c77420726b99d3c5
+Section: admin
+Priority: optional
+Description: SentinelOS report logging closure baseline
+
+Package: sentinelos-status-tray-live-icons
+Version: 0.2.6c-1
+Architecture: all
+Maintainer: SentinelOS Icon Baseline <root@sentinelos.local>
+Installed-Size: 96
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-status-tray-live-icons_0.2.6c-1_all.deb
+Size: 4600
+MD5sum: fe33f57e833d1b546e8c8c279eec1e31
+SHA1: fffe70440b1f0f967578d07dae2383d380444ef7
+SHA256: 1abc64bc162b7015e6b0da33ac5d9b442711b9df135994d1df513086a6585874
+Section: x11
+Priority: optional
+Description: SentinelOS Wi-Fi/Bluetooth/Battery live-state tray icon completion
+
+Package: sentinelos-status-tray-live-icons-baseline
+Version: 0.2.6c-1
+Architecture: all
+Maintainer: SentinelOS Icon Baseline <root@sentinelos.local>
+Installed-Size: 96
+Depends: bash, coreutils, python3, dpkg
+Filename: pool/main/sentinelos-status-tray-live-icons-baseline_0.2.6c-1_all.deb
+Size: 1164
+MD5sum: 5b305d632442347b848dfca740cee69e
+SHA1: 18110ff9b142a2f21bec7c626945227ae56e058e
+SHA256: 81cd5f3f17e6fa0742ed8f07affba91b325c19204dc9c7e3146a07e620c8dd91
+Section: x11
+Priority: optional
+Description: SentinelOS status tray live-state baseline marker
+
+Package: sentinelos-suite-audit
+Version: 0.1.8d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-suite-audit_0.1.8d-1_all.deb
+Size: 796
+MD5sum: 2ebaa42406cba0bd3af73ff1f2d308ad
+SHA1: e90dea03e9c45e5559b573e0b57afdf277285107
+SHA256: a57b29f6762ebccbe47a540116c7f0f25987b157a5500e0016ab5c2ca3baa962
+Section: misc
+Priority: optional
+Description: SentinelOS suite audit wrapper
+
+Package: sentinelos-suite-classification-cleanup
+Version: 0.1.7a-1
+Architecture: all
+Maintainer: SentinelOS Project <root@localhost>
+Depends: sentinelos-release (= 0.1.7a-1), sentinelos-conformance (= 0.1.7a-1), sentinelos-suite-integration (= 0.1.7a-1), sentinelos-suite-completion (= 0.1.7a-1), sentinelos-suite-completion-baseline (= 0.1.7a-1)
+Filename: pool/main/sentinelos-suite-classification-cleanup_0.1.7a-1_all.deb
+Size: 1624
+MD5sum: 450f73bec47e069396695dd302029ca9
+SHA1: ad7ce1cd823ed7ec09bfe6a0741ec6b73f5e6019
+SHA256: 8e1ca740f34f0dc817b6b6a9f17dd88c69a760ae8c7fa412cf614f01611f64a4
+Section: metapackages
+Priority: optional
+Description: SentinelOS v0.1.7a suite classification cleanup closure package
+
+Package: sentinelos-suite-completion
+Version: 0.1.8g-1
+Architecture: all
+Maintainer: SentinelOS Build <root@localhost>
+Filename: pool/main/sentinelos-suite-completion_0.1.8g-1_all.deb
+Size: 1728
+MD5sum: a4844983b9de5b804d65e23641fbefbc
+SHA1: 8480cad49088bbacefd5144d67377c8ff03c84bb
+SHA256: 79428c94eaf5dea8f391c83f8970a00009c949d74b5868d463b55655727be299
+Section: admin
+Priority: optional
+Description: SentinelOS suite completion report repair
+
+Package: sentinelos-suite-completion-baseline
+Version: 0.1.7b-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: sentinelos-suite-completion (= 0.1.7b-1)
+Filename: pool/main/sentinelos-suite-completion-baseline_0.1.7b-1_all.deb
+Size: 876
+MD5sum: 57ff3997c53f8199e51f8bf2c77ea6be
+SHA1: 9e8462eabd4fc18409aae736b43c9dbb498bb1ca
+SHA256: d19dbb6e1fac45050ee37865cdf8175a42141bcd786c407aea5ebe4cfd14e9cf
+Section: utils
+Priority: optional
+Description: SentinelOS suite completion baseline meta-package
+
+Package: sentinelos-suite-completion-pass1
+Version: 0.1.7b-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.os>
+Depends: sentinel-ledger, sentinel-inventory, sentinelos-suite-completion
+Filename: pool/main/sentinelos-suite-completion-pass1_0.1.7b-1_all.deb
+Size: 920
+MD5sum: c11ee46393978e0121a6dd4db3b9c7f6
+SHA1: 505ca83454ae2a6f62e835c948793185b142ab36
+SHA256: 934d55d27333e27bdd7d1a2711461b21e32c05334037457005ffc194270bdc38
+Section: utils
+Priority: optional
+Description: SentinelOS v0.1.7b base v1 suite completion marker
+
+Package: sentinelos-suite-integration
+Version: 0.1.8d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-suite-integration_0.1.8d-1_all.deb
+Size: 2568
+MD5sum: ff30f91d44a3231017d90fbbabbb2ec7
+SHA1: b2b053b51e602d2516eea3a05f6a6e11c09f3ed2
+SHA256: 2caa8f9b46a6360d0e165f4de4afc26b46d1761ac74edd6d63e9f4879b418c81
+Section: misc
+Priority: optional
+Description: SentinelOS complete suite integration classifier
+
+Package: sentinelos-suite-integration-pass1
+Version: 0.1.6a-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.invalid>
+Depends: sentinelos-suite-integration (>= 0.1.6-1)
+Filename: pool/main/sentinelos-suite-integration-pass1_0.1.6a-1_all.deb
+Size: 2804
+MD5sum: 30d1be1f256be4c8ebcb14005dce48ed
+SHA1: 784daca58522c8f1615ba96abc1f090a09cf0610
+SHA256: 8f3ad4f2d544ffdfed70a444eb68665e169eee15caf3cd656d6e19568f20ee8f
+Section: admin
+Priority: optional
+Description: SentinelOS Desktop Suite Integration Pass 1 metadata
+ Package-owned audit and manifest metadata for the first controlled Desktop Suite app integration pass.
+
+Package: sentinelos-suite-integration-pass2
+Version: 0.1.6b-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos.local>
+Depends: sentinel-terminal (>= 1.0.0-1), sentinel-notes (>= 1.0.0-1), sentinel-system-monitor (>= 1.0.1-1), sentinel-password-vault (>= 1.0.0-1), sentinel-pantry (>= 1.0.0-1), sentinelos-release (>= 0.1.6b-1), sentinelos-suite-integration (>= 0.1.6b-1), sentinelos-suite-readiness (>= 0.1.6b-1)
+Filename: pool/main/sentinelos-suite-integration-pass2_0.1.6b-1_all.deb
+Size: 2048
+MD5sum: f24e857a55836241b014f1741629603c
+SHA1: d2c92c5b2ca3fa9daddf8bbeec272776e0d469cf
+SHA256: 0037245a4940ddbd17d4eb48d2ae047a5ee5c091c85a95f52e226c7c154542c5
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6b Desktop Suite v1 integration pass marker
+ SentinelOS local-only package-owned baseline component.
+
+Package: sentinelos-suite-integration-pass3
+Version: 0.1.6g-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Installed-Size: 1
+Depends: sentinelos-release (>= 0.1.6g-1), sentinelos-suite-integration (>= 0.1.6g-1), sentinel-forge (>= 1.1.0-1), sentinel-forge-crypto (>= 0.1.0-1)
+Filename: pool/main/sentinelos-suite-integration-pass3_0.1.6g-1_all.deb
+Size: 1112
+MD5sum: ef5115f6f6f86c3fdba4aac4c8e159e0
+SHA1: 76609add0e07f15cfef6edce2328267faa60ad39
+SHA256: b83a7cd3d7bae06ab38671ff23a1566656bba02a8a2828f73077c8fa63ed4ae6
+Section: admin
+Priority: optional
+Description: SentinelOS v0.1.6g F.O.R.G.E integration pass marker
+
+Package: sentinelos-suite-readiness
+Version: 0.1.8d-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Filename: pool/main/sentinelos-suite-readiness_0.1.8d-1_all.deb
+Size: 2048
+MD5sum: 33145117a40e3db79425cd9a851e36b2
+SHA1: ae171c5e685ae80bbfe7d451c478132ff2fcc5db
+SHA256: 55d5562c5ea8f0b0937d550aa965e55f8a4600f041376b1b44cfd240ead8368f
+Section: misc
+Priority: optional
+Description: SentinelOS complete suite readiness catalog
+
+Package: sentinelos-theme-base-reframe
+Version: 0.2.5c-1
+Architecture: all
+Maintainer: SentinelOS Theme Baseline <root@sentinelos.local>
+Installed-Size: 64
+Filename: pool/main/sentinelos-theme-base-reframe_0.2.5c-1_all.deb
+Size: 3912
+MD5sum: dc864229cf7d57417a8207a994b8f344
+SHA1: 171d83f5134b82b98f5a3eabc885d7aea161dc8d
+SHA256: 85cc36fcfa5d9f39ed7ef06aa9703827ac597a553b24a37aee156a28f28f6f14
+Section: x11
+Priority: optional
+Description: SentinelOS theme base reframe with background preservation guard
+
+Package: sentinelos-theme-baseline-lock
+Version: 0.2.5c-1
+Architecture: all
+Maintainer: SentinelOS Theme Baseline <root@sentinelos.local>
+Installed-Size: 64
+Filename: pool/main/sentinelos-theme-baseline-lock_0.2.5c-1_all.deb
+Size: 1532
+MD5sum: 8c0b7b88a99919bab1f7bbb5cbc41780
+SHA1: f99c48c88718145ca64e0f2a3c70fd032e167051
+SHA256: d263419bb01c570850c6a9cba4cf8df6626ce6381b5f3f146eecc30226c7f89c
+Section: x11
+Priority: optional
+Description: SentinelOS v0.2.5c official theme/icons/conditions baseline lock marker
+
+Package: sentinelos-theme-clean-baseline
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-theme-clean-baseline_0.1.9b2-1_all.deb
+Size: 1040
+MD5sum: c7640c35f9b5e53d0856d6580f3fa176
+SHA1: cd184672dd93baf395033300830e533ccdb32636
+SHA256: 437ad4fd5b055999cb1ca50c4b9eae287d58f0888bf2ffae2fc0993569dea7c2
+Section: misc
+Priority: optional
+Description: SentinelOS theme clean baseline marker
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-theme-preview-polish
+Version: 0.2.5b-1
+Architecture: all
+Maintainer: SentinelOS Packaging <root@localhost>
+Depends: sentinelos-theme-base-reframe (>= 0.2.5b), sentinelos-theme-base-reframe-baseline (>= 0.2.5b)
+Filename: pool/main/sentinelos-theme-preview-polish_0.2.5b-1_all.deb
+Size: 2140
+MD5sum: e05c8058728bfaad89a097c4c2bbccce
+SHA1: 04e32a86315707dc24398a3f6430064763cf05e5
+SHA256: fb201dcd5b370f79847a4ca84b0681caba9dd503fb7f9261aa7556bb3bd8a20f
+Section: x11
+Priority: optional
+Description: SentinelOS v0.2.5b Appearance Preferences preview thumbnail polish verifier
+ Verifies the official SentinelOS theme preview and thumbnail assets used by Appearance Preferences.
+
+Package: sentinelos-theme-professional
+Version: 0.1.9b-1
+Architecture: all
+Maintainer: SentinelOS Build <root@localhost>
+Depends: python3, sentinelos-wallpapers (>= 0.1.9-1)
+Provides: sentinelos-gtk-theme, sentinelos-marco-theme
+Filename: pool/main/sentinelos-theme-professional_0.1.9b-1_all.deb
+Size: 4276
+MD5sum: 4ba5b59e74bde52fdcb258838071af11
+SHA1: 806fafdb62255c62f1cb6ed527526349ec884e74
+SHA256: c20f96c2fe1a32b1bff1f5f10eba8313a9da0cb65d22ba79001adda28e111a0c
+Section: utils
+Priority: optional
+Description: SentinelOS professional GTK and Marco theme baseline
+
+Package: sentinelos-theme-rollback-cleanup
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-theme-rollback-cleanup_0.1.9b2-1_all.deb
+Size: 3776
+MD5sum: 04a283aabea6f705cd4f2db27c044817
+SHA1: 90b0e7149dcb8e0ba456ae05d6d24eac6295b08e
+SHA256: 6c0a12c62bb5d514a68256468ec2147900abfb977c1f32d5bcbcf1d98a6197b1
+Section: misc
+Priority: optional
+Description: SentinelOS theme rollback and clean professional reset
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-theme-stability-guard
+Version: 0.1.9b2-1
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinelos>
+Depends: python3
+Filename: pool/main/sentinelos-theme-stability-guard_0.1.9b2-1_all.deb
+Size: 1796
+MD5sum: ab09ed4570492b26702a572a44e8bae3
+SHA1: 4aff3bfef55fd31cee8d6fff8266cb00b5ffee98
+SHA256: 7f4440c71a250d44dcab07df1f5a0af09bfcd5eb1ddc06ac21569da125ba5ebb
+Section: misc
+Priority: optional
+Description: SentinelOS clean theme stability guard
+ Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-wallpapers
+Version: 0.1.9-1
+Architecture: all
+Maintainer: SentinelOS <root@localhost>
+Filename: pool/main/sentinelos-wallpapers_0.1.9-1_all.deb
+Size: 28987752
+MD5sum: fffffb4d2fe16be9ed0882867c90dab6
+SHA1: ec6f93a51b2fc956cd502ad8a74a92da28eef006
+SHA256: cb4e0c8a89819f75afaaacc6df19956f683888945d7cf4260b36e29ad5057340
+Section: admin
+Priority: optional
+Description: SentinelOS opaque wallpaper and background asset pack
+
