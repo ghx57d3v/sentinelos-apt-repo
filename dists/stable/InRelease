@@ -4,31 +4,31 @@ Hash: SHA512
 Architectures: amd64
 Codename: ambroso
 Components: main
-Date: Fri, 10 Jul 2026 22:17:19 +0000
+Date: Fri, 10 Jul 2026 22:20:08 +0000
 Description: SentinelOS public package repository
 Label: SentinelOS
 Origin: SentinelOS
 Suite: stable
 MD5Sum:
- 539f599d88af7975f084d89132be1b0a              195 Release
+ 87dc412f31b0172c279cd3c480420386              195 Release
  43f9f8ade72387b6b11229685009f9e3            60588 main/binary-amd64/Packages
- badaa2fd0733bb7438eee7d7b41b216d            18229 main/binary-amd64/Packages.gz
+ e92202b4ae496fe553b47a0887926fb1            18229 main/binary-amd64/Packages.gz
 SHA1:
- bcd69a176650621ec685fcd095fb9013c9135fa8              195 Release
+ f5d8cd0a8e26c15bb923a495009562f1d90526ad              195 Release
  41f417af71149af915dc17c834e5bd3c37e6f60d            60588 main/binary-amd64/Packages
- 8c03a05f3489eae1f5d4af5d5b7c378674a7d654            18229 main/binary-amd64/Packages.gz
+ ac58bac2bf7599f07f3274e2e04a3b51a361c979            18229 main/binary-amd64/Packages.gz
 SHA256:
- f1123a6baede39aaf1e40d2422e633ec3669ab2850ca4fbee0002858830d6fee              195 Release
+ 500e8ae5a4259ef8099aa51086b16d14c89992e60877a4af4bf09e96e4f17762              195 Release
  046c105d635d0ec83097aaf05d64027dff9c8844ddb71664fbb0b39fcdcbf0b5            60588 main/binary-amd64/Packages
- 532001b3a411b709a332c76fb96d475cc4730a7743c50104b09dd1dcb4859a1d            18229 main/binary-amd64/Packages.gz
+ 77ebcc8cf0b361b847e573cb0c05090271b8d7b954c7c62083037509a829c596            18229 main/binary-amd64/Packages.gz
 SHA512:
- 6100c15582c119451f9a272a45c1a0ac3971cefff12722177aa69e812b8f46f358b8f849411d599766fb5eff80c9ea99c13667ce55da3bd1d2830727a2726c85              195 Release
+ 2b70ffdc2aeb23c122268d26c0ea45282430f3615ea7b400585c013c290f0db378c3054492fb3c6c5b61c4a808f72ea094c7a9af57eff86e3be24fb66dbe2fb4              195 Release
  00226ee0b294096aeb27e5a4e1957ab6b14e53c7569474131a4cc21712f0ede3f2f2161e4eef1e8be19088ca05ee8a032fd2846d316234e27a0b4fef70ca37cf            60588 main/binary-amd64/Packages
- 02b59e57407ece482a510635b938b859ef86a713ecd9dc90502d1be2cedf729e8adb3241b50c3b85937abaab5de328ec9d5e69043574991ca215e2c2bc68d901            18229 main/binary-amd64/Packages.gz
+ e7a199b48bcecf43ec68ac698dd783a1062c14eb67482ea96f467561dc27e8f6caaa2bb399ab4b022d643f1c7898ccfd31173ae0416d53ca74d1c33d94746b1c            18229 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQaMPgzmXLPQ3JW0U9g1DhwPPH1dwUCalFvdQAKCRBg1DhwPPH1
-d6saAQDlv0f3RQP1TuurxmYkGmRoLr51gwo4qR3qFiX0+yu1+QEA928YEt4k0z6I
-stK7Kf3oCX3yFW/pbNmWEnLk5/nJ7QE=
-=s0xS
+iHUEARYKAB0WIQQaMPgzmXLPQ3JW0U9g1DhwPPH1dwUCalFwHQAKCRBg1DhwPPH1
+d30KAP9yMXl+GzqiAgmke1p9jhZJrGiulwVfUuGqVYzbMm7BPgEA68eZQiy81b3J
+i57lLpdb8f9ul2ozI4XZ1na1yOec2AQ=
+=xTmH
 -----END PGP SIGNATURE-----

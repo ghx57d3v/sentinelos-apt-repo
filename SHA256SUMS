@@ -2,11 +2,11 @@
 6a1b450cd55e8def370ddde782d0c2202e64437f96a5f44a886d653769b18d9c  ./_backups/rejected-packages/20260711-081705/aegis-prime-v1.0_0.1-1_all.deb
 6a1b450cd55e8def370ddde782d0c2202e64437f96a5f44a886d653769b18d9c  ./_backups/replaced-packages/20260711-080201/aegis-prime-v1.0_0.1-1_all.deb
 3f384be68d025d9c411591f6458de76ce12fc4d86c86b4c8c2c8f78b99392844  ./CNAME
-dacf2e70c8bfdf55577c6d4b2db2867d38dc7c2d96d9583ac61c694e9f8a2854  ./dists/stable/InRelease
+a59d4ad8ff02cd53243cd028de3460341f3c76c56ea2f5699b7d2a1388670ded  ./dists/stable/InRelease
 046c105d635d0ec83097aaf05d64027dff9c8844ddb71664fbb0b39fcdcbf0b5  ./dists/stable/main/binary-amd64/Packages
-532001b3a411b709a332c76fb96d475cc4730a7743c50104b09dd1dcb4859a1d  ./dists/stable/main/binary-amd64/Packages.gz
-5e917fbea7c6262cb5ae96186ca2480f72553acaebe21a7f33754e7cccb9fdda  ./dists/stable/Release
-099c7e0b3e7499de73871599b00cb033b01e1c2857fab4d738f0fae6735f0701  ./dists/stable/Release.gpg
+77ebcc8cf0b361b847e573cb0c05090271b8d7b954c7c62083037509a829c596  ./dists/stable/main/binary-amd64/Packages.gz
+c2fc84321151bf8484718add6cd3c1a7281e58a9dab3706ffd2333b8081d2692  ./dists/stable/Release
+87cd9f96d61183dac90467e2e8d261ee6825b662d4953342fda3e12b55e821f3  ./dists/stable/Release.gpg
 e2490e8a0e9c7d00f9c468b83240b4f2ac1ea461db62780222cc6d0383b80c58  ./keys/sentinelos-archive-key.asc
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./.nojekyll
 5c7a7b0e22e42fdecb598b1ed19aa70a0f46e6f03eec8979e76c0fc32bdb2717  ./pool/main/aegis-prime-suite_1.0.0-1_all.deb
