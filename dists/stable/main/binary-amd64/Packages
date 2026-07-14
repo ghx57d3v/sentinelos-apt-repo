@@ -1729,6 +1729,23 @@ SHA256: 686d1cd35c5be81805ae5427492e66387554ac8b2886d9e1a584161534d0d374
 SHA512: cd18d271b9ca8bdb34f1a8168616a993d4fc583ca3bcd5a5fa12281c20077f786f1ac72e75d13196610e5dec8d2769d08dab46d64ea8e960ab6c252aaf751049
 Description: SentinelOS v0.1.9a desktop branding baseline marker
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-wallpapers (= 0.2.0c-1), sentinelos-icon-theme (>= 1.0.3-2), sentinelos-mate-menu-panel-baseline (= 0.2.0c-1), sentinelos-grub-branding (= 0.2.0c-1), sentinelos-login-branding-baseline (= 0.2.0c-1), sentinelos-plymouth-theme (= 0.2.0c-1), sentinelos-visual-activation (= 0.2.0c-1)
+Recommends: sentinelos-wallpapers-extra (= 0.2.0c-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.2.0c-1_all.deb
+Size: 1168
+MD5sum: 5651718a52b721877f4fbebe41d7a2ad
+SHA1: 3be53ee243a5ef4b97a247c43734725413120674
+SHA256: 1fe3a782420ed49ce9ce5090cbba988f5274aebeea9f6ab3292219642dd16e2e
+SHA512: b70718648825632a84d3a800c74c910ef77346b68579e7e9b5893b0911a157d7a39e0349019f5f23de5063406094bd1de005ed4a25cb4998d4e8d62b95c4510d
+Description: SentinelOS complete desktop and visual branding baseline
+ Installs the package-managed MATE, icon, wallpaper, GRUB, login and Plymouth layers.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -1826,6 +1843,23 @@ SHA256: f6a50d333f953936065b254c8e9101620b3e8ad85e9f7c526197275f25240e4d
 SHA512: 2cf6684c671d5393c3d2f8a0f5f684ed2b75a3c686cc1202099c7acbb8ccf60051a68c41efa7c4e174004579d827d8271cbd0c5b0203d1b11f6d06d40876615d
 Description: SentinelOS v0.1.4 foundation meta package
 
+Package: sentinelos-grub-branding
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, sentinelos-wallpapers (>= 0.2.0c-1)
+Recommends: grub-common
+Filename: pool/main/sentinelos-grub-branding_0.2.0c-1_all.deb
+Size: 1664
+MD5sum: 86cb3b046639089fcfc5b8933962f02c
+SHA1: 28b270e1e1cea463859358118f8e15ed00629b8f
+SHA256: 4e2e6d760f263335b2883604d824c06cdfa5053f25bb5fab2b18979781e0f445
+SHA512: e4ec85c383e2ce446d4637db50ac6619bb1fc9cdcb0858867fa895744deadc102eb9526194095c36b802e64cc10ed237b89f57e40b0c02a520d08765a3612647
+Description: SentinelOS GRUB branding controller
+ Stages a GRUB drop-in with backup and explicit regeneration; installation is passive.
+
 Package: sentinelos-hardening-base
 Architecture: all
 Version: 0.2.6a-1
@@ -1872,6 +1906,23 @@ SHA256: 4cdb661c096317f640f6c13e0e63b7abedf44f94a5b9e9d86a3780ba433c85a5
 SHA512: fa4a62ac9c96b7513ba66f453b1da3b738043fa59ef291baf843cb8ee5d84476a179016c3ec23b4a5aa62f218545377dee63f188cafa0c5a893990ef7e4a578e
 Description: SentinelOS dark icon theme for MATE
  SentinelOS-Dark icon theme v1.0.3 official menu applet and Sentinel Tools coverage patch.
+
+Package: sentinelos-icon-theme
+Architecture: all
+Version: 1.0.3-2
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: hicolor-icon-theme
+Recommends: mate-icon-theme
+Filename: pool/main/sentinelos-icon-theme_1.0.3-2_all.deb
+Size: 14120512
+MD5sum: 1a950195efa545ce2251feb39fd2a966
+SHA1: d38c465b9ce5405bf818efbc6c7cae425ee05829
+SHA256: b42a5224c3ac730b58d03becd014434bd115df2388458da4bd965764eb4d12a2
+SHA512: ada1ee7620de5d745ebc4ea617e8deca2df7af02377c44e9a5c4e6888599bbd1c6214181cf55b037a65b9c162e3c536db3f084672f8a75dbab01a4bd80e0f3ba
+Description: SentinelOS dark icon theme for MATE
+ Clean passive repack of the supplied SentinelOS-Dark icon assets.
 
 Package: sentinelos-installer-gui-baseline
 Architecture: all
@@ -1920,6 +1971,39 @@ SHA1: f58729eb7cb2ebd83093a5582fe7e05bdd1947af
 SHA256: 24c30d6d4384163e9b76be4fc5ad9600d9a3e4bfc73a6081a4aeb47390611dad
 SHA512: a95553fb976b625a0ecf1f1a9f64e2cd484d83984e6753550e1c1bde8ac1555a40f51f4fd620e107c87ebf0621252e9895bb4d6507f79a7c52b1e68a7c0c2e71
 Description: SentinelOS v0.1.6 controlled suite integration baseline meta-package
+
+Package: sentinelos-lightdm-branding
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme (>= 1.0.3-2)
+Recommends: lightdm, lightdm-gtk-greeter
+Filename: pool/main/sentinelos-lightdm-branding_0.2.0c-1_all.deb
+Size: 1692
+MD5sum: 7edd9dde03a9d8efc158490a9c27310b
+SHA1: 540d41dbc2aaa54f2eaacf27ab9ffc63d2f2cba5
+SHA256: 3534dfc160a078c9ccddbdc300d1ea7143508ecf1b93d465704ffa1256f562f5
+SHA512: c342da2d85ef0a744f989eb072ea4d46f74708de99ff5c14e91af0a41b17f27592f16fa136ae24e9345cec3248190f4760ef15abc316dbaa495b200607e88a56
+Description: SentinelOS LightDM GTK greeter branding controller
+ Stages a greeter drop-in with backup; never restarts LightDM automatically.
+
+Package: sentinelos-login-branding-baseline
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-lightdm-branding (= 0.2.0c-1), sentinelos-mate-defaults (= 0.2.0c-1), sentinelos-wallpapers (>= 0.2.0c-1)
+Filename: pool/main/sentinelos-login-branding-baseline_0.2.0c-1_all.deb
+Size: 984
+MD5sum: b97f3d1d60d20ca3a18a275d3a7ff671
+SHA1: c58cb5cbd01f7a9a82216e3edc2383cb54b65dc9
+SHA256: 9f761735be3c3c25b3f39591f68318da3fd796a6fa0d559a07e5c51eda143ae8
+SHA512: c48bdcafbd6a890a097dac2e4169c74312d5038105a7a04087af5448a70846a9496139cbdde9da9c9c896cdfa56ccefb00b6393427cafbecc73371c37c169c15
+Description: SentinelOS login and lock-screen branding baseline
+ Ensures the LightDM and MATE lock-screen asset providers are installed.
 
 Package: sentinelos-login-screen-baseline
 Architecture: all
@@ -2015,6 +2099,56 @@ SHA512: 48e39d07f226eedca5417d04d82a2a280371d8b7d8ff319955b1b459434d3e9a85f27e0d
 Description: SentinelOS safe MATE desktop defaults templates
  SentinelOS v0.1.2 desktop identity baseline component.
 
+Package: sentinelos-mate-defaults
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme (>= 1.0.3-2)
+Recommends: mate-desktop-environment-core, mate-screensaver
+Filename: pool/main/sentinelos-mate-defaults_0.2.0c-1_all.deb
+Size: 2096
+MD5sum: 5c1a00ced80419d3594c15358d7f58a7
+SHA1: 373e8c4fdd0046b72187bbdbfe2411d8db23bc99
+SHA256: a25616d88b4545fca6543c187a4f701daeecf31b5fd92ffd51388df9ef3fad2c
+SHA512: 59b286b6a231c2861c723b31df27d54ac34909adec7e7599980719d662c1579194bb7d9fdfbdf05631afa4b2ce5d550fc8a3d5b52f389a523d917943f4942051
+Description: SentinelOS MATE desktop defaults
+ Provides explicit user-scoped apply, verify and restore tooling; package installation is passive.
+
+Package: sentinelos-mate-layout
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, mate-panel
+Recommends: mate-menu
+Filename: pool/main/sentinelos-mate-layout_0.2.0c-1_all.deb
+Size: 2144
+MD5sum: 237a75bfdf8c614697cc4fe6fe9a5781
+SHA1: 152ca28c133e1e6348bbe02554510478b4ccd6dc
+SHA256: ea4f378ec579e387ee65dadd87696bfc0a8994b20faf9d9eed5118403466abef
+SHA512: 98164f04ce052be94394a5f5ecd7dc08d8bb3a7bd8c92d553a1b8c98c63578c1c37fafd01257b95f0d770f9bb0fe019a9ab8a52ee80caeddf458a938ff6dc922
+Description: SentinelOS Windows-familiar MATE panel layout
+ Provides an explicit user-scoped bottom-panel layout with Sentinel launchers.
+
+Package: sentinelos-mate-menu-panel-baseline
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-mate-defaults (= 0.2.0c-1), sentinelos-mate-layout (= 0.2.0c-1)
+Filename: pool/main/sentinelos-mate-menu-panel-baseline_0.2.0c-1_all.deb
+Size: 956
+MD5sum: 79fb118988a8c5ab3b9afad4a089466f
+SHA1: 67ff00448411f3bc9e7498101722349b4147ba39
+SHA256: 795d74d2d3de8663a0399db2dc1cbd8db1b0d09a127d1bac86f5b9d49c5ddb1f
+SHA512: b4a3b441ea71fa702ab77cea85065cab1703710db9af9e0761cd44aeb897beb915543bf4f8e64a14dfd086dd9d32968ba1a1a6cc8bbdb28210196b1ca397f4c0
+Description: SentinelOS MATE menu and panel baseline
+ Dependency baseline for the controlled MATE defaults and panel layout.
+
 Package: sentinelos-menu-layout
 Architecture: all
 Version: 0.1.2-1
@@ -2045,6 +2179,22 @@ SHA256: 5756312e036700995239140976f130261aeae65553499dd5f613060893cfb720
 SHA512: 56ecfa019dfea981c504a5708d086ed14ac385571b20833f201ff6c8a3c524b80c44aaba7738a48d462e7ef7dc162b10f9489ed5d9c717a0e242c4b5a2eea418
 Description: SentinelOS v0.2.5a official baseline iconset marker and verifier
  Records the official uploaded baseline iconset policy for SentinelOS theme-base work.
+
+Package: sentinelos-plymouth-theme
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: plymouth, sentinelos-wallpapers (>= 0.2.0c-1)
+Filename: pool/main/sentinelos-plymouth-theme_0.2.0c-1_all.deb
+Size: 1164
+MD5sum: 14a59c8e4edc961d5498bf047a0341cd
+SHA1: 774f29ce5ba62c79f471f045a4d427a9ca37f7c1
+SHA256: e7a547b992f36e130f2af26d59149991e51467cbd5826708eb23d15d17d2974c
+SHA512: 11929863ba7b60780f61d748fcbaf0aa75b8a57aca52d40d80abb5bf76d271fff71e407e84800979c94d26eb1248f9ed6b5ae89b8933f98e4133ab326d98381b
+Description: SentinelOS Plymouth boot theme
+ Installs a passive image-based Plymouth theme; selection remains explicit.
 
 Package: sentinelos-policy-core
 Architecture: all
@@ -3705,6 +3855,39 @@ SHA512: 099436311af72e5967073bf9014604ab86181a34e277e55366fcb1b8953ad49d12b4b004
 Description: SentinelOS clean theme stability guard
  Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
 
+Package: sentinelos-visual-activation
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, sentinelos-grub-branding (= 0.2.0c-1), sentinelos-lightdm-branding (= 0.2.0c-1), sentinelos-plymouth-theme (= 0.2.0c-1), sentinelos-login-branding-baseline (= 0.2.0c-1)
+Recommends: grub-common, initramfs-tools
+Filename: pool/main/sentinelos-visual-activation_0.2.0c-1_all.deb
+Size: 2176
+MD5sum: 568323f08356ff2ceefe43d608dde1d3
+SHA1: 1a54fd0dbc2332b195e77dbaa759d73fae448730
+SHA256: 4bc6cb0d18a89917cc85c879146f4e4d54c200ca384bc828e1a180bd7750dba9
+SHA512: 3d38c2e2975dd8cbc2e58d71af61bbf149fe0f0eb4bd7fe1ed40ba38aa965b42159bac8bce2d158a8cf8e6db0411016a5912b64d669d9248c1980cf421a2bf3b
+Description: SentinelOS boot and login visual activation coordinator
+ Explicit backup-first activation of GRUB, LightDM and Plymouth with verification.
+
+Package: sentinelos-wallpapers-extra
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-wallpapers (>= 0.2.0c-1)
+Filename: pool/main/sentinelos-wallpapers-extra_0.2.0c-1_all.deb
+Size: 28851752
+MD5sum: 17243578e4010b7b5c2ca66f035204b9
+SHA1: 72042f9adc19636c5f61fe5ec18465f728dcacd6
+SHA256: 2a841d62e49ed73514e57ff07420458aa200e8865f28b73b34c7cb3a364f137c
+SHA512: 5f17002de965834a21fca349947af737999ae1b0fd9b628d9cd47451734f3a1a7ba20232b46c93844c02485385d44d794ba37183594d018e96d212157c301426
+Description: SentinelOS optional wallpaper collection
+ Installs the additional supplied SentinelOS artwork without changing the active desktop.
+
 Package: sentinelos-wallpapers
 Architecture: all
 Version: 0.1.2-1
@@ -3733,3 +3916,18 @@ SHA1: ec6f93a51b2fc956cd502ad8a74a92da28eef006
 SHA256: cb4e0c8a89819f75afaaacc6df19956f683888945d7cf4260b36e29ad5057340
 SHA512: 74b9bacef1b221c96185d186d201500f6b28280226833699ccd2cd28273c34b655a35ac75eda5f0e36e9fe27092ff47b0b39baa57399c16c43a732025ff7f8ee
 Description: SentinelOS opaque wallpaper and background asset pack
+
+Package: sentinelos-wallpapers
+Architecture: all
+Version: 0.2.0c-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Filename: pool/main/sentinelos-wallpapers_0.2.0c-1_all.deb
+Size: 149716
+MD5sum: aaef7e747c310f30ddba35593f542e72
+SHA1: ac626591c5f1b8044dcedd611ab9256da1a284f9
+SHA256: 2c7938b5b0d099fb1241fd729216d9562a3268ce418bd9075c5eb266ec863349
+SHA512: caedbaa43f69ca7a388177cb34c5aa09593c7d681f3d91ce88970f3911e9dcb64cccfcd747ddb4afba8df3d2bab57957bfb11556a6c3cdd5d1e1e01d9fb611b7
+Description: SentinelOS official desktop and boot artwork
+ Installs passive desktop, login, GRUB, Plymouth and lock-screen assets.
