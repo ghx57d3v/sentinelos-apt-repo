@@ -2227,6 +2227,22 @@ SHA512: c48bdcafbd6a890a097dac2e4169c74312d5038105a7a04087af5448a70846a9496139cb
 Description: SentinelOS login and lock-screen branding baseline
  Ensures the LightDM and MATE lock-screen asset providers are installed.
 
+Package: sentinelos-login-branding-baseline
+Architecture: all
+Version: 0.2.2-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-lightdm-branding (>= 0.2.0c-1), sentinelos-mate-defaults (>= 0.2.2-1), sentinelos-wallpapers (>= 0.2.0c-1)
+Filename: pool/main/sentinelos-login-branding-baseline_0.2.2-1_all.deb
+Size: 1056
+MD5sum: 301bf81cb4ab66475f025bc87a92e897
+SHA1: ae03856d5f276a5186ee79a130733c62c221ec36
+SHA256: d33ac999cd458bd68e9b1c8cc9f7a4ae3d5a4c1342f7020f37c99e7ecd089639
+SHA512: 39386626294f3d3104ad569bacfb741ccd72da6d63eda5485744a49878d07651417335b5d5877385fbc39b5326bcdba5793529f6150ddcb27bf8dbd4bf32f40f
+Description: SentinelOS login and lock-screen branding dependency bridge
+ Retains the validated login-branding payload while allowing the polished MATE defaults cohort to upgrade beyond the retired 0.2.0c exact-version lock.
+
 Package: sentinelos-login-screen-baseline
 Architecture: all
 Version: 1.0.1-1
@@ -4287,6 +4303,23 @@ SHA256: 4bc6cb0d18a89917cc85c879146f4e4d54c200ca384bc828e1a180bd7750dba9
 SHA512: 3d38c2e2975dd8cbc2e58d71af61bbf149fe0f0eb4bd7fe1ed40ba38aa965b42159bac8bce2d158a8cf8e6db0411016a5912b64d669d9248c1980cf421a2bf3b
 Description: SentinelOS boot and login visual activation coordinator
  Explicit backup-first activation of GRUB, LightDM and Plymouth with verification.
+
+Package: sentinelos-visual-activation
+Architecture: all
+Version: 0.2.2-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, sentinelos-grub-branding (>= 0.2.0c-1), sentinelos-lightdm-branding (>= 0.2.0c-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-login-branding-baseline (>= 0.2.2-1)
+Recommends: grub-common, initramfs-tools
+Filename: pool/main/sentinelos-visual-activation_0.2.2-1_all.deb
+Size: 2220
+MD5sum: 28fb944397f1bc00656e29ae83c62713
+SHA1: 493abed89dd65480db7b0943b54b95c5ed6d3496
+SHA256: 27cd09af632e2169c3c2ac9aaaf24824c0ab7d06fc55c6a3f123074992fb7318
+SHA512: c1b24d128523a5a7097e43f6ec3d2e61d03bc7b6240019d45ab5fda995235f35f94bd040304df26063e395426bbaf8b5497b5b06448ac7bcd13ea5d53364a1e7
+Description: SentinelOS boot and login visual activation coordinator
+ Retains the validated visual-activation payload while allowing the current login-branding and MATE desktop cohort to upgrade together.
 
 Package: sentinelos-wallpapers-extra
 Architecture: all
