@@ -2,36 +2,36 @@
 Hash: SHA256
 
 Acquire-By-Hash: yes
-Valid-Until: Fri, 14 Aug 2026 22:27:19 UTC
+Valid-Until: Sun, 16 Aug 2026 02:07:44 UTC
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Wed, 15 Jul 2026 22:27:19 +0000
+Date: Fri, 17 Jul 2026 02:07:44 +0000
 Description: SentinelOS public package repository
 Label: SentinelOS
 Origin: SentinelOS
 Suite: stable
 Version: 1.0
 MD5Sum:
- c6bf9616318c8a98d0324c5f55047fef           212910 main/binary-amd64/Packages
- 75c67e35194c056bb26f5294bd11d1c9            68565 main/binary-amd64/Packages.gz
- 024ddd5918259c9d86109fb70ed7fd5c            57348 main/binary-amd64/Packages.xz
+ 8c02d5a7daf0c7bfd18cf5dd528c00a8           230922 main/binary-amd64/Packages
+ d3d20ecd55a23303cc869c06e355ff33            73686 main/binary-amd64/Packages.gz
+ 69be2079b70ad8d0ebde7a16ee0ff2bd            61344 main/binary-amd64/Packages.xz
 SHA1:
- 758c24675616b51c60355bcfd428bee91dd61771           212910 main/binary-amd64/Packages
- 9ad4792fc4d180673610a9d7e6f70cdecaa0a65e            68565 main/binary-amd64/Packages.gz
- f71dac3ef10ef9a3a4227cf3a4721ac9333908b6            57348 main/binary-amd64/Packages.xz
+ 849c0404408fb6bf8ddafe6a4556e040d472ddd3           230922 main/binary-amd64/Packages
+ 5f0d44e8c8d66998c5e6f357d4093ec2ce053504            73686 main/binary-amd64/Packages.gz
+ 6f0ee77ca39cfb803c44f0d1f7f60c5b25f6fa92            61344 main/binary-amd64/Packages.xz
 SHA256:
- b66e2bed3c61f667150397649e3352e90bcffff915d0d7021823e825fc274a7b           212910 main/binary-amd64/Packages
- 18680309edc79e1c74a3fdbc4527dc62724ab734cf6ee60074ee5ae436d48131            68565 main/binary-amd64/Packages.gz
- 0bfcaec6a9c45e2bdb84557b2f25e049fe397a7ffbd8a4cae4f53ea0a60679d3            57348 main/binary-amd64/Packages.xz
+ 119d61ff8ae25e87f6b850887f486e3934315f39106216d372304f1f314cf15a           230922 main/binary-amd64/Packages
+ 1e88ef0d983acf766beb97bb4930fc5319336c7626719c04946602f8657497bd            73686 main/binary-amd64/Packages.gz
+ b1d91e81753344bef3523ad555752e741a23e7f106a86dc64ac52e91419c640f            61344 main/binary-amd64/Packages.xz
 SHA512:
- 6a0e5dde25f6164553722d8085c5136e350fa8a55b5af0eae587ce1f4d2eff2e9c33fd0096ad99f452b7472c388997fcb206cf22583e700548adeb92d1682e63           212910 main/binary-amd64/Packages
- 3457836eea6c49fcdc226108d779fc46e5378bd4c30fe02888603c60bc9b9e6ce162446ace39328fdb22a827973f7bb4263dd80bd4baf7b20d097be17a07b49b            68565 main/binary-amd64/Packages.gz
- 52c843cbae062d8dea43207917139249d93d2e217e8b0529d8ef0c1bf40cac3bfccb8124075596ce64e23eac83a7e55d5b1a8cca466bb7ed4018bb67d9e77b54            57348 main/binary-amd64/Packages.xz
+ 23512bf8cce8113134f2c039cd24f70cf25811938177107ba6c89e03f0b890a465d4af26b6e35604a71c5d99e600ff0bac50954b34a68d1ef32aa9a5f272ee48           230922 main/binary-amd64/Packages
+ 1e601454fc19e857554feaac429c2fe43ed9e1a5f2941b305098f4ee31ee4f7e007cbc97fb19e749f91f465a2f045e3ffff493c4ae1fdfa8ba7462139351f41a            73686 main/binary-amd64/Packages.gz
+ f7bd4b8456e7bb093bced0e5e1c3bb31e3f911cfdf781963967d3679442dcea48514b52fd30ff9ea2aae70e6c40fe70a922f17965bf0c44da8db468c3851ea10            61344 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQT/GUE8fArp7ycu0mT6heBLtZf9tgUCalgJRwAKCRD6heBLtZf9
-tumbAP9xwV4MdE0znU0BAbFA8nfHd6t813mzus98m8a1KtoSUAEArYQ3jQ1dzd0u
-knlBDI6K5Msd804nIzl5/oFJRbxWngQ=
-=9lk0
+iHUEARYIAB0WIQT/GUE8fArp7ycu0mT6heBLtZf9tgUCalmOcAAKCRD6heBLtZf9
+ttYmAQDw5FkyxXOn4eOG7XRY/T/wIWZ/9hhtLdUnUbj/e2FT9gEAuFGsQmZDR7Q7
+APJOzWJAEAMdwh99OP1VDJ4+rkwE5Ak=
+=FXqL
 -----END PGP SIGNATURE-----
