@@ -2,11 +2,11 @@
 Hash: SHA256
 
 Acquire-By-Hash: yes
-Valid-Until: Sun, 16 Aug 2026 10:16:56 UTC
+Valid-Until: Sun, 16 Aug 2026 10:18:52 UTC
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Fri, 17 Jul 2026 10:16:56 +0000
+Date: Fri, 17 Jul 2026 10:18:52 +0000
 Description: SentinelOS public package repository
 Label: SentinelOS
 Origin: SentinelOS
@@ -30,8 +30,8 @@ SHA512:
  7ec90034acd12d550392de2d2eec779bef24b6e1c467ef23f51db972c97f733e0844ee08fa7575d10e8ffd7ed8700860842c1042a7cf6a2e4de65adfce7d9d8e            67068 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQT/GUE8fArp7ycu0mT6heBLtZf9tgUCaloBGAAKCRD6heBLtZf9
-tv95AQDgc4fXmncSoKPpf98D6SeSWKguLFoxK4HRN6iiZIoRDgEA0um+DL4o0Jt2
-bN+Xvey96S1ByrClUOAbsl+Rk34VOwI=
-=cx+U
+iHUEARYIAB0WIQT/GUE8fArp7ycu0mT6heBLtZf9tgUCaloBjAAKCRD6heBLtZf9
+ttgaAP460YKLW2BxCxNTkY/P9OUqpxHqZeDTaBkiVA4C25FT0wEAvViiIkcIOfKK
+7TI6DKG/kmw0U9zjET0QrNe78mrjJA0=
+=fAj+
 -----END PGP SIGNATURE-----
