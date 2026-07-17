@@ -1959,6 +1959,22 @@ SHA512: 790cf1c1d54976d5f111bd50352833d9c1db23e801d026d2b83cacea4925a77f60f3e671
 Description: SentinelOS v1.0 AMBROSO desktop baseline with polished three-theme rebuild
  Preserves the validated menu, panel, GRUB, login and identity baselines while replacing only the presentation theme base.
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 0.3.0-2
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-family (>= 1.0.15-1), sentinelos-theme-family (= 0.3.0-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-polish (= 0.3.0-1), sentinelos-mate-defaults (= 0.3.0-1), sentinelos-mate-menu-panel-baseline (= 0.2.4-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.2-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.3.0-2_all.deb
+Size: 1032
+MD5sum: 21fd55e41d335108438ce57f9afe0cb7
+SHA1: 4e741647994404521d473fa4c03a4e4a987f0c28
+SHA256: 8ed6614ce22afef6bd817532cec9544dc056ec4b63fe638093bdb714ae171415
+SHA512: 8b1b2694271c354f09984a7b75fb362770f8b55214449f12a901f6ec1f97786d8cb2e7f0614980a4eb4441b42473744663809736ad6932e58ab31fa73af36dff
+Description: SentinelOS v1.0 AMBROSO desktop baseline with three-theme dependency repair
+ Preserves the v1.1.5 theme rebuild and the validated menu, panel, GRUB, login and system identity. This revision only aligns the menu/panel dependency cohort.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -2890,6 +2906,22 @@ SHA256: f8db6f1718b62650e50a27aca692a42a0ea31a2571353430fcee676733e88511
 SHA512: 7d06832452bf24a796c6744bb25d2ca2805abafb33c7cbcff1eac2b24a50e90b59ed7c9a0103bbc5204f153060da8eac50f53b2614dd097df31a606352cf1c0a
 Description: SentinelOS final menu and panel baseline
  Locks the dedicated complete SentinelOS menu, theme-aware button and polished bottom panel.
+
+Package: sentinelos-mate-menu-panel-baseline
+Architecture: all
+Version: 0.2.4-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-mate-shell (>= 0.2.1-1), sentinelos-mate-defaults (= 0.3.0-1), sentinelos-mate-layout (= 0.2.3-1), sentinelos-desktop-polish (= 0.3.0-1), sentinelos-desktop-suite-menu (>= 1.0.0-1)
+Filename: pool/main/sentinelos-mate-menu-panel-baseline_0.2.4-1_all.deb
+Size: 936
+MD5sum: cfa82ed69470101590f00920d8da2b8d
+SHA1: e808238d457051e35cec7116753e93de17e5337e
+SHA256: 1fa29d18bbc51f3abe3ab3e809cabdd5efa75ee471b50d8022613865706b0525
+SHA512: f569bf133f897b1214a767a5955e7189ed2dd4a38df11b3b4d4917917526964bd3ae697f1301206e08a276a9cba4b7635f95a5d88074fc90d5373743a14f156a
+Description: SentinelOS locked MATE menu and panel baseline aligned to the v1.1.5 GUI cohort
+ Preserves the validated v0.2.3 menu/panel payload. This revision changes only dependency metadata so the locked layout can coexist with the v0.3.0 theme and polish packages.
 
 Package: sentinelos-mate-shell
 Architecture: all

@@ -101,6 +101,7 @@ d00389a41cfe406e57cea136b5d41c3aaf19a086e9ebec5ab1874ab8aea2fd52  pool/main/sent
 680bcd766dc47f3e0aca1877da247ba5d8c47dfb190156dd83d55fee00064215  pool/main/sentinelos-desktop-branding-baseline_0.2.3-1_all.deb
 b7066280fad6c7606327f2ccd846c53d9ee93bde6caa43dc797ac6c0e0933d5b  pool/main/sentinelos-desktop-branding-baseline_0.2.4-1_all.deb
 83db4702d051d960d0723aa6b45534f650c11c3fb90d124bd9ae8d14762d6b5d  pool/main/sentinelos-desktop-branding-baseline_0.3.0-1_all.deb
+8ed6614ce22afef6bd817532cec9544dc056ec4b63fe638093bdb714ae171415  pool/main/sentinelos-desktop-branding-baseline_0.3.0-2_all.deb
 849f66ebfc1301bd30c9225578129a44e86bec36d2929f8168321068993b549f  pool/main/sentinelos-desktop-conformance_0.1.4-1_all.deb
 6e9f7d0453d519e7bebd80d9b2350ddbd4fdb4ecf48f62a11aa68169a9aa7b36  pool/main/sentinelos-desktop-experience-asset-baseline_0.1.9-1_all.deb
 75ad27eef6ab237edc8ad2a167d4295a606f1622b5faad66fb45ae49108dddb6  pool/main/sentinelos-desktop-identity_0.1.2-1_all.deb
@@ -159,6 +160,7 @@ a30c9fd1e25856cf55da9aef2f202f4af6544bd1aaa9b8cd6101b31ce155a21c  pool/main/sent
 931dcc019609ac1ec9fe84c8814593ff8e94277e0cae348e48f8236faad7ad30  pool/main/sentinelos-mate-menu-panel-baseline_0.2.1-1_all.deb
 079693f846126a2b3d966427e75129fc7637bb7f8ef6e0e68f3c222a7f3cc998  pool/main/sentinelos-mate-menu-panel-baseline_0.2.2-1_all.deb
 f8db6f1718b62650e50a27aca692a42a0ea31a2571353430fcee676733e88511  pool/main/sentinelos-mate-menu-panel-baseline_0.2.3-1_all.deb
+1fa29d18bbc51f3abe3ab3e809cabdd5efa75ee471b50d8022613865706b0525  pool/main/sentinelos-mate-menu-panel-baseline_0.2.4-1_all.deb
 d588669681d43d76546f42fc1a4a93c6ce827b989659a27b5a5f68264b554728  pool/main/sentinelos-mate-shell_0.2.1-1_all.deb
 423066b15efa1d1fd8d1dcdaac9305c3d676e57c5d5fa6e6c81d8deb0cbf28a7  pool/main/sentinelos-menu-layout_0.1.2-1_all.deb
 5756312e036700995239140976f130261aeae65553499dd5f613060893cfb720  pool/main/sentinelos-official-icon-baseline_0.2.5a-1_all.deb
