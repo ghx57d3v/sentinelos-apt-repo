@@ -861,6 +861,22 @@ SHA512: e5416fc23179984978ed01a62cdc4d4fb74162be214d5ad9758e6a17efe1c68fe4012dcb
 Description: Synchronise complete SentinelOS and AEGIS three-theme presets
  Aligns GTK, Marco, approved icon family and menu icon without injecting persistent user CSS. Migrates obsolete six-colour selections.
 
+Package: sentinelos-accent-sync
+Architecture: all
+Version: 0.4.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, python3
+Filename: pool/main/sentinelos-accent-sync_0.4.1-1_all.deb
+Size: 2992
+MD5sum: 303352fa9dc854993062350733454063
+SHA1: 9d36c5bf328af51ff9170a1bbac11d2d613d467f
+SHA256: 69dbed5f530bc7da0f9b71128019a2fb3ef878d1bab9e88690ae97e35c1e488b
+SHA512: bda1511f5c30c6268f7e97e9a0eaa9d4554fe49d78c2a58e169fdcd50ae740fc27e85cbccefbf6591a18804d75d9a5f766e0a0509f5bc73bacbe1af07e22076b
+Description: Synchronise SentinelOS themes and the conditional AEGIS overlay
+ Aligns GTK, Marco, approved icons and menu identity without persistent user CSS. AEGIS is accepted only when its suite and overlay package are installed.
+
 Package: sentinelos-aegis-gold-theme
 Architecture: all
 Version: 0.2.5-1
@@ -990,6 +1006,22 @@ SHA512: 3d574d54af71b1a3b90fc8d8a88a472253e47b8dca5255a2f055e77b3c12276327438e0f
 Description: SentinelOS installer/conversion option metadata for AEGIS Sentinel Suite
  Registers AEGIS Sentinel Suite as a default-available/default-selected optional layer
  for SentinelOS conversion and installation flows. Runtime remains disabled by default.
+
+Package: sentinelos-aegis-theme
+Architecture: all
+Version: 0.1.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: aegis-sentinel-suite (>= 1.0.0-1), sentinelos-icon-theme (>= 1.0.15-1), sentinelos-accent-sync (>= 0.4.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1), dconf-cli
+Filename: pool/main/sentinelos-aegis-theme_0.1.0-1_all.deb
+Size: 92012
+MD5sum: d0a05e78d01024045ffcbfb37048d7ef
+SHA1: 80e079751ca700688d2d5ae884c414c24451d54a
+SHA256: ce2e6aa27975312ecdfc43e784a1c00a176a9906e79260b04c779f7d716b3e9c
+SHA512: 749b2c40e1fa65d708e561429b4caae62b110c1ba991bfb07ca6bd59ac642946b16e88fee28e62d443efd7b1f267aa450d2618160e199da7ad3c157ff8b2ebb8
+Description: Conditional AEGIS Navy Grey Gold MATE appearance overlay
+ Installs the AEGIS theme only when the complete public AEGIS suite is installed. It is not part of the standard SentinelOS desktop theme family.
 
 Package: sentinelos-aegis-tools-audit
 Architecture: all
@@ -1975,6 +2007,22 @@ SHA512: 8b1b2694271c354f09984a7b75fb362770f8b55214449f12a901f6ec1f97786d8cb2e7f0
 Description: SentinelOS v1.0 AMBROSO desktop baseline with three-theme dependency repair
  Preserves the v1.1.5 theme rebuild and the validated menu, panel, GRUB, login and system identity. This revision only aligns the menu/panel dependency cohort.
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-light (>= 1.0.15-1), sentinelos-theme-family (= 0.3.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-polish (= 0.3.1-1), sentinelos-mate-defaults (= 0.3.1-1), sentinelos-mate-menu-panel-baseline (= 0.2.5-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.2-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.3.1-1_all.deb
+Size: 1036
+MD5sum: d2111ed6579cbb3d32c868e5cb6d49bf
+SHA1: 4a5c051145c61b055f72ff693aba5ad59502b60d
+SHA256: 32d59adf544f3b07cc235d0314a92f1b996ff8f999a2af256841c3ac19384b00
+SHA512: 7c4edbd9d008593fa22050f2f457779a032e85fdf3fdf7eae83dd22a9e468b923d3328878ddde1ac187acf02b9ff99d4ac3b8d1e1938d8f08e291bcb3a567505
+Description: SentinelOS v1.0 AMBROSO desktop baseline with conditional AEGIS policy
+ Locks SentinelOS Light and Dark as default, preserves menu panel GRUB login and identity, and leaves AEGIS appearance to the complete-suite overlay package.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -2121,6 +2169,22 @@ SHA256: 068eb40316beb1a5752c75d06f89885ba226df785c2979abe68bae42364b9794
 SHA512: d9eff8f0fe14e08eeb2c2134ff76cc633c7592a6370848f9b578c78eb14821afcc521bbce3462f575bdf5fb89031d815ef64b54525d91ec0b6ebc701ee44b136
 Description: SentinelOS three-theme GUI polish and desktop policy
  Uses the uploaded polished control base, preserves wallpaper and leaves the validated menu, panel, GRUB, login and identity baselines unchanged.
+
+Package: sentinelos-desktop-polish
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, dconf-cli, desktop-file-utils, xdg-utils, sentinelos-theme-family (= 0.3.1-1), sentinelos-icon-theme-light (>= 1.0.15-1), sentinelos-accent-sync (= 0.4.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-suite-menu (>= 1.0.0-1)
+Filename: pool/main/sentinelos-desktop-polish_0.3.1-1_all.deb
+Size: 2464
+MD5sum: 88d7df1883c49e5b383601ecab409e7a
+SHA1: 2e22300e336166bbbec26f2cddc54e851ae9f27b
+SHA256: 67dbfefab9bbb3daad5ff8b0f908d1589647042e5668958c9a754f154ec7eb41
+SHA512: c91ac0f3986929a174ad47f898c81c18ea523eecb8a949c82b7386d8fc2f05fe67124b03f484c871d79b4eaada84782390812eac7f170396aec8b9037281807b
+Description: SentinelOS two-theme GUI polish and desktop policy
+ Preserves wallpaper and the validated menu, panel, GRUB, login and identity baselines. AEGIS is accepted only through its conditional overlay package.
 
 Package: sentinelos-desktop-suite-menu
 Architecture: all
@@ -2774,6 +2838,22 @@ SHA512: 0d35c0bd1632a23ed44711b7d3b960f40dd9d58223b8a1c1361d44815847fad8ec6ca6ff
 Description: SentinelOS wallpaper-safe MATE defaults for the three-theme baseline
  Uses SentinelOS Light as the public default while preserving deliberate Sentinel Dark or AEGIS selections.
 
+Package: sentinelos-mate-defaults
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-desktop-polish (= 0.3.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-mate-defaults_0.3.1-1_all.deb
+Size: 1388
+MD5sum: fbc343c3a688291a271b9a2e850aa570
+SHA1: 56bd3d1343004ae2f0d19f8acea5d79b8d61e6ed
+SHA256: fa031def00cab3a830f8408419c70995492b1b25a22c22d1d0ca838f8f8201d1
+SHA512: 4610590bba4630fffcc9e60d498f08205a9417374368c08e976b2200b342b2ad1b55f6d8924c00bd58031f664deaba5a1391e699f7013c46115005354766f8e8
+Description: SentinelOS wallpaper-safe MATE defaults for the two-theme baseline
+ Uses SentinelOS Light as the public default while preserving a deliberate Sentinel Dark selection. AEGIS is handled by its conditional overlay.
+
 Package: sentinelos-mate-layout
 Architecture: all
 Version: 0.2.0c-1
@@ -2922,6 +3002,22 @@ SHA256: 1fa29d18bbc51f3abe3ab3e809cabdd5efa75ee471b50d8022613865706b0525
 SHA512: f569bf133f897b1214a767a5955e7189ed2dd4a38df11b3b4d4917917526964bd3ae697f1301206e08a276a9cba4b7635f95a5d88074fc90d5373743a14f156a
 Description: SentinelOS locked MATE menu and panel baseline aligned to the v1.1.5 GUI cohort
  Preserves the validated v0.2.3 menu/panel payload. This revision changes only dependency metadata so the locked layout can coexist with the v0.3.0 theme and polish packages.
+
+Package: sentinelos-mate-menu-panel-baseline
+Architecture: all
+Version: 0.2.5-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-mate-shell (>= 0.2.1-1), sentinelos-mate-defaults (= 0.3.1-1), sentinelos-mate-layout (= 0.2.3-1), sentinelos-desktop-polish (= 0.3.1-1), sentinelos-desktop-suite-menu (>= 1.0.0-1)
+Filename: pool/main/sentinelos-mate-menu-panel-baseline_0.2.5-1_all.deb
+Size: 936
+MD5sum: ee6869e89aa5da7f552626251e66bc1c
+SHA1: aff73127f825ecc38fa79360d31c63e149add754
+SHA256: a254f9d4c6e6f0766e8e94157f2325a6f21129606d6911a47a1c41b9b2579224
+SHA512: 75e13c2b8a68aa8c44a78739910466ceb373cf1809ec8ac8d79b2ea7053e82a8326d02b25577c23356a5a9a2e05fa1a6319cf1db06e4143ac45b52f017291b77
+Description: SentinelOS locked MATE menu and panel baseline aligned to v1.1.5b
+ Preserves the validated menu and panel payload while aligning dependencies with the conditional two-theme GUI baseline. Right-side menu-button spacing is provided by the locked GTK themes.
 
 Package: sentinelos-mate-shell
 Architecture: all
@@ -4648,6 +4744,22 @@ Description: SentinelOS polished three-theme GTK and Marco base
  Provides SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold only.
  Corrects MATE component previews, preserves Caja wallpaper transparency and uses the uploaded polished control assets.
 
+Package: sentinelos-theme-base-reframe
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: mate-themes, dconf-cli, python3, sentinelos-icon-theme-light (>= 1.0.15-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-theme-base-reframe_0.3.1-1_all.deb
+Size: 100896
+MD5sum: 8e5d6a071040bce5b9eb4ca3f654af31
+SHA1: 0a07b9476813d0d297d28bfe33a5c0d6dbf2caeb
+SHA256: 081d3e28f17ea618af00605efa389aab869c992b337d7067a57d1113365e83c7
+SHA512: 11afaac74f2846303f6ae5630d161b2a0f864123d5a78186db05765f976b707a4eb7d13bc0b20e7de9e9dd522f596cd199e63b7585e39942d2b68be608301463
+Description: SentinelOS polished two-theme GTK and Marco base
+ Provides SentinelOS Light and SentinelOS Dark with cyan accents, complete MATE previews, wallpaper transparency and locked menu-button spacing. AEGIS is deliberately excluded from the default OS package.
+
 Package: sentinelos-theme-baseline-lock
 Architecture: all
 Version: 0.2.5c-1
@@ -4724,6 +4836,22 @@ SHA256: 46276c15465f93f56935b25692a0663b44a1827de7cd69481c7c87d371417b56
 SHA512: 1fac18f8200201a816957f60238ed630c84ad07857f004209d95f2b8ecef195b47f34565da5c61ca6b01deb7bcb140ebd59239c6cb00a90cd920e29128af0a3e
 Description: SentinelOS three-theme polished MATE baseline lock
  Locks SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold with valid component previews and wallpaper transparency.
+
+Package: sentinelos-theme-baseline-lock
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-theme-base-reframe (= 0.3.1-1)
+Filename: pool/main/sentinelos-theme-baseline-lock_0.3.1-1_all.deb
+Size: 1200
+MD5sum: c35554e17b1d05b6f50f58df147a1775
+SHA1: 4a3837577c735b3a2ebc5cd8ed8eac617e7ca930
+SHA256: 5c2d159a084ce854a52a341b5c1337a41d98538fffd0a1efbcb1bba3bfbdf549
+SHA512: 42152c852cb2a4faa3e3a1b96d3e2f957be8c077e50876a63986198f5f31ea950d9085ddfc5b30b7f53fbdba65b8758b5281cf6514f47a0ea8760678a267ef8d
+Description: SentinelOS two-theme polished MATE baseline lock
+ Locks SentinelOS Light and SentinelOS Dark as the default OS family. The AEGIS theme is an independently packaged conditional overlay.
 
 Package: sentinelos-theme-clean-baseline
 Architecture: all
@@ -4820,6 +4948,22 @@ SHA256: 545fe8d588d12197d6df46dfc62e7457d2da48493494e7353fa7fe6cfe2b51e9
 SHA512: b30c9c88ce410a4ed06663edede5618c25893e9a59eaa070560f64ec04f7d8a719ae2925344a0b73e74be369f4c473b24f106f9140f96ef8c4e854c997526f3b
 Description: SentinelOS complete polished three-theme appearance family
  Installs coordinated GTK, Marco, icons and wallpaper-safe activation for SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold.
+
+Package: sentinelos-theme-family
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-theme-base-reframe (= 0.3.1-1), sentinelos-theme-baseline-lock (= 0.3.1-1), sentinelos-icon-theme-light (>= 1.0.15-1), sentinelos-accent-sync (= 0.4.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-theme-family_0.3.1-1_all.deb
+Size: 936
+MD5sum: 43e304b468d9d6b52803ed044dfc313f
+SHA1: 2f313c79d729b5c8187c76602518830bdf583351
+SHA256: d03b07dfaf49c17fbc138717a5effce7ac2e937705e1aaeefab7e883afef6855
+SHA512: 7360c2b76689d6620507127edfcd83bba5d2200421bf01ee398ce106a62d7c90559b12e487e1787ed05f2d04f9a01f274444b6fbf14a20c79b0f27444978d44b
+Description: SentinelOS default polished two-theme appearance family
+ Installs SentinelOS Light and SentinelOS Dark with cyan icons. AEGIS Navy Grey Gold is excluded unless the complete AEGIS suite and its overlay package are installed.
 
 Package: sentinelos-theme-preview-polish
 Architecture: all
