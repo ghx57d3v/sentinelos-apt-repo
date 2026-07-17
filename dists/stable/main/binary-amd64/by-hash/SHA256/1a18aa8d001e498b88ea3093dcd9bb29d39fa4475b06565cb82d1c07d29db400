@@ -845,6 +845,22 @@ SHA512: b1cfac4938c3cf5adb2edbfd96c579225c2bedb5bda2bd053af90ea26644fe044d6052a1
 Description: Atomically synchronise complete SentinelOS appearance presets
  Treats the selected SentinelOS GTK theme as authoritative, then aligns Marco, icon family, active controls, scrollbars and the MATE menu icon. Fixes cyan persistence when selecting red, pink, gold, green or purple themes.
 
+Package: sentinelos-accent-sync
+Architecture: all
+Version: 0.4.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, python3
+Filename: pool/main/sentinelos-accent-sync_0.4.0-1_all.deb
+Size: 2664
+MD5sum: cab20f60f81a80a072e329064657fa29
+SHA1: cb412eb0250a259ca1734f075c0d0d2277d84027
+SHA256: 1c9bebfe2a389959c2373e479ed4ce46a1e359d2698827df144f7975de04a12b
+SHA512: e5416fc23179984978ed01a62cdc4d4fb74162be214d5ad9758e6a17efe1c68fe4012dcbafe8b2d469844c7e879e3ad4a3db5a1884a07efa3650c8c58571df4f
+Description: Synchronise complete SentinelOS and AEGIS three-theme presets
+ Aligns GTK, Marco, approved icon family and menu icon without injecting persistent user CSS. Migrates obsolete six-colour selections.
+
 Package: sentinelos-aegis-gold-theme
 Architecture: all
 Version: 0.2.5-1
@@ -1096,6 +1112,22 @@ SHA256: 2a4b38db607da6a7d68c566b62d74c210e3c386e34083e06234abeff7a6ce93a
 SHA512: 617d39a48aaca0d3e705dc84d4e56c3f2ea2c6bd4dfac2eb8412beaebf19f894abc9440d8d0b63d1430156ac2434d2f39eb8410578b92c7d7ee087b9633573bb
 Description: Non-destructive SentinelOS wallpaper preservation guard
  Snapshots and preserves all MATE background keys during theme and polish upgrades. The official wallpaper is restored only through an explicit confirmed command or when a missing path is explicitly repaired.
+
+Package: sentinelos-background-preservation-guard
+Architecture: all
+Version: 0.2.8-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli
+Filename: pool/main/sentinelos-background-preservation-guard_0.2.8-1_all.deb
+Size: 1904
+MD5sum: 407e01e2ce12c91839356a8cf982efbb
+SHA1: 876b875643f88c379bc41dee2d064f1cdc3320c7
+SHA256: 34683f7253e40a9cd2917aba527261742a7598451241fb05360405d8701e16e1
+SHA512: e549d0966f49aa7398f131a59d349196698de7609847396096a8f1312a01487b16e7c696015553c1da03b8cf15da563a1b4dd80e32737b474a99e0c5ebdcf92c
+Description: SentinelOS wallpaper preservation and transparent-desktop guard
+ Preserves wallpaper paths and restores MATE background drawing when prior theme policy hid the desktop background.
 
 Package: sentinelos-bluetooth-aegis-icon
 Architecture: all
@@ -1911,6 +1943,22 @@ SHA512: dc6dc32c0b6e59f392a6791a81eb08974194010f10c2299be37dc190a290e1118596bebe
 Description: SentinelOS v1.0 AMBROSO desktop baseline with GUI polish patch
  Retains the validated system identity, menu, panel, GRUB, login and Plymouth baselines while upgrading only the wallpaper-safe GUI theme and accent-cohesion layer.
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-family (>= 1.0.15-1), sentinelos-theme-family (= 0.3.0-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-polish (= 0.3.0-1), sentinelos-mate-defaults (= 0.3.0-1), sentinelos-mate-menu-panel-baseline (= 0.2.3-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.2-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.3.0-1_all.deb
+Size: 1008
+MD5sum: c76c6a177fe9b6e0642c45a0639684ff
+SHA1: 48255115402ba0165ee283e15f642098966bd0f3
+SHA256: 83db4702d051d960d0723aa6b45534f650c11c3fb90d124bd9ae8d14762d6b5d
+SHA512: 790cf1c1d54976d5f111bd50352833d9c1db23e801d026d2b83cacea4925a77f60f3e67104d96ca4cb5f5d52abbdf49a320625c34541b68655ac53f7d5cc1b38
+Description: SentinelOS v1.0 AMBROSO desktop baseline with polished three-theme rebuild
+ Preserves the validated menu, panel, GRUB, login and identity baselines while replacing only the presentation theme base.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -2041,6 +2089,22 @@ SHA256: c1f3c99b656d85ecb19a26aafb7e30cbb550bcdfb1e92f17959b2133885f1720
 SHA512: f6c95d41e5a368b756185c802289567c313bac533eaa17cd2e1ad5b48b7758f7379fe530a5a4609b277870480c807c04f0da38df96227c26edf3c411344019bf
 Description: SentinelOS non-destructive GUI and desktop polish policy
  Preserves the locked menu and desktop baseline while restoring complete theme cohesion, professional control styling and wallpaper-safe upgrades.
+
+Package: sentinelos-desktop-polish
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, dconf-cli, desktop-file-utils, xdg-utils, sentinelos-theme-family (= 0.3.0-1), sentinelos-icon-theme-family (>= 1.0.15-1), sentinelos-accent-sync (= 0.4.0-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-suite-menu (>= 1.0.0-1)
+Filename: pool/main/sentinelos-desktop-polish_0.3.0-1_all.deb
+Size: 2184
+MD5sum: 9b00a154ada63ad0fc4b148e973cd5c2
+SHA1: 05f3cbeebe56f320d4f3fdb0b81188f21ddf297e
+SHA256: 068eb40316beb1a5752c75d06f89885ba226df785c2979abe68bae42364b9794
+SHA512: d9eff8f0fe14e08eeb2c2134ff76cc633c7592a6370848f9b578c78eb14821afcc521bbce3462f575bdf5fb89031d815ef64b54525d91ec0b6ebc701ee44b136
+Description: SentinelOS three-theme GUI polish and desktop policy
+ Uses the uploaded polished control base, preserves wallpaper and leaves the validated menu, panel, GRUB, login and identity baselines unchanged.
 
 Package: sentinelos-desktop-suite-menu
 Architecture: all
@@ -2677,6 +2741,22 @@ SHA256: 6e6417bce23925d2b2644701dbb1386a35897670c3ef2012407bd6b2c7cf1b22
 SHA512: b69ca63c8bb1e067740f54ca098aa01f4ecc7938cca8e75d7ed9cf3fefd4367fa586ecc0e379edadd5ebea5e45b35fc1cb7ac1ba1d21049010f7d549ce7b0f3c
 Description: SentinelOS wallpaper-safe six-preset MATE defaults
  Applies Light Cyan only when explicitly requested for a new profile. Upgrade and repair mode preserves the active approved preset and all wallpaper keys.
+
+Package: sentinelos-mate-defaults
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: dconf-cli, sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-desktop-polish (= 0.3.0-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-mate-defaults_0.3.0-1_all.deb
+Size: 1352
+MD5sum: 827f2cfbb9aaec847f88560d0a6b5ed4
+SHA1: 67dc58656b550d50e4d7817ff8e5a2a8a0cc44aa
+SHA256: 3790934eba504c042049f274bfbfd48fe201ac2340d597846703e88cc238ca6a
+SHA512: 0d35c0bd1632a23ed44711b7d3b960f40dd9d58223b8a1c1361d44815847fad8ec6ca6ff248a793bd03d5fd4874e903a9dd1e276d5ea13a28bc683146d21c913
+Description: SentinelOS wallpaper-safe MATE defaults for the three-theme baseline
+ Uses SentinelOS Light as the public default while preserving deliberate Sentinel Dark or AEGIS selections.
 
 Package: sentinelos-mate-layout
 Architecture: all
@@ -4519,6 +4599,23 @@ SHA512: 1a0349c494d525f8a7529403169fcb5cc9a201a5b15319958ea586bfad85d12d2dcf18e8
 Description: SentinelOS polished six-preset GTK and Marco theme family
  Provides Dark Gold, Dark Red, Dark Pink, Light Cyan, Light Green and Light Purple. Light presets use restrained medium-grey surfaces rather than white or pale grey. Theme application preserves every MATE wallpaper key.
 
+Package: sentinelos-theme-base-reframe
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: mate-themes, dconf-cli, python3, sentinelos-icon-theme-family (>= 1.0.15-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-theme-base-reframe_0.3.0-1_all.deb
+Size: 139760
+MD5sum: 6406a84abf3064510ede974512701c2f
+SHA1: 33b26b694663410a0af55f9a82eada8d464ccbaa
+SHA256: ac9599cf940e4fb8f5f21aebd75328c311a98752f11c50cd22df7c872c506811
+SHA512: 88f212e5112b2551fe81843cdb5df5b1b11f31ce680ce329a7926b2f28ce3ddd5b80da9d5c07450e2eaab028280655a73ea7b71e793ebc01fd1b3bd27cc7d85d
+Description: SentinelOS polished three-theme GTK and Marco base
+ Provides SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold only.
+ Corrects MATE component previews, preserves Caja wallpaper transparency and uses the uploaded polished control assets.
+
 Package: sentinelos-theme-baseline-lock
 Architecture: all
 Version: 0.2.5c-1
@@ -4579,6 +4676,22 @@ SHA256: dfe15afb7b2813af249f278b8d93e44317e2191824470e43aef4dc7aed68410a
 SHA512: 22c92d9e439fa666e791a685b869c4273b860e0e05f4f1174bfd1b8b1f1b3d3cb26ab643e912d53753a1e32c2c45045371ac8f3d25c7ec72f347407a6a082482
 Description: SentinelOS v0.2.7 GUI polish and six-preset baseline lock
  Records the validated dark Gold/Red/Pink and medium-grey light Cyan/Green/Purple appearance matrix with wallpaper-preserving theme changes.
+
+Package: sentinelos-theme-baseline-lock
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-theme-base-reframe (= 0.3.0-1)
+Filename: pool/main/sentinelos-theme-baseline-lock_0.3.0-1_all.deb
+Size: 1056
+MD5sum: 4680266ee4e3af2bf6ce27aeef2d798a
+SHA1: 1c2cd76130491374779a2772912203d5aaa2eca0
+SHA256: 46276c15465f93f56935b25692a0663b44a1827de7cd69481c7c87d371417b56
+SHA512: 1fac18f8200201a816957f60238ed630c84ad07857f004209d95f2b8ecef195b47f34565da5c61ca6b01deb7bcb140ebd59239c6cb00a90cd920e29128af0a3e
+Description: SentinelOS three-theme polished MATE baseline lock
+ Locks SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold with valid component previews and wallpaper transparency.
 
 Package: sentinelos-theme-clean-baseline
 Architecture: all
@@ -4659,6 +4772,22 @@ SHA256: d68cd3f39af967aec17f54338008437bdd5b3a278099fb3e54a23a3d907c2844
 SHA512: d810c3b708b9e534042cdabe5f62e1dff41a53186333dab6daa6118d5ad36361d981202ffb35638943563840e4c43a20761700dca0110ae93f368f9bd6430654
 Description: SentinelOS complete polished six-preset theme family
  Installs coordinated GTK, Marco and icon presets. Selecting a colour changes the full interface rather than retaining cyan accents.
+
+Package: sentinelos-theme-family
+Architecture: all
+Version: 0.3.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-theme-base-reframe (= 0.3.0-1), sentinelos-theme-baseline-lock (= 0.3.0-1), sentinelos-icon-theme-family (>= 1.0.15-1), sentinelos-accent-sync (= 0.4.0-1), sentinelos-background-preservation-guard (>= 0.2.8-1)
+Filename: pool/main/sentinelos-theme-family_0.3.0-1_all.deb
+Size: 908
+MD5sum: 7776a5ea48b8b070db6519c0807bedf1
+SHA1: 968c3a73306ba4419cbdf77a1cc1b42b4bfd6a0e
+SHA256: 545fe8d588d12197d6df46dfc62e7457d2da48493494e7353fa7fe6cfe2b51e9
+SHA512: b30c9c88ce410a4ed06663edede5618c25893e9a59eaa070560f64ec04f7d8a719ae2925344a0b73e74be369f4c473b24f106f9140f96ef8c4e854c997526f3b
+Description: SentinelOS complete polished three-theme appearance family
+ Installs coordinated GTK, Marco, icons and wallpaper-safe activation for SentinelOS Dark, SentinelOS Light and AEGIS Navy/Gold.
 
 Package: sentinelos-theme-preview-polish
 Architecture: all
