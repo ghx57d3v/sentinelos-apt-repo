@@ -105,6 +105,7 @@ b7066280fad6c7606327f2ccd846c53d9ee93bde6caa43dc797ac6c0e0933d5b  pool/main/sent
 83db4702d051d960d0723aa6b45534f650c11c3fb90d124bd9ae8d14762d6b5d  pool/main/sentinelos-desktop-branding-baseline_0.3.0-1_all.deb
 8ed6614ce22afef6bd817532cec9544dc056ec4b63fe638093bdb714ae171415  pool/main/sentinelos-desktop-branding-baseline_0.3.0-2_all.deb
 32d59adf544f3b07cc235d0314a92f1b996ff8f999a2af256841c3ac19384b00  pool/main/sentinelos-desktop-branding-baseline_0.3.1-1_all.deb
+90cf3b67df0a23d425fa5c1055bbd9b897ebf4e34619046ea4dd07d0ec2fcfc0  pool/main/sentinelos-desktop-branding-baseline_0.3.1-2_all.deb
 849f66ebfc1301bd30c9225578129a44e86bec36d2929f8168321068993b549f  pool/main/sentinelos-desktop-conformance_0.1.4-1_all.deb
 6e9f7d0453d519e7bebd80d9b2350ddbd4fdb4ecf48f62a11aa68169a9aa7b36  pool/main/sentinelos-desktop-experience-asset-baseline_0.1.9-1_all.deb
 75ad27eef6ab237edc8ad2a167d4295a606f1622b5faad66fb45ae49108dddb6  pool/main/sentinelos-desktop-identity_0.1.2-1_all.deb
@@ -142,8 +143,10 @@ f3fa39d61d04fcdbd064cfa99f9004cc98b14dfbeae891c931938a2dad8a832e  pool/main/sent
 15e27e3d30cd344186e7b3f466b5c0d22a1b69c0284f47be5f741f4e98ff91a5  pool/main/sentinelos-installer-gui-baseline_1.0.2-1_all.deb
 24c30d6d4384163e9b76be4fc5ad9600d9a3e4bfc73a6081a4aeb47390611dad  pool/main/sentinelos-integration-baseline_0.1.6-1_all.deb
 3534dfc160a078c9ccddbdc300d1ea7143508ecf1b93d465704ffa1256f562f5  pool/main/sentinelos-lightdm-branding_0.2.0c-1_all.deb
+e821b24aff0a72a33e38bd969374538bc325d6b7e4a0fc5700bb09f40edcf281  pool/main/sentinelos-lightdm-branding_0.2.0d-1_all.deb
 9f761735be3c3c25b3f39591f68318da3fd796a6fa0d559a07e5c51eda143ae8  pool/main/sentinelos-login-branding-baseline_0.2.0c-1_all.deb
 d33ac999cd458bd68e9b1c8cc9f7a4ae3d5a4c1342f7020f37c99e7ecd089639  pool/main/sentinelos-login-branding-baseline_0.2.2-1_all.deb
+775b3091d46f16608d5f7e6fad947fa1eb30db8a3870a6b3c3521d91f384046b  pool/main/sentinelos-login-branding-baseline_0.2.3-1_all.deb
 c45a6760d81e246bb1e9e1457a31af9e5cba3b90e5ca7c1779934baf52891671  pool/main/sentinelos-login-screen_1.0.1-1_all.deb
 49e5a3e54b81b47f422ac54defce6a8032a72c6417b104e82433a6682d5bc9b0  pool/main/sentinelos-login-screen-baseline_1.0.1-1_all.deb
 171d7eed27cd10d112b27a2e0e548bf860c597cca9c2f85a2167aee2dae980b0  pool/main/sentinelos-mate-branding_0.1.9a-1_all.deb

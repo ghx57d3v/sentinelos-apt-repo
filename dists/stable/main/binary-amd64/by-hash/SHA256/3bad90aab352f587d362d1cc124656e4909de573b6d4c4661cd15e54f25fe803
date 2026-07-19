@@ -2023,6 +2023,22 @@ SHA512: 7c4edbd9d008593fa22050f2f457779a032e85fdf3fdf7eae83dd22a9e468b923d332887
 Description: SentinelOS v1.0 AMBROSO desktop baseline with conditional AEGIS policy
  Locks SentinelOS Light and Dark as default, preserves menu panel GRUB login and identity, and leaves AEGIS appearance to the complete-suite overlay package.
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 0.3.1-2
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-light (>= 1.0.15-1), sentinelos-theme-family (= 0.3.1-1), sentinelos-background-preservation-guard (>= 0.2.8-1), sentinelos-desktop-polish (= 0.3.1-1), sentinelos-mate-defaults (= 0.3.1-1), sentinelos-mate-menu-panel-baseline (= 0.2.5-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.3-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_0.3.1-2_all.deb
+Size: 1012
+MD5sum: 89c8d53741a187ee06e6042abe222cb6
+SHA1: e3dcba691886c585c539e614b22243329c6ba2fd
+SHA256: 90cf3b67df0a23d425fa5c1055bbd9b897ebf4e34619046ea4dd07d0ec2fcfc0
+SHA512: 1d9548c42411b02e473b4021ca7abc168630cf724dc8f4c1322a7b95a1d3433be2d88aa0ccb2a76ee74424a055ac5240f6882085d3dcfc0f03b4f21a5394aef7
+Description: SentinelOS v1.0 AMBROSO desktop baseline with conditional AEGIS icon policy
+ Locks the cyan SentinelOS login/icon baseline and leaves AEGIS gold assets to the complete-suite overlay.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -2615,6 +2631,23 @@ SHA512: c342da2d85ef0a744f989eb072ea4d46f74708de99ff5c14e91af0a41b17f27592f16fa1
 Description: SentinelOS LightDM GTK greeter branding controller
  Stages a greeter drop-in with backup; never restarts LightDM automatically.
 
+Package: sentinelos-lightdm-branding
+Architecture: all
+Version: 0.2.0d-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-light (>= 1.0.15-1)
+Recommends: lightdm, lightdm-gtk-greeter
+Filename: pool/main/sentinelos-lightdm-branding_0.2.0d-1_all.deb
+Size: 1772
+MD5sum: 19761d0fa923d1b75ffa2f8d7b34520f
+SHA1: 8844b45251bfabe19c41f3c4c07d33abac9cce05
+SHA256: e821b24aff0a72a33e38bd969374538bc325d6b7e4a0fc5700bb09f40edcf281
+SHA512: 99bbed92bcef1fd597b3c457c73fa3dcc78998e9dfc64d72f2f94437d3f9097718010f0eddf30ef09fdbd8e50725b26fdcee93de4f51b119d51c845ae7509840
+Description: SentinelOS LightDM GTK greeter branding controller with cyan icon policy
+ Stages the official SentinelOS login background and SentinelOS-Light cyan icons. AEGIS gold icons remain conditional on the complete AEGIS suite.
+
 Package: sentinelos-login-branding-baseline
 Architecture: all
 Version: 0.2.0c-1
@@ -2646,6 +2679,22 @@ SHA256: d33ac999cd458bd68e9b1c8cc9f7a4ae3d5a4c1342f7020f37c99e7ecd089639
 SHA512: 39386626294f3d3104ad569bacfb741ccd72da6d63eda5485744a49878d07651417335b5d5877385fbc39b5326bcdba5793529f6150ddcb27bf8dbd4bf32f40f
 Description: SentinelOS login and lock-screen branding dependency bridge
  Retains the validated login-branding payload while allowing the polished MATE defaults cohort to upgrade beyond the retired 0.2.0c exact-version lock.
+
+Package: sentinelos-login-branding-baseline
+Architecture: all
+Version: 0.2.3-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-lightdm-branding (>= 0.2.0d-1), sentinelos-mate-defaults (>= 0.3.1-1), sentinelos-wallpapers (>= 0.2.0c-1)
+Filename: pool/main/sentinelos-login-branding-baseline_0.2.3-1_all.deb
+Size: 1048
+MD5sum: 4d7cbb76c0d5d13bedc33dcc1366500d
+SHA1: d5e22d1269ed20696a9b6cbb76723a052e33aff1
+SHA256: 775b3091d46f16608d5f7e6fad947fa1eb30db8a3870a6b3c3521d91f384046b
+SHA512: ee2ab886eb4f22279e430fdc0549d297131cb1199199d9f9422b6862804dc925760440a43a4d779cf827e9139b8f5e0c2e3b69e6b1b678d6bcb49f06eaffd213
+Description: SentinelOS cyan login and lock-screen branding dependency baseline
+ Requires the corrected LightDM package so a standard SentinelOS install does not pull the conditional AEGIS gold icon package.
 
 Package: sentinelos-login-screen-baseline
 Architecture: all
