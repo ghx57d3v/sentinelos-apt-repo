@@ -891,42 +891,6 @@ SHA256: b707ddc92c5e14249d3b87ef8ab847b13c9d25b47c6fad3baf189c0b1091768b
 SHA512: 229fcb066262841de28390d77e9da1e099e44a193fb3cd4e513cf12768a0bb5ab0863dce959acf8f906edd888700c958857456fd54a2bca3da1e18038b3b54d5
 Description: SentinelOS AEGIS Gold polished black/gold exclusive theme package
 
-Package: sentinelos-aegis-prime-default-baseline
-Architecture: all
-Version: 0.1.7c-1+policy1
-Priority: optional
-Section: metapackages
-Maintainer: SentinelOS Project <repo@sentinellinux.org>
-Depends: sentinelos-release (= 0.1.7c-1), sentinelos-conformance (= 0.1.7c-1), sentinelos-suite-integration (= 0.1.7c-1), sentinelos-suite-completion (= 0.1.7c-1), sentinelos-aegis-prime-option (= 0.1.7c-1+policy1), aegis-sentinel-suite (>= 1.0.0-1)
-Filename: pool/main/sentinelos-aegis-prime-default-baseline_0.1.7c-1+policy1_all.deb
-Size: 1184
-MD5sum: 5be704da37b457502ac6eb62133c613a
-SHA1: 9cd9968f17a5e27d00dc06be62b7946d2d38d6d7
-SHA256: 4ed6b5c9bf700a04fe548d507c8fc6a1252bae50040e5314262662f8f9f03b28
-SHA512: 1536ce25555bbb5e14b6ffa2b7c7761b04cce3ca12e30ac53db5d87c55fcc95538067f592659ef719523ff1277d0d135371a35df17e76a87ced3c6e4e318b47c
-Description: Transitional SentinelOS public AEGIS default baseline
- Compatibility package retained for older SentinelOS installers. It now
- pins the repaired public AEGIS option package and aegis-sentinel-suite.
- It does not install AEGIS R.E.P.O or aegis-prime-suite.
-
-Package: sentinelos-aegis-prime-option
-Architecture: all
-Version: 0.1.7c-1+policy1
-Priority: optional
-Section: admin
-Maintainer: SentinelOS Project <repo@sentinellinux.org>
-Depends: python3, aegis-sentinel-suite (>= 1.0.0-1)
-Filename: pool/main/sentinelos-aegis-prime-option_0.1.7c-1+policy1_all.deb
-Size: 4816
-MD5sum: 831c9484912d8930adfece8cb2d3b129
-SHA1: 353bec40c4adf6af70f0578e28046f467385c077
-SHA256: a0447080c7bb36a5e3598691ea127c09a0b6ea95d36f03fb32eec54812bc5c0e
-SHA512: 9514f6e7e816630b39e394b8557a678f59a4b84d87fc823e0170f6cdafa29979c330f5c7120bfb42329cb3033dc34bde1214075b5e7a24ad1668d378b1d89b8c
-Description: Transitional SentinelOS public AEGIS option policy
- Compatibility package retained for older SentinelOS installers. It now
- installs the public aegis-sentinel-suite and never installs the private
- AEGIS R.E.P.O application or retired aegis-prime-suite metapackage.
-
 Package: sentinelos-aegis-public-branding-baseline
 Architecture: all
 Version: 1.0.2-1
@@ -1811,6 +1775,28 @@ SHA256: d2ae629e733d5ad25181769301368cfa0250e419ea5f2ae879a7a50d063150a6
 SHA512: 8b06d9ecf9673d0860bc97bccb000a9b7e3177a7758b7b2abe4a4690559605c32ee2503175a8be82032cfded6be4d5f343a4f4c2c5c15f833979fb963b33030f
 Description: SentinelOS v0.2.6b conversion baseline marker
 
+Package: sentinelos-cursor-themes
+Architecture: all
+Version: 1.2.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project
+Provides: x-cursor-theme
+Recommends: dconf-cli
+Filename: pool/main/sentinelos-cursor-themes_1.2.0-1_all.deb
+Size: 1003444
+MD5sum: 8f46b7d6055e9dc409211048932c83d8
+SHA1: 3199c8ba4251e9dfc4484e061b2f38851d3f858f
+SHA256: f4e3d5a50d6839c9886abd70e7d1182f0c75398b371c13d679591d73a665af57
+SHA512: 112badd56c868b71c4278dc83044acb8c5eec8a6f42702807322383cadaa58e31bdfe1b0f76981f89cc105c79edf5f1c86b319c9f4291cbb1e243bef807bfec7
+Homepage: https://sentinellinux.org
+Description: Original seven-variant SentinelOS Xcursor family
+ Provides Light Cyan, Dark Red, Dark Pink, Light Green, Light Purple,
+ White and Black original SentinelOS cursor themes for MATE, GTK,
+ GNOME, X11 and Xcursor-compatible Wayland applications.
+ Light Cyan is the SentinelOS system default. The Navy/Gold cursor is
+ exclusive to the AEGIS desktop theme bundle and is not included here.
+
 Package: sentinelos-debian-converter
 Architecture: all
 Version: 0.2.6b-1
@@ -1908,23 +1894,6 @@ Description: SentinelOS complete desktop and visual branding baseline
 
 Package: sentinelos-desktop-branding-baseline
 Architecture: all
-Version: 0.2.1-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
-Depends: sentinelos-wallpapers (= 0.2.0c-1), sentinelos-icon-theme-family (= 1.0.14-1), sentinelos-theme-family (= 0.2.5d-1), sentinelos-mate-menu-panel-baseline (= 0.2.1-1), sentinelos-grub-branding (= 0.2.0c-1), sentinelos-login-branding-baseline (= 0.2.0c-1), sentinelos-plymouth-theme (= 0.2.0c-1), sentinelos-visual-activation (= 0.2.0c-1)
-Recommends: sentinelos-wallpapers-extra (= 0.2.0c-1)
-Filename: pool/main/sentinelos-desktop-branding-baseline_0.2.1-1_all.deb
-Size: 1082
-MD5sum: aebef7183a53d14c8bfd7fe9686fdae5
-SHA1: 81d98fc21174121a7bc656611fbd17f049814a05
-SHA256: d166f925bc9ead97aefc7deeedf7bb31aa6914df3530d87435ff4c41fc6df505
-SHA512: 483f9707d63b4c6e8115f0c095df07e4df2516c07fa8caad08fa19fcbe93ce3ba3834d3ef915567ccf1f646cb6cfecfade34609a9553c72661fef8f41de71d27
-Description: SentinelOS complete polished desktop and visual baseline
- Installs all official icon colours, public light/dark themes, minimal MATE shell, dedicated Sentinel menu and boot/login branding.
-
-Package: sentinelos-desktop-branding-baseline
-Architecture: all
 Version: 0.2.2-1
 Priority: optional
 Section: x11
@@ -1940,40 +1909,6 @@ SHA512: 2c40101495db6b99d9560c6c20524077dadef8b4c3f99e6c3f77b255cac1992c8209dde6
 Description: SentinelOS complete polished desktop branding baseline
  Keeps boot, login and visual activation installed while adding the polished
  Light Cyan desktop, Dark Cyan alternative and complete six-colour icon family.
-
-Package: sentinelos-desktop-branding-baseline
-Architecture: all
-Version: 0.2.3-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
-Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-family (= 1.0.15-1), sentinelos-theme-family (= 0.2.6-1), sentinelos-mate-menu-panel-baseline (= 0.2.3-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.2-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
-Recommends: sentinelos-wallpapers-extra (>= 0.2.0c-1)
-Filename: pool/main/sentinelos-desktop-branding-baseline_0.2.3-1_all.deb
-Size: 972
-MD5sum: 0188b50e67a9f58c309454d2c4b52bd4
-SHA1: e16e691195883dc11524391c79075ff15b9bde98
-SHA256: 680bcd766dc47f3e0aca1877da247ba5d8c47dfb190156dd83d55fee00064215
-SHA512: adf4b842f3f37590c759615bfefc63928a1f3ad1bb0a613bd1b5a1e003b0372f1d41f8709aaac3c912a486e0b2ef0711cd79eb1d1279b072d3b32c7f525cac6c
-Description: SentinelOS v1.0 AMBROSO complete desktop identity baseline
- Installs the six presets, cache-safe icons, complete Sentinel menu, wallpaper, login, boot and GRUB identity contract.
-
-Package: sentinelos-desktop-branding-baseline
-Architecture: all
-Version: 0.2.4-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
-Depends: sentinelos-system-identity (>= 1.0.0-1), sentinelos-wallpapers (>= 0.2.0c-1), sentinelos-icon-theme-family (= 1.0.15-1), sentinelos-theme-family (= 0.2.7-1), sentinelos-background-preservation-guard (>= 0.2.6-1), sentinelos-desktop-polish (= 0.2.4-1), sentinelos-mate-defaults (= 0.2.4-1), sentinelos-mate-menu-panel-baseline (= 0.2.3-1), sentinelos-desktop-suite-menu (>= 1.0.0-1), sentinelos-grub-branding (>= 0.2.1-1), sentinelos-login-branding-baseline (>= 0.2.2-1), sentinelos-plymouth-theme (>= 0.2.0c-1), sentinelos-visual-activation (>= 0.2.3-1)
-Recommends: sentinelos-wallpapers-extra (>= 0.2.0c-1)
-Filename: pool/main/sentinelos-desktop-branding-baseline_0.2.4-1_all.deb
-Size: 1052
-MD5sum: a7167a6b10a93aa0ad36ca15be77fe01
-SHA1: 5454ae4dcd3e3f8d809feb7f68f1569eff5b7246
-SHA256: b7066280fad6c7606327f2ccd846c53d9ee93bde6caa43dc797ac6c0e0933d5b
-SHA512: dc6dc32c0b6e59f392a6791a81eb08974194010f10c2299be37dc190a290e1118596bebea58d322132982e60fda998288cf6e603760c42269d16d04b2bd0202a
-Description: SentinelOS v1.0 AMBROSO desktop baseline with GUI polish patch
- Retains the validated system identity, menu, panel, GRUB, login and Plymouth baselines while upgrading only the wallpaper-safe GUI theme and accent-cohesion layer.
 
 Package: sentinelos-desktop-branding-baseline
 Architecture: all
@@ -2039,6 +1974,35 @@ SHA512: 1d9548c42411b02e473b4021ca7abc168630cf724dc8f4c1322a7b95a1d3433be2d88aa0
 Description: SentinelOS v1.0 AMBROSO desktop baseline with conditional AEGIS icon policy
  Locks the cyan SentinelOS login/icon baseline and leaves AEGIS gold assets to the complete-suite overlay.
 
+Package: sentinelos-desktop-branding-baseline
+Architecture: all
+Version: 1.0.16-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-system-identity (>= 1.0.0-1),
+ sentinelos-wallpapers (>= 0.2.0c-1),
+ sentinelos-icon-theme-light (>= 1.0.15-1),
+ sentinelos-theme-family (= 0.3.1-1),
+ sentinelos-background-preservation-guard (>= 0.2.8-1),
+ sentinelos-desktop-polish (= 0.3.1-1),
+ sentinelos-mate-defaults (= 0.3.1-1),
+ sentinelos-mate-menu-panel-baseline (= 0.2.5-1),
+ sentinelos-desktop-suite-menu (>= 1.0.0-1),
+ sentinelos-grub-branding (>= 0.2.1-1),
+ sentinelos-login-branding-baseline (>= 0.2.3-1),
+ sentinelos-plymouth-theme (>= 0.2.0c-1),
+ sentinelos-visual-activation (>= 0.2.3-1),
+ sentinelos-icon-theme-family (= 1.0.16-1)
+Filename: pool/main/sentinelos-desktop-branding-baseline_1.0.16-1_all.deb
+Size: 1020
+MD5sum: 5c57d03ca777fb9d4bf3425f3390abcc
+SHA1: 6da20f6b2a27947ddf49f515ff382af894fba350
+SHA256: 28ee0bab5703e08ea4e39eeeec511c940d2c06aaa06af67072a1931d9636ae32
+SHA512: 68db4cf5ae728c0e889b482cf95f63031b1058de9957c5844d15095ef63337ba59de9e3ba1485c52364b29328448d92e82cfa6d88b02bbf0b1e5602cf2bc401c
+Description: SentinelOS v1.0 AMBROSO desktop baseline with conditional AEGIS icon policy
+ Locks the cyan SentinelOS login/icon baseline and leaves AEGIS gold assets to the complete-suite overlay.
+
 Package: sentinelos-desktop-conformance
 Architecture: all
 Version: 0.1.4-1
@@ -2053,6 +2017,24 @@ SHA1: a48af92046717ff3f3e9702332704338c5b6bf8f
 SHA256: 849f66ebfc1301bd30c9225578129a44e86bec36d2929f8168321068993b549f
 SHA512: 0c1d1afe82f7af7cd9bb8c6e372d56f67fd82d82ae4bf41cac82d44585ec4a85cbf6af8f38c7cbef18f94f09f5c46034b26ef00fa295b82d9142e51ac7ffc9d8
 Description: SentinelOS desktop conformance metadata for v0.1.4
+
+Package: sentinelos-desktop-cursor-baseline
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: metapackages
+Maintainer: SentinelOS Project
+Depends: sentinelos-cursor-themes (= 1.2.0-1), sentinelos-theme-cursor-integration (= 1.0.0-1)
+Filename: pool/main/sentinelos-desktop-cursor-baseline_1.0.0-1_all.deb
+Size: 2752
+MD5sum: 679b22c6c508aa4882df5f3cf19340ee
+SHA1: e458c58911b19f7b3bdd4f4b5c5d582e428ee2b3
+SHA256: ce383b55aa1431ff6cdb6b9d292e7b470616c014c07761cfdfee8c5b716b709f
+SHA512: 7dadccc3b9265784ae412820d7aff1795339990b32f888e7a53304db307c8ef8547175c502da1dc422e95daf9273e29350f43223a0e44923a77d1b595e5390ff
+Description: SentinelOS desktop theme and cursor conversion baseline
+ Locks the original seven-variant SentinelOS cursor family and official
+ desktop-theme bindings into the public conversion baseline. Light Cyan is
+ the base default. Gold remains exclusive to the AEGIS desktop-theme bundle.
 
 Package: sentinelos-desktop-experience-asset-baseline
 Architecture: all
@@ -2318,220 +2300,113 @@ Description: SentinelOS v0.2.6a hardening baseline marker
 
 Package: sentinelos-icon-theme-family
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
-Depends: sentinelos-icon-theme-green (= 1.0.14-1), sentinelos-icon-theme-light (= 1.0.14-1), sentinelos-icon-theme-pink (= 1.0.14-1), sentinelos-icon-theme-purple (= 1.0.14-1), sentinelos-icon-theme-red (= 1.0.14-1), sentinelos-icon-theme (= 1.0.14-1)
-Filename: pool/main/sentinelos-icon-theme-family_1.0.14-1_all.deb
-Size: 996
-MD5sum: 5b498c9505caa096e5bf57f0879bc279
-SHA1: cfb9c570d149c6643aa9d472110623d92d19618f
-SHA256: d23b2f3442a55ce882792e30746acc2cfc6b6deea4d6f1fd7be044f04baebcf7
-SHA512: e6ec77120764b7e5937371878d107068271513f4c62154a1de98a1951fd96d29e906bbb333b69850ff7a0ab0cac0d1daddc5a0c8556e6118ab52784398037c18
-Description: SentinelOS complete official six-colour icon family
- Installs Gold/Dark, Cyan/Light, Red, Green, Purple and Pink icon themes unchanged from the approved v1.0.14 artwork bundle.
-
-Package: sentinelos-icon-theme-family
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
-Depends: sentinelos-icon-theme (= 1.0.15-1), sentinelos-icon-theme-light (= 1.0.15-1), sentinelos-icon-theme-red (= 1.0.15-1), sentinelos-icon-theme-green (= 1.0.15-1), sentinelos-icon-theme-purple (= 1.0.15-1), sentinelos-icon-theme-pink (= 1.0.15-1)
-Filename: pool/main/sentinelos-icon-theme-family_1.0.15-1_all.deb
-Size: 864
-MD5sum: 3ad2cf678826c6bb867472a9bfe2986a
-SHA1: 711e77cb28f9fb42ee43209a6ee279bea25227d8
-SHA256: 4e589acd54e4b6a628f57d6be24bbc0d23126f098b9bc7c1e9ebd104abf051b2
-SHA512: 633014aa7504711abaf08e808d380836d66f3d987252b7e8c48644f8b0243ea282a79c9f5ec7e21bd06184ca17882c44e7fb4fd84c7d8d890e9deb6f81587852
+Depends: sentinelos-icon-theme-green (= 1.0.16-1),
+ sentinelos-icon-theme-light (= 1.0.16-1),
+ sentinelos-icon-theme-pink (= 1.0.16-1),
+ sentinelos-icon-theme-purple (= 1.0.16-1),
+ sentinelos-icon-theme-red (= 1.0.16-1),
+ sentinelos-icon-theme (= 1.0.16-1)
+Filename: pool/main/sentinelos-icon-theme-family_1.0.16-1_all.deb
+Size: 872
+MD5sum: b829dcd5fbc3991ac51e1f28656f9174
+SHA1: 431fc5ff0ebb6e0712e987d19edc60aa4f210a2e
+SHA256: 437693722ae91e3432caa2042c358a2c604155e81cae4107b78bf46153086a04
+SHA512: eee8dccb323c2a88aa27cfcefaa485f2ed5a4d326ddcdb50803c6986a4c4980037ab92f573206746346aeb11ed59089ac2ab4f38ec5d5fce53699049770bf3ef
 Description: SentinelOS complete cache-safe six-colour icon family
  Installs Gold, Cyan, Red, Green, Purple and Pink official artwork with valid GTK caches and theme-relative menu aliases.
 
 Package: sentinelos-icon-theme-green
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-green_1.0.14-1_all.deb
-Size: 35945532
-MD5sum: 1d71c3aa68c869ec2f7260fcda7c654f
-SHA1: bf1c161ff548be725dd8d9350856890a0b282709
-SHA256: 1f6d9522251f02e2f7a48b6f5d794d30cd04ab7760bb68aa4a04cf86a963a4cd
-SHA512: 459056d9c35f2dab976ba2021dbbdee31049165215c77d2448786da8a533dc403e6d1413f195fd20774f6e8376e229f25f0bdcb76563d34c07a85755c804d7b2
+Filename: pool/main/sentinelos-icon-theme-green_1.0.16-1_all.deb
+Size: 12598688
+MD5sum: 0f01c464e98cc67d553d021d28e9af84
+SHA1: 1c5d8758f0225699ca903bbee0744986ab73e5c1
+SHA256: bbd49209712fc8eafef2513217ddf2d9260057ce10aebc5093a6f1d58e3fd044
+SHA512: a082f6d040995304b338bfb4a4fe1ea2e375839fd82e70df571c6f70145c1584a1d9ffea4374ec7dbced2bf9178a11cd2558d986c8f5ce2bc855dabffbfd7a6c
 Description: SentinelOS-Green icon theme for MATE with corrected Sentinel Browser icon scope
  SentinelOS-Green icon theme cloned from SentinelOS-Light v1.0.8-1 with green accent recolouring and side-by-side package safety.
 
-Package: sentinelos-icon-theme-green
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-green_1.0.15-1_all.deb
-Size: 12457760
-MD5sum: 81dda44352b5be86a97653aff2148bd8
-SHA1: aaf25b9f8b31d9751f9ef7f0eecb582507e6935c
-SHA256: 08acb6fa92cbd7309e12234bc208c3d973a8014bb5ce1cc3bd5f3352ddf3c3b2
-SHA512: d2bd0533d465ba85e352997d435392fd0d74149a9aeb317fab43cb35d80c8df43e484a60da6538dc309fd546c04404daad03fed604338d2e1e90c269061dda61
-Description: SentinelOS-Green official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
- SentinelOS-Green icon theme cloned from SentinelOS-Light v1.0.8-1 with green accent recolouring and side-by-side package safety.
-
 Package: sentinelos-icon-theme-light
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-light_1.0.14-1_all.deb
-Size: 37479798
-MD5sum: b0a3fef1367300afa4601814b9d1ac08
-SHA1: 06aea828b98e51e9b0e4b1d3d32ddecda5be81ce
-SHA256: 59c0d92328b094564b3e0e86793107be71dbc235cc06059c3228151647f9bfdb
-SHA512: 0bda30cae1742b3ce6ffdcd97bde058679d79d0b3a72f7f02ac07357e864c37bb2094628fccc8fed56b27a5fd0de2005a3e74988df972a6518ac9ebae8295ed1
+Filename: pool/main/sentinelos-icon-theme-light_1.0.16-1_all.deb
+Size: 12423372
+MD5sum: da95845bce17ed6f0945f3f919507a88
+SHA1: 4b9aa80d56e01b8ffd95ef99321c62d93acfd360
+SHA256: e185cf4bf676d01a904c5a01f7685d991b8ed65c1af6e3c8446d715569832038
+SHA512: 40cd987aebcfeddcb816302580de421237c905f65c34dfc9ae8140af5a9bf34a0f81036be34d9b69a0082ece8d179c7063142c39a3c2d4b3ba41cd5bd1ebd861
 Description: SentinelOS-Light icon theme for MATE with corrected Sentinel Browser icon scope
  SentinelOS-Light icon theme v1.0.3 cloned from SentinelOS-Dark with Sentinel Cyan recolouring and side-by-side package safety.
 
-Package: sentinelos-icon-theme-light
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-light_1.0.15-1_all.deb
-Size: 12325896
-MD5sum: 3c932c8779aaad490a96301d77cc806a
-SHA1: 1d8f67426506bf2a40961586a58728b705cac5eb
-SHA256: 087e72d906de6a05a4bf2ca9226858bbf1e9510ea63b9655ea771d36df8e8a47
-SHA512: 8461a30494d1afbe6ecc7a759529c9898295af26dd947ff3bcdc71e22d624dca89e44595ab1c913f7960e1fe7c393ef3f2e4da094cd6e6179b5044333faebe8f
-Description: SentinelOS-Light official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
- SentinelOS-Light icon theme v1.0.3 cloned from SentinelOS-Dark with Sentinel Cyan recolouring and side-by-side package safety.
-
 Package: sentinelos-icon-theme-pink
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-pink_1.0.14-1_all.deb
-Size: 37825300
-MD5sum: d0b75dba95c97229df209859b4daa13b
-SHA1: 59434e30ff3971b3f0c0b31f665fe7ded36124dd
-SHA256: 5db9e96787053f34248f661bdd64ce1f3ae79dd5ff96731447f24c748af0babb
-SHA512: 6cb83502091358d5a011b09e582add8ec96f4375be649ca7de21197b6db8336149242d383c894ed0089a315541207850b13e1c3c7ede9f59f023ed546d087907
+Filename: pool/main/sentinelos-icon-theme-pink_1.0.16-1_all.deb
+Size: 13313288
+MD5sum: fe45fe35ec61f7d4fffad80c80e004a8
+SHA1: 58074554d2914c9316d2ecae2438ae6f019d5578
+SHA256: 61905f7b54a040b258faec4f4f377609f2df3605d952580a8574fe86c9c45795
+SHA512: cb92e06cc152a9402c1119224691db95d74ec3bcc7e1e48195c94a850da67cfdcbb75f3e2f762f28345b4d2f04b9b5c6aa0c0c4ebafc3ea97dc7f928eebe180c
 Description: SentinelOS-Pink icon theme for MATE with corrected Sentinel Browser icon scope
  SentinelOS-Pink icon theme cloned from SentinelOS-Light v1.0.8-1 with pink accent recolouring and side-by-side package safety.
 
-Package: sentinelos-icon-theme-pink
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-pink_1.0.15-1_all.deb
-Size: 13162716
-MD5sum: 7482e7ab324b18b65f204137f0c12250
-SHA1: 643953c0c01b93b3e5c76a34c1e2696ecb23ef0e
-SHA256: a48342574dc7fe07b4573a0f348a42f84897aa1b99d740bd92fb6efa64c3601e
-SHA512: 9498d08021e8e0e4cc16031b7077124702cac9d6f1f2c71cd79045d91bec76fa1dd612b764597af1ed0746cec5ae17efac43bcf47c8ce7759ffe468e1ca05e3a
-Description: SentinelOS-Pink official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
- SentinelOS-Pink icon theme cloned from SentinelOS-Light v1.0.8-1 with pink accent recolouring and side-by-side package safety.
-
 Package: sentinelos-icon-theme-purple
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-purple_1.0.14-1_all.deb
-Size: 36986274
-MD5sum: 38146add29917c2bc9f0f1e18cceb73c
-SHA1: da57797bc67f6a95f0b041f0e84f85f83a70f5db
-SHA256: cfef2952ab17a9a79c13d0ada4d6ee1475c64d929f50c1918827c12938ff3c29
-SHA512: 1fa869adfc05f151a3e127a7c5e75ef61b41398c4c23c4088af4a4c9fbc57648698df987d6da2266d1fa6a29dea10203f3ebcc7dd8858c45ca63a506964efd61
+Filename: pool/main/sentinelos-icon-theme-purple_1.0.16-1_all.deb
+Size: 12840316
+MD5sum: 90fbc12a08dc112a8a4c10d714a669dd
+SHA1: c1eaca228c379d36b919843f2e62384aa8d9e4f3
+SHA256: bc41c8da198b25aa14839b3781b3c5e2edec0fefd622320ad1f12d21971c7c4b
+SHA512: c8b57741fce27f2ee9c009d7deea4b3e985637a18c6c6d8c645e44822349b3ceca584d8c4e919ffe34fe4d9a018e1b022c3cfbf943d1786251028b0af3d6adfe
 Description: SentinelOS-Purple icon theme for MATE with corrected Sentinel Browser icon scope
  SentinelOS-Purple icon theme cloned from SentinelOS-Light v1.0.8-1 with purple accent recolouring and side-by-side package safety.
 
-Package: sentinelos-icon-theme-purple
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-purple_1.0.15-1_all.deb
-Size: 12695016
-MD5sum: 86560d52f6e83869d93bda307a2921f4
-SHA1: b6716cb32044c3a66cca1ea3a4ce63e4892d355b
-SHA256: f3fa39d61d04fcdbd064cfa99f9004cc98b14dfbeae891c931938a2dad8a832e
-SHA512: c5fa760a26ed57934dafae1807d0935dbc7d7e4e10fa937ecc4fdd935333d3c5c600598622ec63e3b458b0375c9be457971e780d00a1465dbd89aabd34510260
-Description: SentinelOS-Purple official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
- SentinelOS-Purple icon theme cloned from SentinelOS-Light v1.0.8-1 with purple accent recolouring and side-by-side package safety.
-
 Package: sentinelos-icon-theme-red
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-red_1.0.14-1_all.deb
-Size: 36361906
-MD5sum: f26dbb91865316247f60f683a570f3a8
-SHA1: c80cb1a623bf2287ed7b94b34b307dc46f3903b1
-SHA256: 97fcfe77f050bfee36c833d577edb527ed53b7199f08058bffcd64a593e68d3e
-SHA512: eff9f92e35ccdd33900ecd9d99cec1ad4466b5a711c917ac8f0a82a769309363fa1ed9cc1334b817e7d673c033c02bca62a09255410827a65b5206fc527f5024
+Filename: pool/main/sentinelos-icon-theme-red_1.0.16-1_all.deb
+Size: 12646388
+MD5sum: 9445447c7378b8f7eb277b1fd207be75
+SHA1: 09f25c7e46f1662d90c9a513c69400690c746e41
+SHA256: 8a40881c50ab45d9748ce74a881b35a0828cdba885646c1d5715ba7b2f76bbd5
+SHA512: d2850b1b7e5b1662d951765956e13ce953b3632b548fb9a17777f9fedd653187f55f353a87435ef285daed3b505a50b5a4fd581cdadae197bde0afdd952b4d96
 Description: SentinelOS-Red icon theme for MATE with corrected Sentinel Browser icon scope
  SentinelOS-Red icon theme cloned from SentinelOS-Light v1.0.8-1 with red accent recolouring and side-by-side package safety.
 
-Package: sentinelos-icon-theme-red
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme-red_1.0.15-1_all.deb
-Size: 12535592
-MD5sum: e7eaca1f00b3ebfff4e7e3cfc44fd6cd
-SHA1: 20f618c32423843fb0655cc79abb52c45a9a3f28
-SHA256: 9e79b41be3aaa21c0791dccf3a2068d4883f9d8dc6bfbd9f4d1c7836352c5660
-SHA512: 00c759369f90b151f0b0d6c625f846c19d6b0a13d2646d974747d8e7d982aa992f95231c7b841ec23a47f1fd12c5abe52128a6f443df5699fa2aef06ade3c557
-Description: SentinelOS-Red official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
- SentinelOS-Red icon theme cloned from SentinelOS-Light v1.0.8-1 with red accent recolouring and side-by-side package safety.
-
 Package: sentinelos-icon-theme
 Architecture: all
-Version: 1.0.14-1
+Version: 1.0.16-1
 Priority: optional
 Section: x11
 Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme_1.0.14-1_all.deb
-Size: 44091698
-MD5sum: cf2da3057c50b591e0dbafc4d94f400b
-SHA1: 868a0ae72f0838974407d93dd1c293f8e4518377
-SHA256: e377fac9f6f69481128ff5e89be7b0cfb20c28f7c6cddf255ba293b3113fb2d2
-SHA512: 9aaded451123705a225bd4b943bbd8d59d834ff84765dda1ade149641d131920ccb86d9872362611ffd4aa8fb9abe78103171c1fb37733e84256c9bf5f7ff5c4
+Filename: pool/main/sentinelos-icon-theme_1.0.16-1_all.deb
+Size: 14932576
+MD5sum: a09e1fed82d2bb7e09f120d36af456cf
+SHA1: eef7073d26eb5c31fa88cf0bb24f61c7c5c03217
+SHA256: f02867ce350a185564d9710e59f86ddabd2319410da9ebd03f393cde2eddb793
+SHA512: 018693c8693c03f51da9fdf28ae4690f0e10d4988bf3026a2049978de1e988b5d5e8f9373699e9554dbe7bd605f84da641ef85c08b37fc5ec9757dcd2c594868
 Description: SentinelOS-Dark icon theme for MATE with corrected Sentinel Browser icon scope
- SentinelOS-Dark icon theme v1.0.3 official menu applet and Sentinel Tools coverage patch.
-
-Package: sentinelos-icon-theme
-Architecture: all
-Version: 1.0.15-1
-Priority: optional
-Section: x11
-Maintainer: SentinelOS <local>
-Filename: pool/main/sentinelos-icon-theme_1.0.15-1_all.deb
-Size: 14898912
-MD5sum: 33a16bef66a79ab72cf21d6f48bdfbdd
-SHA1: efc2c9ba368593f09ade633aa93a2b1a1189076b
-SHA256: f331b30b582986bd6b3f85dbd344afa33f75261308e698a0a729839e94c717a8
-SHA512: a0ab41c869d2ceb440bb4e0b54891618eaa8df56be6a869cae0746e05b1ebad73a00415490c19b2acf4f456b1cf93f70bcce83dc6a2c5a60eba2564f96209e3e
-Description: SentinelOS-Dark official SentinelOS icon theme with cache-safe filenames
- Preserves the approved v1.0.14 artwork while removing invalid spaced icon names, obsolete helper scripts and fixed-colour menu overrides.
  SentinelOS-Dark icon theme v1.0.3 official menu applet and Sentinel Tools coverage patch.
 
 Package: sentinelos-icon-theme
@@ -4918,6 +4793,27 @@ SHA512: 9f64c42b50a61ae41a8b544b114dc7dd35be40c84fee8737ca3dd65d926d41a83097ba2b
 Description: SentinelOS theme clean baseline marker
  Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
 
+Package: sentinelos-theme-cursor-integration
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project
+Depends: python3, sentinelos-cursor-themes (>= 1.2.0-1)
+Recommends: sentinelos-theme-selector
+Filename: pool/main/sentinelos-theme-cursor-integration_1.0.0-1_all.deb
+Size: 13108
+MD5sum: 6e91b2ecb79cbe844335b569121d68da
+SHA1: 5645603fa486dab6489a56a3916a81c937d6ae1b
+SHA256: 6045adf3acc6b66f4009d6e4d13bc46e3b0d21d461b8672dd52e7075c0236682
+SHA512: 3af7d65d294030566a856eaf8376206597b4e20e04f8679d6d0f85c836b75df6eade85e4a37b7588b6876cc7f42b49d42bacd7d9cf1d806833a5b0e9db449f11
+Description: Atomic SentinelOS desktop-theme and cursor bindings
+ Binds the official SentinelOS GTK/Marco themes to their matching original
+ SentinelOS cursor variants. Includes explicit package-owned binding,
+ verification, restore and current-session synchronization workflows.
+ White and Black remain neutral manual cursor choices. The AEGIS Navy/Gold
+ cursor is excluded and belongs only to the exclusive AEGIS desktop theme.
+
 Package: sentinelos-theme-family
 Architecture: all
 Version: 0.2.5d-1
@@ -5190,3 +5086,4 @@ SHA256: 2c7938b5b0d099fb1241fd729216d9562a3268ce418bd9075c5eb266ec863349
 SHA512: caedbaa43f69ca7a388177cb34c5aa09593c7d681f3d91ce88970f3911e9dcb64cccfcd747ddb4afba8df3d2bab57957bfb11556a6c3cdd5d1e1e01d9fb611b7
 Description: SentinelOS official desktop and boot artwork
  Installs passive desktop, login, GRUB, Plymouth and lock-screen assets.
+

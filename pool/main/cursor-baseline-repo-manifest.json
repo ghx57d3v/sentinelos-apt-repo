@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "baseline": "SentinelOS desktop cursor baseline",
+  "conversion_phase": 65,
+  "default_cursor": "SentinelOS-Cursor-Light-Cyan",
+  "packages": [
+    {
+      "filename": "sentinelos-cursor-themes_1.2.0-1_all.deb",
+      "package": "Package: sentinelos-cursor-themes",
+      "version": "Version: 1.2.0-1",
+      "architecture": "Architecture: all",
+      "sha256": "f4e3d5a50d6839c9886abd70e7d1182f0c75398b371c13d679591d73a665af57"
+    },
+    {
+      "filename": "sentinelos-theme-cursor-integration_1.0.0-1_all.deb",
+      "package": "Package: sentinelos-theme-cursor-integration",
+      "version": "Version: 1.0.0-1",
+      "architecture": "Architecture: all",
+      "sha256": "6045adf3acc6b66f4009d6e4d13bc46e3b0d21d461b8672dd52e7075c0236682"
+    },
+    {
+      "filename": "sentinelos-desktop-cursor-baseline_1.0.0-1_all.deb",
+      "package": "Package: sentinelos-desktop-cursor-baseline",
+      "version": "Version: 1.0.0-1",
+      "architecture": "Architecture: all",
+      "sha256": "ce383b55aa1431ff6cdb6b9d292e7b470616c014c07761cfdfee8c5b716b709f"
+    }
+  ],
+  "install_order": [
+    "official SentinelOS GTK/Marco theme packages",
+    "sentinelos-cursor-themes=1.2.0-1",
+    "sentinelos-theme-cursor-integration=1.0.0-1",
+    "sentinelos-desktop-cursor-baseline=1.0.0-1",
+    "sentinelos-apply-cursor-baseline"
+  ],
+  "aegis_navy_gold_in_base": false
+}
