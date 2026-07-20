@@ -40,6 +40,7 @@ baf0ce41caf0fa814f0c0a37d90c2212570afdafe5e4c2b697958c0474e4a819  pool/main/sent
 96d4ee28b13bfbf294d848430a163b87db5e2bfa9a623ae1452133bab2144d82  pool/main/sentinelos-aegis-sentinel-option_0.1.7d-1_all.deb
 ce2e6aa27975312ecdfc43e784a1c00a176a9906e79260b04c779f7d716b3e9c  pool/main/sentinelos-aegis-theme_0.1.0-1_all.deb
 2feb0035d56519f55cab48d1c7a0dc2dbf95b228b721ce330d655954529a9f81  pool/main/sentinelos-aegis-theme_1.0.0-1_all.deb
+25c13f5b2629015d26fd1eca816979a15357d119eb717f42a15de6e6802b7af0  pool/main/sentinelos-aegis-theme_1.0.1-1_all.deb
 302e14b758b4ec849edfd4425c44f81bb5d3dffb0f238fafc34b766e97821a03  pool/main/sentinelos-aegis-tools-audit_0.1.5d-1_all.deb
 1b773c56d3fd4296f6ef8871538e1583326a3063c15afa51460c35c7a58a5c29  pool/main/sentinelos-app-replacement-baseline_0.1.6c-1_all.deb
 8f9624b914180fcf095cc027ac9c9abfe595e21f60c644aa802f3cabc84186cc  pool/main/sentinelos-app-replacement-baseline_0.1.6d-1_all.deb

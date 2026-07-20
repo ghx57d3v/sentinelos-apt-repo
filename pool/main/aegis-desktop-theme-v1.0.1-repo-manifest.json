@@ -1,0 +1,21 @@
+{
+  "schema": "sentinelos.repo_release.v1",
+  "release": "AEGIS Desktop Theme v1.0.1 Cursor Schema Hotfix",
+  "package": {
+    "name": "sentinelos-aegis-theme",
+    "version": "1.0.1-1",
+    "filename": "sentinelos-aegis-theme_1.0.1-1_all.deb"
+  },
+  "staging_policy": "additive",
+  "historical_packages_removed": false,
+  "fixes": [
+    "Use org.gnome.desktop.interface/cursor-theme as the canonical cursor setting on current MATE.",
+    "Treat org.mate.interface/cursor-theme as optional compatibility.",
+    "Do not abort before applying the cursor when the MATE key is absent.",
+    "Do not report a false alignment failure for an unavailable optional key.",
+    "Add --repair-cursor for desktops partially configured by v1.0.0.",
+    "Remove generated Python bytecode from the Debian payload."
+  ],
+  "conversion_phase": "76_aegis_desktop_theme_v1_0_1.sh",
+  "verification_phase": "77_verify_aegis_visual_baseline_v1_0_1.sh"
+}
