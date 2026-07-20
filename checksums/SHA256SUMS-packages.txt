@@ -1,4 +1,5 @@
 54c10e8ec14e32816812033a9886c38ddc9eba7440b262adfa148a23f309e099  pool/main/aegis-sentinel-suite_1.0.0-1_all.deb
+78063503e170abdb79fb2285a4ae2d31ba8d604562f0c7c78350ea7a117f0f68  pool/main/aegis-sentinel-suite_1.2.2-1_all.deb
 8426ac7bbd7b4e6cdf4419c96ba2c91d147d60b4ec9da739c2e2229496752791  pool/main/sentinel-browser_1.1.17-1_all.deb
 43eaaa0c68000c2c9e66b4178489d43fcdfdefe13bd6a8f016e271397cee15f4  pool/main/sentinel-browser_1.1.19-1_all.deb
 8edde8632bbd22faf8d747c2b911fb8fb572eea8c0adc158bd01415fc927036c  pool/main/sentinel-browser_1.1.20-1_all.deb

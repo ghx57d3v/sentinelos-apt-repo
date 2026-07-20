@@ -1,0 +1,15 @@
+{
+  "schema": "sentinelos.repo_release.v1",
+  "release": "AEGIS Public Suite v1.2.2 Debian Baseline",
+  "package": {
+    "name": "aegis-sentinel-suite",
+    "version": "1.2.2-1",
+    "filename": "aegis-sentinel-suite_1.2.2-1_all.deb"
+  },
+  "staging_policy": "additive",
+  "historical_packages_removed": false,
+  "payload_downloads": false,
+  "conversion_phase": "75_public_aegis_suite_v1_2_2.sh",
+  "theme_included": false,
+  "next_theme_package": "sentinelos-aegis-desktop-theme"
+}

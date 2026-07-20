@@ -16,6 +16,31 @@ Description: AEGIS Sentinel v1.0 stable locked baseline archive and launcher
  and menu entry. This package does not enable an AI runtime or install components
  automatically; component installation remains user initiated.
 
+Package: aegis-sentinel-suite
+Architecture: all
+Version: 1.2.2-1
+Priority: optional
+Section: utils
+Maintainer: SentinelOS Project
+Provides: sentinel-command, aegis-public-suite
+Depends: python3, python3-tk, xdg-utils, desktop-file-utils, libglib2.0-bin, util-linux
+Recommends: sentinelos-mate-menu-panel-baseline (>= 0.2.6-1), sentinelos-desktop-cursor-baseline (>= 1.1.0-1), poppler-utils, tesseract-ocr, trash-cli, pciutils, clamav
+Suggests: sentinelos-aegis-desktop-theme
+Enhances: sentinelos-desktop-branding-baseline
+Filename: pool/main/aegis-sentinel-suite_1.2.2-1_all.deb
+Size: 9590208
+MD5sum: 3a77b05537a722ece66dcfa6c1f6e6ef
+SHA1: a20dc19919022679082eff5a4316a86d68886b94
+SHA256: 78063503e170abdb79fb2285a4ae2d31ba8d604562f0c7c78350ea7a117f0f68
+SHA512: 6745de2d7aa788d90c65c4a061586361a0a9bf5c4ffeb171dcd168cdf00c49a01c054b68d7df4d45840c92fbfe3fd894f517b568a8603ea3e477c5dd3e97c3ce
+Description: Complete local public AEGIS Sentinel Suite
+ Installs Sentinel Command, A.R.C, A.V.I.C, S.C.A.N, V.A.U.L.T,
+ B.A.S.T.I.O.N and AEGIS Vault Setup from payloads embedded directly in this
+ Debian package. No application payload is downloaded during installation or
+ first launch. Per-user writable state is initialised locally from the packaged
+ files. The original AEGIS Dark/Gold application interfaces and assets are
+ preserved.
+
 Package: sentinel-browser
 Architecture: all
 Version: 1.1.17-1
