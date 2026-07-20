@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "release": "SentinelOS Theme Cursor Integration v1.1.0",
+  "repository_policy": "additive; retain all existing package versions",
+  "packages": [
+    {
+      "package": "sentinelos-theme-cursor-integration",
+      "version": "1.1.0-1",
+      "filename": "sentinelos-theme-cursor-integration_1.1.0-1_all.deb"
+    },
+    {
+      "package": "sentinelos-desktop-cursor-baseline",
+      "version": "1.1.0-1",
+      "filename": "sentinelos-desktop-cursor-baseline_1.1.0-1_all.deb"
+    }
+  ],
+  "appearance_model": {
+    "gtk_themes": [
+      "SentinelOS-Light",
+      "SentinelOS-Dark"
+    ],
+    "icon_theme_drives_cursor": true,
+    "default_cursor": "SentinelOS-Cursor-Light-Cyan",
+    "icon_bindings": {
+      "SentinelOS-Light": "SentinelOS-Cursor-Light-Cyan",
+      "SentinelOS-Dark": "SentinelOS-Cursor-Light-Cyan",
+      "SentinelOS-Green": "SentinelOS-Cursor-Light-Green",
+      "SentinelOS-Purple": "SentinelOS-Cursor-Light-Purple",
+      "SentinelOS-Red": "SentinelOS-Cursor-Dark-Red",
+      "SentinelOS-Pink": "SentinelOS-Cursor-Dark-Pink"
+    }
+  },
+  "historical_packages_removed": false,
+  "aegis_navy_gold_included": false
+}

@@ -2036,6 +2036,25 @@ Description: SentinelOS desktop theme and cursor conversion baseline
  desktop-theme bindings into the public conversion baseline. Light Cyan is
  the base default. Gold remains exclusive to the AEGIS desktop-theme bundle.
 
+Package: sentinelos-desktop-cursor-baseline
+Architecture: all
+Version: 1.1.0-1
+Priority: optional
+Section: metapackages
+Maintainer: SentinelOS Project
+Depends: sentinelos-cursor-themes (= 1.2.0-1), sentinelos-theme-cursor-integration (= 1.1.0-1), sentinelos-theme-family (= 0.3.1-1), sentinelos-icon-theme-family (= 1.0.16-1)
+Filename: pool/main/sentinelos-desktop-cursor-baseline_1.1.0-1_all.deb
+Size: 2504
+MD5sum: 386fa0fb9e15c748ff93d6122bcd0522
+SHA1: bd529c756bc6ef6967538e504a998e40182b82f8
+SHA256: 0cc468154d2ed84ebc27b05aa4de5b4b7e09872db1c16cc483ba2a8d0745acc3
+SHA512: a79fdda782f50e6aeb5ac8d5d53b053cdbfe60f8de646138ccba8de33bee0e6d458c235388080a8c42e1cab9f8e99587ddd2a9fa0a5d0318bda6d113e4d5048c
+Description: Corrected SentinelOS desktop cursor conversion baseline
+ Locks the real SentinelOS appearance architecture into the conversion
+ baseline. SentinelOS-Light and SentinelOS-Dark are the GTK/Marco themes.
+ Cursor colour follows the active SentinelOS icon theme, with Light Cyan as
+ the base fallback.
+
 Package: sentinelos-desktop-experience-asset-baseline
 Architecture: all
 Version: 0.1.9-1
@@ -4813,6 +4832,27 @@ Description: Atomic SentinelOS desktop-theme and cursor bindings
  verification, restore and current-session synchronization workflows.
  White and Black remain neutral manual cursor choices. The AEGIS Navy/Gold
  cursor is excluded and belongs only to the exclusive AEGIS desktop theme.
+
+Package: sentinelos-theme-cursor-integration
+Architecture: all
+Version: 1.1.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project
+Depends: python3, sentinelos-cursor-themes (>= 1.2.0-1), sentinelos-theme-family (>= 0.3.1-1), sentinelos-icon-theme-family (>= 1.0.16-1)
+Recommends: sentinelos-theme-selector
+Filename: pool/main/sentinelos-theme-cursor-integration_1.1.0-1_all.deb
+Size: 5792
+MD5sum: 39eda8eeda0577a44ee8570742d9b7a6
+SHA1: dc7f92c60bc7f5272d250e975963619f0e883083
+SHA256: da49fa94d023e5ccbd502af94ce35046551c4f895deaa98e0dab380245638c04
+SHA512: a5f53e0de7c701f6bc71d46eee64417233997569a413c59a281e936c8b42d2f4c98017413e06f0a049a66dbab906cbfe7b3a86b59e3f676eaf767dac8414a397
+Description: SentinelOS icon-colour to cursor integration
+ Selects the original SentinelOS cursor variant from the active SentinelOS
+ icon theme. The real GTK/Marco themes are SentinelOS-Light and
+ SentinelOS-Dark; both use Light Cyan as their fallback cursor. Green,
+ Purple, Red and Pink cursor selection follows the active icon colour theme.
+ White and Black remain neutral manual cursor choices.
 
 Package: sentinelos-theme-family
 Architecture: all
