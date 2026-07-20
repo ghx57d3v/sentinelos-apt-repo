@@ -1012,6 +1012,30 @@ SHA512: 749b2c40e1fa65d708e561429b4caae62b110c1ba991bfb07ca6bd59ac642946b16e88fe
 Description: Conditional AEGIS Navy Grey Gold MATE appearance overlay
  Installs the AEGIS theme only when the complete public AEGIS suite is installed. It is not part of the standard SentinelOS desktop theme family.
 
+Package: sentinelos-aegis-theme
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: x11
+Maintainer: SentinelOS Project
+Provides: sentinelos-aegis-desktop-theme, sentinelos-aegis-gold-theme
+Depends: aegis-sentinel-suite (>= 1.2.2-1), sentinelos-icon-theme (= 1.0.16-1), python3, dconf-gsettings-backend, dbus-x11, libglib2.0-bin
+Recommends: sentinelos-theme-cursor-integration (>= 1.1.0-1), mate-themes
+Breaks: sentinelos-aegis-gold-theme (<< 1.0.0-1)
+Replaces: sentinelos-aegis-gold-theme (<< 1.0.0-1)
+Filename: pool/main/sentinelos-aegis-theme_1.0.0-1_all.deb
+Size: 237680
+MD5sum: a9228ca21af8ac13a1b0282b542c4a99
+SHA1: bd6cef4e003fd719ee79073394419d039017b538
+SHA256: 2feb0035d56519f55cab48d1c7a0dc2dbf95b228b721ce330d655954529a9f81
+SHA512: 7ae64b6b481ce450cf9365452b7e07abd173f5195d7c42bde29498de4a2e18f9f0c05961a1ce4d5fcdd7ed29dcf7ca74d1ffef0e6545d900972562f8f41bf09c
+Description: Exclusive AEGIS Navy/Gold desktop theme for SentinelOS
+ Installs the conditional AEGIS Navy/Gold GTK and Marco desktop theme, uses the
+ package-owned SentinelOS-Dark gold icon set, and includes the exclusive full
+ SentinelOS-Cursor-AEGIS-Navy-Gold cursor family. Package installation is
+ passive; applying the theme requires an explicit user or conversion action and
+ preserves all MATE wallpaper/background keys.
+
 Package: sentinelos-aegis-tools-audit
 Architecture: all
 Version: 0.1.5d-1

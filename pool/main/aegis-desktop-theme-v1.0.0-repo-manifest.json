@@ -1,0 +1,19 @@
+{
+  "schema": "sentinelos.repo_release.v1",
+  "release": "AEGIS Navy/Gold Desktop Theme v1.0.0",
+  "package": {
+    "name": "sentinelos-aegis-theme",
+    "version": "1.0.0-1",
+    "filename": "sentinelos-aegis-theme_1.0.0-1_all.deb"
+  },
+  "requires": {
+    "aegis-sentinel-suite": ">= 1.2.2-1",
+    "sentinelos-icon-theme": "= 1.0.16-1"
+  },
+  "staging_policy": "additive",
+  "historical_packages_removed": false,
+  "conversion_phase": "76_aegis_desktop_theme_v1_0_0.sh",
+  "verification_phase": "77_verify_aegis_visual_baseline.sh",
+  "conditional_aegis_only": true,
+  "wallpaper_managed": false
+}

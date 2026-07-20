@@ -1,0 +1,28 @@
+SentinelOS Public Repository Publication Report
+UTC timestamp: 20260720T045538Z
+
+Repository: https://repo.sentinellinux.org
+Git origin: https://github.com/ghx57d3v/sentinelos-apt-repo.git
+Branch: main
+
+Signing fingerprint:
+  1367E6A5C2B4A51F33889EA8B82312528A592DB2
+
+Package files: 317
+Packages index entries: 317
+Suite: stable
+Component: main
+Architecture index: amd64
+Valid-Until: Wed, 19 Aug 2026 04:55:40 UTC
+Acquire-By-Hash: yes
+
+Validation:
+  package files: pass
+  internal dependencies: pass
+  forbidden/private packages: absent
+  Packages hashes and sizes: pass
+  InRelease signature: pass
+  Release.gpg signature: pass
+
+APT sources changed on build machine: no
+SentinelOS packages installed on build machine: no
