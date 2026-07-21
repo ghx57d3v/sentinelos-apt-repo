@@ -2930,6 +2930,25 @@ Priority: optional
 Description: SentinelOS LightDM GTK greeter branding controller with cyan icon policy
  Stages the official SentinelOS login background and SentinelOS-Light cyan icons. AEGIS gold icons remain conditional on the complete AEGIS suite.
 
+Package: sentinelos-login-boot-branding
+Version: 1.0.1-1
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-wallpapers (= 1.0.0-1), lightdm-gtk-greeter, plymouth, initramfs-tools, grub-common
+Recommends: lightdm-gtk-greeter-settings
+Filename: pool/main/sentinelos-login-boot-branding_1.0.1-1_all.deb
+Size: 3644564
+MD5sum: ea016ab222fe7e17592733eb8fbba26c
+SHA1: 1b22dcf0667687b02291717159ad71fc20fc883f
+SHA256: 78f42ab2db08ba26ee4e2ee9222385da9620c4d7fa4011a5befb177410b654c7
+Section: admin
+Priority: optional
+Description: SentinelOS cyan/gold login, boot and release identity baseline
+ Package-owned public SentinelOS identity for LightDM, GRUB, Plymouth and
+ release metadata. It uses the SentinelOS dark/cyan public visual doctrine,
+ does not restart the display manager automatically, and provides explicit
+ apply, verify and restore controls.
+
 Package: sentinelos-login-branding-baseline
 Version: 0.2.0c-1
 Architecture: all
@@ -5331,6 +5350,21 @@ Section: x11
 Priority: optional
 Description: SentinelOS official desktop and boot artwork
  Installs passive desktop, login, GRUB, Plymouth and lock-screen assets.
+
+Package: sentinelos-wallpapers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Filename: pool/main/sentinelos-wallpapers_1.0.0-1_all.deb
+Size: 41132416
+MD5sum: ba88bfbfdbdcefc6e0fd457bc62923c1
+SHA1: 50a5316fbe437ec314bd95e86592c3f1c6dcf1f6
+SHA256: 903dae0438ff273481d07da327b2ca43ea00104da0e95fbbee93e22ed9159a9c
+Section: x11
+Priority: optional
+Description: Official SentinelOS desktop wallpaper collection
+ Project-supplied dark, light, cyan and restrained-gold SentinelOS wallpapers,
+ registered with MATE and compatible desktop background selectors.
 
 Package: sentinelos-wallpapers-extra
 Version: 0.2.0c-1
