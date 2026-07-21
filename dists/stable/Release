@@ -1,31 +1,31 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Tue, 21 Jul 2026 01:16:51 +0000
+Date: Tue, 21 Jul 2026 01:21:12 +0000
 Description: SentinelOS signed public APT repository
 Label: SentinelOS
 Origin: SentinelOS
 Suite: stable
 MD5Sum:
- d485574acfa2fa2d7535152c2e25bb82             1669 Release
+ 3cd9dffaedcc86f8483c35e41b5dd662             2411 Release
  5998a5d2bce5386c38cd359488494b5e           241387 main/binary-amd64/Packages
  15cf29375cebe0148db0b8d2309c8ef7            58764 main/binary-amd64/Packages.gz
  df8b2ff6f8b4f45db19fce2d13e32586            48348 main/binary-amd64/Packages.xz
  e31019ec865214e9fe89c022e2b40120               89 main/binary-amd64/Release
 SHA1:
- de89c3b03d62ea4ba9f2fcf0546b03f645b798e0             1669 Release
+ d06ef55e7111fe6eb3839d7a40c6d12624bd97a3             2411 Release
  9bdf352f994dd3fdb7a6b115185a9463d595fb26           241387 main/binary-amd64/Packages
  de07371d29592f447077c1fb44d2b08c1201da4f            58764 main/binary-amd64/Packages.gz
  c51398b8109d3c2ff73b8c0dc5c34ebe3fce9599            48348 main/binary-amd64/Packages.xz
  a0c8848bf04987ee22ac81efccb8dc116c137abb               89 main/binary-amd64/Release
 SHA256:
- 638cbb7e5f2d1dc29705dd36387a73845ace01e88d4d49af16a2cad9aec3a20c             1669 Release
+ 0839b0a7194c8c00c4926871cd3c3549101f60d29716701e5c4b63f8f17efc0b             2411 Release
  408aaf6e52fb44965f50e578f6d03fbef9c0c10dc22abd45a53f969174223bb2           241387 main/binary-amd64/Packages
  18f19f3f4c89b73a17d6b89c15d39275001d3fd30dc99f3080af0ba8bb020b84            58764 main/binary-amd64/Packages.gz
  f831a6c2ea33654cd0d0549b7756a1a09031fb879a7b291ea30ad91eb0b2d456            48348 main/binary-amd64/Packages.xz
  529f2fcd8cb83d8463062579fafec6156b4cc613ac03ca11be586104a4475d4c               89 main/binary-amd64/Release
 SHA512:
- 3567091efeb5b702ccf80e75b5a84d80d741328acb35dc140dceb6be5a92443c0fa818a3c851cdf2a661ab7bd1edd023aea71348460abb45a24fbb54a326483f             1669 Release
+ 14584175611f319072143bcb66a6e2f304f2ae4bb3cffd2b1be8b7e16bca7351a83f33cda18d88e2e5069adb4729cddc0b9ab965b3dc06265a938169bc8e5877             2411 Release
  81842e6d855f473b79ec3eaaf201c03d3b13193e4c504b9ad762383d0548320abceeaf734aca2f2b9c7601304322d2c134706a1c6dcc603f55ff6f04184ab70b           241387 main/binary-amd64/Packages
  d97181d8a6befad802cb8ae380e7dd40a4f2434327155a9a29e389665e3e2e54e7099795bfc7dcaae2d4369f92d285291fe88070ef1454c9c6f840708cc92c2e            58764 main/binary-amd64/Packages.gz
  386f09c7bc8be770dbcce5977988385297e37fc7091c9a2814a6b98e3fa76f1b3b2a9857468f8d9924311cce06de9f23bd8d084aaec41e6c349056c7d6df6b2f            48348 main/binary-amd64/Packages.xz
