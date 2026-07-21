@@ -2663,6 +2663,24 @@ Description: SentinelOS release drift audit and safe cleanup controls
  report. Cleanup is explicit and limited to disposable APT partial files,
  SentinelOS conversion temporary directories and the APT package cache.
 
+Package: sentinelos-drift-control
+Version: 1.0.0-3
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, findutils, grep, gawk, dpkg, apt, gnupg, systemd
+Filename: pool/main/sentinelos-drift-control_1.0.0-3_all.deb
+Size: 5752
+MD5sum: d5a8a5def11d7e10f48ce16ae8a39649
+SHA1: 50ff9ba9caa7914b1285092263690e38160b9f48
+SHA256: b5dc9323e4be905b4e40ec658cb4bf54b9b3ea3a9acbf742a77d5bb859719e8c
+Section: admin
+Priority: optional
+Description: SentinelOS release drift audit and safe cleanup controls
+ Provides read-only exact-version, repository-trust, release-identity and
+ public/private-boundary auditing. A weekly systemd timer records an audit
+ report. Cleanup is explicit and limited to disposable APT partial files,
+ SentinelOS conversion temporary directories and the APT package cache.
+
 Package: sentinelos-forge-baseline-amendment
 Version: 0.1.6g-1
 Architecture: all
@@ -3998,6 +4016,63 @@ Description: SentinelOS 1.0 AMBROSO coherent public release baseline
  components at exact versions. Debian base packages remain updateable through
  Debian Trixie while SentinelOS package changes require a coordinated release
  baseline update.
+
+Package: sentinelos-release-baseline
+Version: 1.0.0-3
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-hardening-base (= 0.2.6a-1),
+ sentinelos-hardening-baseline (= 0.2.6a-1),
+ sentinelos-theme-family (= 0.3.1-1), sentinelos-icon-theme (= 1.0.16-1),
+ sentinelos-icon-theme-family (= 1.0.16-1),
+ sentinelos-desktop-branding-baseline (= 1.0.16-1),
+ sentinelos-cursor-themes (= 1.2.0-1),
+ sentinelos-theme-cursor-integration (= 1.1.0-1),
+ sentinelos-desktop-cursor-baseline (= 1.1.0-1),
+ sentinelos-mate-menu-panel-baseline (= 0.2.5-1),
+ sentinel-desktop-suite (= 1.0.0-2), sentinel-program-manager (= 1.0.2-2),
+ sentinel-notes (= 1.0.2-2), sentinel-calculator (= 1.1.1-2),
+ sentinel-calendar (= 1.0.2-2), sentinel-diary (= 1.0.2-2),
+ sentinel-terminal (= 1.0.4-2), sentinel-ledger (= 1.0.1-2),
+ sentinel-system-monitor (= 1.0.2-2), sentinel-browser (= 1.1.20-2),
+ sentinel-download-guard (= 1.0.1-2), sentinel-contacts (= 1.0.2-2),
+ sentinel-jobs (= 1.0.1-2), sentinel-password-vault (= 1.0.3-2),
+ sentinel-maintenance (= 1.0.1-2), sentinel-inventory (= 1.0.1-2),
+ sentinel-documents (= 1.0.2-3), sentinel-pantry (= 1.0.1-2),
+ sentinel-media-index (= 1.0.8-2), sentinel-media-player (= 1.0.1-2),
+ sentinel-forge (= 1.1.1-2), sentinel-forge-crypto (= 0.1.1-2),
+ sentinel-wallet (= 1.1.14-2), sentinelos-login-boot-branding (= 1.0.1-2),
+ sentinelos-wallpapers (= 1.0.0-1), sentinelos-drift-control (= 1.0.0-3), sentinelos-release-gate (= 1.0.0-1)
+Filename: pool/main/sentinelos-release-baseline_1.0.0-3_all.deb
+Size: 2524
+MD5sum: 47c0ba5a4d8fd1fe918573f9a3c2661a
+SHA1: 552537255d047c959892b56c06d5cc0ca917b4f0
+SHA256: 1b2258bd1899aa51893237eefd3f4f8863bcb1fc43b7d71c72381c429babaa6e
+Section: metapackages
+Priority: optional
+Description: SentinelOS 1.0 AMBROSO coherent public release baseline
+ Policy-as-packages metapackage holding the accepted public SentinelOS release
+ components at exact versions. Debian base packages remain updateable through
+ Debian Trixie while SentinelOS package changes require a coordinated release
+ baseline update.
+
+Package: sentinelos-release-gate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-drift-control (= 1.0.0-3), apt, dpkg, gnupg, systemd, desktop-file-utils, python3, coreutils, findutils, grep, gawk
+Filename: pool/main/sentinelos-release-gate_1.0.0-1_all.deb
+Size: 7156
+MD5sum: 6d045f1b053d65e5b165ab46933f4352
+SHA1: 579ca899d55384b2e22b8c227c9a574800caa36e
+SHA256: 6c75d8ba5b0b020945ec4ba35e296d851d66c7cb6ec4c1003452762c0aa44f9d
+Section: admin
+Priority: optional
+Description: SentinelOS final release verification and ISO input manifest
+ Performs the read-only final release gate for SentinelOS 1.0 AMBROSO. It
+ verifies exact package versions, repository signatures, release identity,
+ package ownership, desktop launchers, prior phase markers and the public/private
+ boundary, then emits machine-readable release evidence and ISO build inputs.
 
 Package: sentinelos-repo-baseline
 Version: 0.1.4-1

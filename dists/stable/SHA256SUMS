@@ -1,10 +1,10 @@
-87ac5d3589a871cd49cb91ae9d58bdc1268237fcb3a25c93ed3213452a54e6fd  /home/aegis/sentinelos-public-repo/dists/stable/InRelease
+c3f89cc57b0c0c4feda9ff123664c827c9b5492ed031f5ec250d71acde977bdb  /home/aegis/sentinelos-public-repo/dists/stable/InRelease
 86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3
 a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a
 f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f
-dfb9232fb3d39a9c70a262bfa582cfd3d8e4b3ff658cf9ffdca7b0970a0484ac  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages
-52fb721690102416144067adf7b16b45c42c2e116d2d2d9d8ee7e2b891db4c98  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.gz
-e37151f8259236f411bd5a173cfbfeb9ce52db6bb0187368d910a06ec431d0ea  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.xz
+8e69a42e2b73b20494862aaca10508e58f344b66f0654aa2a5fbd271fdec10d1  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages
+12616bf5bdb8b9b3463c525d5efd681222c96e163658c252a23b9919ddd4cc1e  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.gz
+a17cc38549bb1588ef9489402a7386e45fa07c89310f2993fefb057b2b16c0ce  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.xz
 529f2fcd8cb83d8463062579fafec6156b4cc613ac03ca11be586104a4475d4c  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Release
-618b8d3da9d730aff5d77de57d4c783ed9edd459a73e04da405c4dcbc118879a  /home/aegis/sentinelos-public-repo/dists/stable/Release
-f365ccacf95de93e1793d6fc265a511bf9a343b03040aa963aa5b6f03b1f98f6  /home/aegis/sentinelos-public-repo/dists/stable/Release.gpg
+fc64b8b4f9167f51d65e059a06b177b05c85eff34cb750040f9fad7329a38efd  /home/aegis/sentinelos-public-repo/dists/stable/Release
+f6e1ff9661ee448958e94310ed4f617091383b3d279b6c624817dd9f026ce1c0  /home/aegis/sentinelos-public-repo/dists/stable/Release.gpg
