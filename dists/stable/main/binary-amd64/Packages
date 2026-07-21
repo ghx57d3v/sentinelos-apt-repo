@@ -327,6 +327,22 @@ Description: SentinelOS complete public Desktop Suite policy metapackage
  Installs and verifies the complete released public SentinelOS Desktop Suite.
  Program 109 Sentinel Virus Scanner remains pending and is not included.
 
+Package: sentinel-desktop-suite
+Version: 1.0.0-2
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinel-program-manager (= 1.0.2-2), sentinel-notes (= 1.0.2-2), sentinel-calculator (= 1.1.1-2), sentinel-calendar (= 1.0.2-2), sentinel-diary (= 1.0.2-2), sentinel-terminal (= 1.0.4-2), sentinel-ledger (= 1.0.1-2), sentinel-system-monitor (= 1.0.2-2), sentinel-browser (= 1.1.20-2), sentinel-download-guard (= 1.0.1-2), sentinel-contacts (= 1.0.2-2), sentinel-jobs (= 1.0.1-2), sentinel-password-vault (= 1.0.3-2), sentinel-maintenance (= 1.0.1-2), sentinel-inventory (= 1.0.1-2), sentinel-documents (= 1.0.2-3), sentinel-pantry (= 1.0.1-2), sentinel-media-index (= 1.0.8-2), sentinel-media-player (= 1.0.1-2), sentinel-forge (= 1.1.1-2), sentinel-forge-crypto (= 0.1.1-2), sentinel-wallet (= 1.1.14-2)
+Filename: pool/main/sentinel-desktop-suite_1.0.0-2_all.deb
+Size: 2448
+MD5sum: 6802d5f5fad1005f6210c7c266f9ab5c
+SHA1: 052898a59cb2494c3ff338e340a266427ee28375
+SHA256: 9add1510aa433b0628157ce1989b76afbc523151b4363680ee65a005afbb00b5
+Section: metapackages
+Priority: optional
+Description: SentinelOS complete public Desktop Suite policy metapackage
+ Installs and verifies the complete released public SentinelOS Desktop Suite.
+ Program 109 Sentinel Virus Scanner remains pending and is not included.
+
 Package: sentinel-diary
 Version: 1.0.1-1
 Architecture: all
@@ -397,6 +413,21 @@ Size: 53128
 MD5sum: 7594e6a72f4e6c69c32c477453c1cc67
 SHA1: 6d14be86f331abfe19684cf8727eb649dc249f85
 SHA256: d08b08cdf24b7f41b1caf567b76e302068337e3df51110ff5a8a15398c5165b4
+Section: office
+Priority: optional
+Description: Sentinel Documents Program 116 document maker and bridge hub
+ Program 116 Sentinel Documents v1.0.2 is the redteam security baseline hotfix over the official stable-locked local-first Sentinel-branded document maker baseline with maximized default GUI window, repaired visual bold/italic formatting, repaired scrollable font picker, top ribbon placement, final audit, stable-lock report, guarded backup/restore/recovery hardening, v1 handoff exports, database verification/repair, local library import/export, expanded fonts, AEGIS/Vault metadata readiness, Contacts/Inventory/Jobs bridge integration, save/export workflows, and no cloud, network, or telemetry dependency.
+
+Package: sentinel-documents
+Version: 1.0.2-3
+Architecture: all
+Maintainer: SentinelOS Project <local@sentinel.invalid>
+Depends: python3, python3-tk
+Filename: pool/main/sentinel-documents_1.0.2-3_all.deb
+Size: 53268
+MD5sum: 2ff460ef572fea845034815500c5a296
+SHA1: df0d5ae1a6def305512bf727e4246976c991c51c
+SHA256: abbac40d30a74ab63d2ac60e0d8614b559b74dbbe4bd7c67bb59b0887b2d2e4c
 Section: office
 Priority: optional
 Description: Sentinel Documents Program 116 document maker and bridge hub
