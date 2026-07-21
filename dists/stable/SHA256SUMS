@@ -1,4 +1,4 @@
-5f6d0a4f822d97d49f04023476ac684c43171ea5dc8a8e75688b883560b495b7  /home/aegis/sentinelos-public-repo/dists/stable/InRelease
+0a5f06c87b9b13e78b3c1233f8ab5d76edfa7883b29c77b84d766d64b30e499f  /home/aegis/sentinelos-public-repo/dists/stable/InRelease
 86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3
 a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a
 f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/by-hash/SHA256/f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f
@@ -6,6 +6,6 @@ f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f  /home/aegis/se
 18f19f3f4c89b73a17d6b89c15d39275001d3fd30dc99f3080af0ba8bb020b84  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.gz
 f831a6c2ea33654cd0d0549b7756a1a09031fb879a7b291ea30ad91eb0b2d456  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Packages.xz
 529f2fcd8cb83d8463062579fafec6156b4cc613ac03ca11be586104a4475d4c  /home/aegis/sentinelos-public-repo/dists/stable/main/binary-amd64/Release
-ae2cc564b1fa9b426a68c342a03e5a486fd0120ee26d0bc5404b5541974273a9  /home/aegis/sentinelos-public-repo/dists/stable/Release
-d0590ee320a6dcc1453f9c0dc9709dbe3dfadd52bf09e5d60e2106cf51b8d95b  /home/aegis/sentinelos-public-repo/dists/stable/Release.gpg
-3a1da1c372c0a2cd9934369ad08ee7bfd144ec90bce3934a47f2afaa1e322e2a  /home/aegis/sentinelos-public-repo/dists/stable/SHA256SUMS
+9be4dfd7cc4a11179fae776aa14fb3878fd83341415a2708ecd0646710047949  /home/aegis/sentinelos-public-repo/dists/stable/Release
+3d49795ed344b012096c2d509f91b227dfaaa9d67819e10758032dade1afc4f6  /home/aegis/sentinelos-public-repo/dists/stable/Release.gpg
+9c7d37e44eff80ea9a27acf036c12406add43b67d00e44e2d80e9b587be2b8e9  /home/aegis/sentinelos-public-repo/dists/stable/SHA256SUMS
