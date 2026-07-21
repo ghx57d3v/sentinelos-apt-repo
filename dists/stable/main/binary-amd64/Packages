@@ -2627,6 +2627,24 @@ Priority: optional
 Description: Complete Sentinel Desktop Suite menu and installation contract
  Ensures every released Sentinel application is installed and presented in a dedicated SentinelOS menu.
 
+Package: sentinelos-drift-control
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: bash, coreutils, findutils, grep, gawk, dpkg, apt, gnupg, systemd
+Filename: pool/main/sentinelos-drift-control_1.0.0-1_all.deb
+Size: 5620
+MD5sum: d386f6025828b93bf11d5f2282ad59cb
+SHA1: c7411275cac7033839fc0be7ecc75e58470e7add
+SHA256: 5805de3dc45bca36724ded2d8a99f5769d5c52a56514b9bba8c745f0e1af391a
+Section: admin
+Priority: optional
+Description: SentinelOS release drift audit and safe cleanup controls
+ Provides read-only exact-version, repository-trust, release-identity and
+ public/private-boundary auditing. A weekly systemd timer records an audit
+ report. Cleanup is explicit and limited to disposable APT partial files,
+ SentinelOS conversion temporary directories and the APT package cache.
+
 Package: sentinelos-forge-baseline-amendment
 Version: 0.1.6g-1
 Architecture: all
@@ -3864,6 +3882,45 @@ Section: misc
 Priority: optional
 Description: SentinelOS v0.1.9b2 release identity
  Package-owned SentinelOS v0.1.9b2 theme rollback/cleanup component.
+
+Package: sentinelos-release-baseline
+Version: 1.0.0-1
+Architecture: all
+Maintainer: SentinelOS Project <a.e.g.i.s@tuta.io>
+Depends: sentinelos-hardening-base (= 0.2.6a-1),
+ sentinelos-hardening-baseline (= 0.2.6a-1),
+ sentinelos-theme-family (= 0.3.1-1), sentinelos-icon-theme (= 1.0.16-1),
+ sentinelos-icon-theme-family (= 1.0.16-1),
+ sentinelos-desktop-branding-baseline (= 1.0.16-1),
+ sentinelos-cursor-themes (= 1.2.0-1),
+ sentinelos-theme-cursor-integration (= 1.1.0-1),
+ sentinelos-desktop-cursor-baseline (= 1.1.0-1),
+ sentinelos-mate-menu-panel-baseline (= 0.2.5-1),
+ sentinel-desktop-suite (= 1.0.0-2), sentinel-program-manager (= 1.0.2-2),
+ sentinel-notes (= 1.0.2-2), sentinel-calculator (= 1.1.1-2),
+ sentinel-calendar (= 1.0.2-2), sentinel-diary (= 1.0.2-2),
+ sentinel-terminal (= 1.0.4-2), sentinel-ledger (= 1.0.1-2),
+ sentinel-system-monitor (= 1.0.2-2), sentinel-browser (= 1.1.20-2),
+ sentinel-download-guard (= 1.0.1-2), sentinel-contacts (= 1.0.2-2),
+ sentinel-jobs (= 1.0.1-2), sentinel-password-vault (= 1.0.3-2),
+ sentinel-maintenance (= 1.0.1-2), sentinel-inventory (= 1.0.1-2),
+ sentinel-documents (= 1.0.2-3), sentinel-pantry (= 1.0.1-2),
+ sentinel-media-index (= 1.0.8-2), sentinel-media-player (= 1.0.1-2),
+ sentinel-forge (= 1.1.1-2), sentinel-forge-crypto (= 0.1.1-2),
+ sentinel-wallet (= 1.1.14-2), sentinelos-login-boot-branding (= 1.0.1-1),
+ sentinelos-wallpapers (= 1.0.0-1), sentinelos-drift-control (= 1.0.0-1)
+Filename: pool/main/sentinelos-release-baseline_1.0.0-1_all.deb
+Size: 2384
+MD5sum: d0cc9dafc3af1bca6a29c3033a83375f
+SHA1: b5cb5e6b1c2139203d69ea2e69bc2968c06fd7ad
+SHA256: 9708cbeaec35300502c062fbadab41a5cf97ceb36aa3d0a8044bac030219051a
+Section: metapackages
+Priority: optional
+Description: SentinelOS 1.0 AMBROSO coherent public release baseline
+ Policy-as-packages metapackage holding the accepted public SentinelOS release
+ components at exact versions. Debian base packages remain updateable through
+ Debian Trixie while SentinelOS package changes require a coordinated release
+ baseline update.
 
 Package: sentinelos-repo-baseline
 Version: 0.1.4-1
