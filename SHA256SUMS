@@ -22,16 +22,16 @@ d23b2f3442a55ce882792e30746acc2cfc6b6deea4d6f1fd7be044f04baebcf7  ./_backups/ico
 f26e4123a9b0bbc06887c6db9dd05bae4f2039f7c284002949e3ead89bc3a5f5  ./checksums/SHA256SUMS-packages.txt
 6ec0e78ab3146ba9c5cf42db0c8829b2f73ba56d2ae3fc407f19d2045ab43739  ./checksums/SHA256SUMS-repository.txt
 3f384be68d025d9c411591f6458de76ce12fc4d86c86b4c8c2c8f78b99392844  ./CNAME
-1c6c60605ecd25082475654950015d302a639d54f09e85369919ed5c93b4e893  ./dists/stable/InRelease
+06d5381607342c0dc14932e94b291382a2ad66e110cdd58c5a49184bfe7a3906  ./dists/stable/InRelease
 86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3  ./dists/stable/main/binary-amd64/by-hash/SHA256/86db7e63eb64f9decf1a46367b4d1eb71ce66e39a58bbcbe2c8d40583d3688e3
 a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a  ./dists/stable/main/binary-amd64/by-hash/SHA256/a5b8e700b76e302c1679e155f66a7ba8dd114e3e97974112a6d077537ae02b5a
 f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f  ./dists/stable/main/binary-amd64/by-hash/SHA256/f2db06957789d573586605d66ead81ecf2116c52a9cc632d13b1d3359821df3f
-a606ea7b29dc395c64c6be8926e3b2787c3c479c3611bae49a3015f2bcd66910  ./dists/stable/main/binary-amd64/Packages
-b1c37e3b8ae13201d38d6d4b69940210e1f7bee5a22f6f72f3ea01ce9746d976  ./dists/stable/main/binary-amd64/Packages.gz
-66d196ed1a20c81a231bbd4c92f4d1fcd0e928cfb7be9ca1996d5a57d12a5a2b  ./dists/stable/main/binary-amd64/Packages.xz
+729695f2b0e07aca4d9a4bf2d5d59e7fa2848cd1798661768b97cc0571b0724b  ./dists/stable/main/binary-amd64/Packages
+4637e8a65c4be8239af9b5e7cc18e8f3d430de4a50c816c5710a6e9ee39c8c72  ./dists/stable/main/binary-amd64/Packages.gz
+570b9d1d258528b77ad205be1f312aeaf4ff0d6e08d5eb66005f4ee1f911144e  ./dists/stable/main/binary-amd64/Packages.xz
 529f2fcd8cb83d8463062579fafec6156b4cc613ac03ca11be586104a4475d4c  ./dists/stable/main/binary-amd64/Release
 85ef4960c93425ea73b50901bbc4f7a6bed8c26c72458c3fac56e69c94352924  ./dists/stable/Release
-dc4664e09a871ee4506cdf5f3e8056e0446ece93e8688319ba795231edb2853c  ./dists/stable/Release.gpg
+831d84da952db07a430a9d65a94a8870d83dac5af4f8aa09858423f645dfca92  ./dists/stable/Release.gpg
 4187109ab41681e2000983aa023988a9f6f2b31a5674b25224dda0134212dbac  ./.gitignore
 e2490e8a0e9c7d00f9c468b83240b4f2ac1ea461db62780222cc6d0383b80c58  ./keys/retired/sentinelos-archive-key-retired-1A30F8339972CF437256D14F60D438703CF1F577.asc
 82562c06c2015cac9464d4dcc6b53466034734de63be528e73ca7cc7aafd3246  ./keys/sentinelos-archive-key.asc
@@ -63,6 +63,7 @@ c349d054569886adad16ec3749aa27ed6631369cc4eb63280018806301c3c8c6  ./pool/main/se
 5260176b2a1cce0bf64f5049f2aa2572dc94d974c398301c722e8ca07172546f  ./pool/main/sentinel-contacts_1.0.2-2_all.deb
 b6aa6fcead7f5e04312d39f686202c0044fbe578a4e19d9647d328694f4fab51  ./pool/main/sentinel-desktop-suite_1.0.0-1_all.deb
 9add1510aa433b0628157ce1989b76afbc523151b4363680ee65a005afbb00b5  ./pool/main/sentinel-desktop-suite_1.0.0-2_all.deb
+e53746ddb0da4e0f5c5441466df64b9d7f435a663b4a2cb540d7ef0f42359d7c  ./pool/main/sentinel-desktop-suite_1.0.0-3_all.deb
 7f67c0ec31b67c6970ea5031886e5115a3c5530147732e19aaae316512335360  ./pool/main/sentinel_desktop_suite_v1.0.1.deb
 f737b7bb1406057472311444914d5d2f90ad4a9acd306dd8c92512fe94aaadea  ./pool/main/sentinel-diary_1.0.1-1_all.deb
 72059250ce0291f081c8bfc13e324c2e6a2e174a9fa4d612391f09160e9e42df  ./pool/main/sentinel-diary_1.0.2-1_all.deb
@@ -279,6 +280,7 @@ a48c4bb2a0881c459100c41fad0bc871b86e69b14fa979cc4da4be5d8d5a1be3  ./pool/main/se
 9708cbeaec35300502c062fbadab41a5cf97ceb36aa3d0a8044bac030219051a  ./pool/main/sentinelos-release-baseline_1.0.0-1_all.deb
 e3ce8b82ba325c190be9f6e67aa7ba9dc8ec8604164ef293d0dfba8c5e153fc0  ./pool/main/sentinelos-release-baseline_1.0.0-2_all.deb
 1b2258bd1899aa51893237eefd3f4f8863bcb1fc43b7d71c72381c429babaa6e  ./pool/main/sentinelos-release-baseline_1.0.0-3_all.deb
+aa50957a6ca592d835059e0ccd33a33d5aa347c359989028ac3909ac85cddd8a  ./pool/main/sentinelos-release-baseline_1.0.0-4_all.deb
 6c75d8ba5b0b020945ec4ba35e296d851d66c7cb6ec4c1003452762c0aa44f9d  ./pool/main/sentinelos-release-gate_1.0.0-1_all.deb
 88ebc940650d44484fcfc0a3be496cb6982e20f03bc88709324ea07f085cf7cc  ./pool/main/sentinelos-repo-baseline_0.1.4-1_all.deb
 187886a11dd8f471776904461a30fe2b7ffcb455afecd981d404bd90947046cd  ./pool/main/sentinelos-repo-baseline_0.1.4c-1_all.deb
