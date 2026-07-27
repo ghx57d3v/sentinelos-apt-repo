@@ -1,32 +1,32 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Sun, 26 Jul 2026 08:25:31 +0000
+Date: Mon, 27 Jul 2026 00:17:58 +0000
 Description: Sentinel Linux signed public package repository
 Label: Sentinel Linux
 Origin: Sentinel Linux
 Suite: stable
 MD5Sum:
- 250ad3b99be8473cea81101e3541ec47             2427 Release
- 70a80d78aae0e6e945c0fee1e34e1ad2           256608 main/binary-amd64/Packages
- bc491f691483cbd1ec99b213f5c60e4a            61531 main/binary-amd64/Packages.gz
- 2cc2f33830c26cac5c452338cfd927ef            50280 main/binary-amd64/Packages.xz
+ 4a6dd16d0ffa6b9dc36068ea13aea51c             2427 Release
+ 83d135dfc1387e52de0e589fb19971a6           308704 main/binary-amd64/Packages
+ caf1891b83f41b111ee3b769903afe33            91235 main/binary-amd64/Packages.gz
+ e472fe3ed0813fd68d8849d901e6b36b            74756 main/binary-amd64/Packages.xz
  e31019ec865214e9fe89c022e2b40120               89 main/binary-amd64/Release
 SHA1:
- f13da530af46c27692f152150113844ff5d90e00             2427 Release
- 1bddf90f35de39360782ec9b2fb30fa4d5b27d89           256608 main/binary-amd64/Packages
- 086d0b519f21305e0c0874979c5bb1777a59b49c            61531 main/binary-amd64/Packages.gz
- c20d3dc1913f39430c00ab23262b522596ed67c9            50280 main/binary-amd64/Packages.xz
+ 1e1ba88d7cc022440184f71ef797af049904b73a             2427 Release
+ ce7f6d7ac9d2e4b6552cf7ef963d9c51b425de75           308704 main/binary-amd64/Packages
+ c50ba6bd6ea983fa73b8bf0a88b759d42ece0e26            91235 main/binary-amd64/Packages.gz
+ fc88efc5cf86bbb5c887b376e2c4c4e15c84dd30            74756 main/binary-amd64/Packages.xz
  a0c8848bf04987ee22ac81efccb8dc116c137abb               89 main/binary-amd64/Release
 SHA256:
- 4c3c7644d7423d6056c857c68e1cc65c529986cc261814b298b99e7f795337af             2427 Release
- a606ea7b29dc395c64c6be8926e3b2787c3c479c3611bae49a3015f2bcd66910           256608 main/binary-amd64/Packages
- b1c37e3b8ae13201d38d6d4b69940210e1f7bee5a22f6f72f3ea01ce9746d976            61531 main/binary-amd64/Packages.gz
- 66d196ed1a20c81a231bbd4c92f4d1fcd0e928cfb7be9ca1996d5a57d12a5a2b            50280 main/binary-amd64/Packages.xz
+ 5e067f7e9c7ac8351ec6e720693eab31ce8772f07d890966a3acf65c3a47b22c             2427 Release
+ 729695f2b0e07aca4d9a4bf2d5d59e7fa2848cd1798661768b97cc0571b0724b           308704 main/binary-amd64/Packages
+ 2b0139bae0416309b617757d21ccd6ad925c7e823d09a22169de287c5b720b7b            91235 main/binary-amd64/Packages.gz
+ 570b9d1d258528b77ad205be1f312aeaf4ff0d6e08d5eb66005f4ee1f911144e            74756 main/binary-amd64/Packages.xz
  529f2fcd8cb83d8463062579fafec6156b4cc613ac03ca11be586104a4475d4c               89 main/binary-amd64/Release
 SHA512:
- f89f9f20d80f73b53a8c606f1c200a00d286d35b3c72d6c7d0568b462233269c508417503cbad2fecf37923baa7c4b39bb37b0fddf7658501c025432d532f1c9             2427 Release
- ec1298b20efb766696932a4e674e172fd013645d73b095a0c716ec6ba41125e3312c02c7edbf9f0f431278971577103c993d37a3accd0ec78b2cefaabad4e2e9           256608 main/binary-amd64/Packages
- 8b60b31ac43558d254b3d230e4a9e44b980e950eb0444857ba3430483a0218f6cba3dcc4ef6345562ede2bbc6f4d8ea0b092aed8e0fd9e85c144c6d6a673697d            61531 main/binary-amd64/Packages.gz
- 9d0a1a0c389fa531e7ef3742419c00716428c5b6979a0f45800532c7b9321ebb8675811089f1f0229a1537386a0e04ad87e2f0e438328053ec78c3ee93a2cb15            50280 main/binary-amd64/Packages.xz
+ cb877c0b3fe64ac1c245d47b99fc206a29330f4a3f7ad191029453f0af7a4bc89fc400bf1e26ec259eb6ccf2581bad336e80eb5c0bf8313328cf7f31af7e74ed             2427 Release
+ ef4d29862020cd29d93c6f1a91e2c9cb9467855ed7883c2f18948e3b9e6b3245fc3ccc7580fd33bf98cfd81c93861b5320c00577198e9445f61c4d97b3d6600a           308704 main/binary-amd64/Packages
+ c90ca2ce255ca43254e1e31fe3672ed4286b73a267d516977c518fc19b33823a1422c8c08705b843e2f6bf8a2808cf63b62f3a8079cf724c61aa3620625a208f            91235 main/binary-amd64/Packages.gz
+ a08b21148708c90e85b4d5caf162b0a895dc74716d1d3fca59b09ed706b99b9f3bc233ed0a72b3d6d3d7da0275d4549e4d187c131a2908093827967e3a7accb9            74756 main/binary-amd64/Packages.xz
  38bc4b26164c9f4c8877b5dc3fd93d80ae5d6f84bc6fcc0fb2bcf566201ad7613bc658c4223ed7586a2703a1556c844d4e3fd76949c139fe15169882e146a5fa               89 main/binary-amd64/Release
